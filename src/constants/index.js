@@ -123,5 +123,11 @@ const Faculty = [
   {
     id: 3,
     name: "Somnath Biswas"
+  },
+  {
+    id : 4, 
+  }
+  {
+    id : 5, 
   }
 ];
