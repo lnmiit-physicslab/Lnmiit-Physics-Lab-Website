@@ -3,3 +3,6 @@
 ### This is the repository for the new physics lab website . 
 
 ### This is an ongoing project by Lnmiit Students . 
+
+![image](./src/resources/images/lab1.jpg)
+
