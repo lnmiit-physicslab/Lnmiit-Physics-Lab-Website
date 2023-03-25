@@ -108,12 +108,15 @@ const Faculty = [
   {
     id: 1,
     name: "Anupam Singh",
-    description:
-      "Professor & Dean(Student Affairs) \nPh.D.,Carnegie Mellon University,USA  \nResearch Areas:High Energy Physics and Cosmology",
-    photo : "./faculty/1.jpg"
+    post : "Professor & Dean(Student Affairs)",
+    degree : "Ph.D.,Carnegie Mellon University,USA",
+    research : "High Energy Physics and Cosmology" 
   },
   {
-    id : 2, 
-    name : 
-  }
+    id: 2,
+    name: "Ganesh Datt Sharma",
+    post : "Professor & Dean(Research & Consultancy)",
+    degree : "Ph.D.,IIT Delhi",
+    research : "Organic Electronics,Organic Solar Cells, Dye Sensitized Solar Cells,Nano-Science and Technology"
+  },
 ];
