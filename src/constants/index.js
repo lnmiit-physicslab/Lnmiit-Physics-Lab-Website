@@ -119,4 +119,11 @@ const Faculty = [
     degree : "Ph.D.,IIT Delhi",
     research : "Organic Electronics,Organic Solar Cells, Dye Sensitized Solar Cells,Nano-Science and Technology"
   },
+  {
+    id:3,
+    name: "Somnath Biswas",
+    post: "Professor & HOD(Dept. of Physics)",
+    degree: "Ph.D.,IIT Kharagpur",
+    research: "Research Areas:Magnetic Nano-materials and Nano-Structures,Spintronic Devices,FET-based Sensor Devices ,Materials for Fuel Cells and Hydrogen Storage"
+  }
 ];
