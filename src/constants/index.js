@@ -1,5 +1,3 @@
-
-
 const about = "Established in 2003 the undergraduate laboratory for 1st year B.Tech students is equipped with several experiments in different branches in Physics. The lab is divided into two sections, one is UG Physics Lab and the other is UG Physics Optics Lab. Laboratory work is a very important part of a course in General Physics. It reinforces the student's understanding of fundamental concepts and principles while, at the same time, helping the student to develop skill in carrying out scientific measurements. It is designed in such a way that the students can understand the basics of Physics through hands on experiments."
 
 const site_title = "UG Physics Laboratory"
@@ -51,6 +49,44 @@ const experiments = [
         id : 11 , 
         name : "Diffraction grating"
     }
+]
 
+const timeTable = [
+  {
+    id : 1 , 
+    day : "MON",
+    first : "PG-Lab-3 (M.Sc. 2nd yr)",
+    second : "PG-Lab-1 (Electronics) (M.Sc. 1st yr)"
+  },
+  {
+    id : 2,
+    day : "TUE",
+    first : "Physics UG Lab PG-Lab-1 (Electronics) (M.Sc. 1st year)",
+    second : "Physics UG Lab"
+  },
+  {
+    id : 3,
+    day : "WED",
+    first : "Physics UG Lab",
+    second : "Physics UG Lab"
+  },
+  {
+    id : 4,
+    day : "THU",
+    first : "Physics UG Lab",
+    second : "Physics UG Lab"
+  },
+  {
+    id : 5 ,
+    day : "FRI",
+    first : "",
+    second : "PG-Lab-3 (M.Sc. 2nd year) PG-Lab-1 (Electronics) (M.Sc. 1st year)"
+  },
+  {
+    id : 6 , 
+    day : "SAT",
+    first : "PG-Lab-3 (M.Sc. 2nd year)",
+    second : "PG-Lab-3 (M.Sc. 2nd year)"
+  }
 ]
 
