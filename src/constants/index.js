@@ -121,6 +121,7 @@ const Faculty = [
       "Organic Electronics,Organic Solar Cells, Dye Sensitized Solar Cells,Nano-Science and Technology",
   },
   {
-    
+    id: 3,
+    name: "Somnath Biswas"
   }
 ];
