@@ -125,5 +125,12 @@ const Faculty = [
     post: "Professor & HOD(Dept. of Physics)",
     degree: "Ph.D.,IIT Kharagpur",
     research: "Research Areas:Magnetic Nano-materials and Nano-Structures,Spintronic Devices,FET-based Sensor Devices ,Materials for Fuel Cells and Hydrogen Storage"
-  }
+  },
+  {
+    id:4,
+    name: "Subhayan Biswas",
+    post: "Associate Professor",
+    degree: "Ph.D.,IACS ,Kolkata",
+    research: "Research Areas:Third Generation Solar Cells,Photocatalysis"
+  },
 ];
