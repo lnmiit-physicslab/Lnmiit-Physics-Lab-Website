@@ -6,3 +6,4 @@
 
 ![image](./src/resources/images/lab1.jpg)
 
+![image](./src/resources/images/lab2.jpg)
