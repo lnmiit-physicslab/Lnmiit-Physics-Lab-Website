@@ -132,3 +132,14 @@ const Faculty = [
 		id: 5,
 	},
 ];
+
+const videoLinks = [
+	{
+		id: 1,
+		name: "Graph Basics",
+		teacher: "Prof. Amit Neogi",
+		link: "https://youtu.be/AGUKQpg_LGw",
+		tag: "Graph Videos",
+	},
+	{},
+];
