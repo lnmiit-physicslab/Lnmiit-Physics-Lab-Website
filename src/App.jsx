@@ -12,6 +12,7 @@ function App() {
       <Logo/>
       <Faculty/>
       <Facilities/>
+      <p>hello tumshar</p>
     </div>
   )
 }
