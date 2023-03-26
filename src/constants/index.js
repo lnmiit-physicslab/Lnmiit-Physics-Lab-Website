@@ -122,12 +122,75 @@ const Faculty = [
   },
   {
     id: 3,
-    name: "Somnath Biswas"
+    name: "Somnath Biswas",
+    post: "Professor & HOD(Dept. of Physics)",
+    degree: "Ph.D.,IIT Kharagpur",
+    research: "Research Areas:Magnetic Nano-materials and Nano-Structures,Spintronic Devices,FET-based Sensor Devices ,Materials for Fuel Cells and Hydrogen Storage",
   },
   {
-    id : 4, 
+    id: 4,
+    name: "Subhayan Biswas",
+    post: "Associate Professor",
+    degree: "Ph.D.,IACS ,Kolkata",
+    research: "Research Areas:Third Generation Solar Cells,Photocatalysis",
   },
   {
-    id : 5, 
-  }
+    id: 5,
+    name: "Amit Neogi",
+    post: "Assistant Professor & Chief Warden",
+    degree: "Ph.D.,IIT Kanpur",
+    research: "Research Areas:Laser Plasma",
+  },
+
+  {
+    id: 6,
+    name: "Anjishnu Sarkar",
+    post: "Assistant Professor",
+    degree: "Ph.D.,IIT Bombay",
+    research: "Research Areas:Cosmology,Particle Physics,Supersymmetric Model Building",
+  },
+  {
+    id: 7,
+    name: "Ashok Garai",
+    post: "Assistant Professor",
+    degree: "Ph.D.,IIT Kanpur",
+    research: "Research Areas:Theoretical & Computational Biophysics, Molecular Motors,Genetic Networks,Theory of Single Molecular Pulling Experiments,DNA Nanomechanics",
+
+  },
+  {
+    id: 8,
+    name: "Manish Kumar Singh",
+    post: "Assistant Professor",
+    degree: "Ph.D.,MNNIT,Allahabad",
+    research: "Research Areas:Solid State Physics ,Electronics,Nanomaterials,Laser Ablation in Liquids & Biosensors",
+  },
+  {
+    id: 9,
+    name: "Nabyendu Das",
+    post: "Assistant Professor",
+    degree: "Ph.D.,Institute of Physics,Bhubaneshwar",
+    research: "Research Areas:Theoritical Condensed Matter Physics",
+  },
+  {
+    id: 10,
+    name: "Pomita Ghoshal",
+    post: "Assistant Professor",
+    degree: "Ph.D.,HRi,Allahabad University",
+    research: "Research Areas:Particle Physics",
+  },
+  {
+    id: 11,
+    name: "Rakesh Tibrewala",
+    post: "Assistant Professor",
+    degree: "Ph.D.,Tata Institue of Fundamental Research,Mumbai",
+    research: "Research Areas:General Relativity,Aspects of Quantum Gravity",
+  },
+  {
+    id: 12,
+    name: "Laxmi Narayan Sharma",
+    post: "Staff",
+    degree:"",
+    research:"",
+  },
+
 ];
