@@ -1,3 +1,9 @@
+import Experiments from "./Experiments";
+import Videos from "./Videos";
+import Logo from "./Logo";
+import Facilities from "./Facilities";
+import Faculty from "./Faculty";
+
 function NavBar(){
     return(
         <div>
