@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='flex content-center justify-center gap-48 p-5 bg-gray-300 bottom-0 w-full h-40 text-slate-900'>
+        <div className='flex flex-wrap justify-around p-5 bg-gray-300 w-screen h-40 text-slate-900'>
 
             {/* Logo Container Started */}
             <div className='logo h-28'>
