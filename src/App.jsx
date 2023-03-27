@@ -17,7 +17,6 @@ function App() {
         <img src='src/resources/images/background.png'></img>
         <img src='src/resources/images/background.png'></img>
       </div>
-      
     </div>
   )
 }
