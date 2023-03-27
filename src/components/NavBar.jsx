@@ -15,6 +15,7 @@ function NavBar(){
     }
     function facilities(){
         <Facilities/>
+        hello
     }
     return(
         <div className="flex justify-around p-4 text-lg font-bold">
