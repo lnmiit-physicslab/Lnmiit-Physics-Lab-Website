@@ -2,8 +2,8 @@ import React from 'react'
 
 const Content = () => {
     return (
-    <div>
-        
+    <div className='text-center'>
+        Content Coming Soon....
     </div>
     )
 }
