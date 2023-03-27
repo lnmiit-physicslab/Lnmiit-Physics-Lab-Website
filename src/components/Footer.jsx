@@ -60,6 +60,7 @@ const Footer = () => {
                 </p>
             </div>
             {/* Copyright Section CLosed */}
+            
         </div>
     )
 }
