@@ -4,7 +4,7 @@ body {
 }
 
 #atom {
-    z-index: -100;
+    z-index: -1;
 	position: relative;
     width: 300px;
 	height: 300px;

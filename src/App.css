@@ -1,4 +1,15 @@
-.app{
-    background-image: url("./src/resources/images/background.png") no-repeat;
-}
+body{
+    background-image: url("./src/resources/images/background.png");
+    background-size: contain;
+    z-index: -100;
+    
 
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-image:url("./src/resources/images/background.png") ;
+        background-size: 1000px;
+        z-index: -100;
+
+    }
+}
