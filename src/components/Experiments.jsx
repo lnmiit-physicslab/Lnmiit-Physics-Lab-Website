@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Experiments = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+	return <div>this is the experiments page .</div>;
+};
 
-export default Experiments
+export default Experiments;
