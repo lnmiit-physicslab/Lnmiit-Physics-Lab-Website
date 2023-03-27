@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='flex content-center justify-center gap-48 p-5 bg-gray-400 bottom-0 w-full h-40'>
+        <div className='flex content-center justify-center gap-48 p-5 bg-gray-300 bottom-0 w-full h-40 text-slate-900'>
 
             {/* Logo Container Started */}
             <div className='logo h-28'>
@@ -14,7 +14,8 @@ const Footer = () => {
 
             {/* Social Handles Started */}
             <div className='socialHandles h-28'>
-                <div><p className='text-white text-center'>FOLLOW US</p></div>
+                <div><p className='text-center'>FOLLOW US</p></div>
+                <br/>
                 <div className='flex gap-5'>
                     <span>
                         <a href="https://www.facebook.com/lnmiit.ac.in/">
@@ -42,21 +43,23 @@ const Footer = () => {
                         </a>
                     </span>
                 </div>
+                <br/>
+                {/* Website update time */}
+                <p className='text-center font-light'>Last updated on 27-03-2023</p>
             </div>
             {/* Social Handles Closed */}
 
             {/* Copyright Section Started */}
-            <div className='copyright text-white h-28 w-48 text-xs'>
+            <div className='copyright h-28 w-48 text-xs'>
                 <p>Copyright © 2018-2023 Department of Physics, LNMIIT. All Rights Reserved.</p>
                 <br/>
                 <p>Handcrafted with ❤️  by-<br/>
-                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>-Aditya Chaudhary (Y22) </a><br/>
-                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>-Tushar Sukhwal (Y22) </a><br/>
-                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>-Dhruv Chandak (Y22)</a><br/>
+                    -<a href='' className='hover:cursor-pointer hover:duration-150 hover:font-extrabold'>Aditya Chaudhary (Y22) </a><br/>
+                    -<a href='' className='hover:cursor-pointer hover:duration-150 hover:font-extrabold'>Tushar Sukhwal (Y22) </a><br/>
+                    -<a href='' className='hover:cursor-pointer hover:duration-150 hover:font-extrabold'>Dhruv Chandak (Y22)</a><br/>
                 </p>
             </div>
             {/* Copyright Section CLosed */}
-
         </div>
     )
 }

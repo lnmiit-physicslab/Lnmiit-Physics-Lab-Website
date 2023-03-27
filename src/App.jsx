@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="app relative">
       <div id='doubt' className="w-full h-full flex-col justify-center content-center flex-wrap gap-4 absolute z-10">
+
         {/* Header Started*/}
         <HeaderC/>
         {/* Header Closed */}
@@ -17,7 +18,7 @@ function App() {
         {/* Footer Started */}
         <Footer/>
         {/* Footer Closed */}
-
+        
       </div>
       <div className='absolute z-0'>
         <img src='src/resources/images/background.png'></img>
