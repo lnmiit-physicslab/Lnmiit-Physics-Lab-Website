@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='flex flex-wrap justify-around p-5 bg-gray-300 w-screen h-40 text-slate-900'>
+        <div className='flex flex-wrap justify-around p-5 bg-gray-300 w-screen  text-slate-900'>
 
             {/* Logo Container Started */}
-            <div className='logo h-28'>
+            <div className='logo h-28 '>
                 <a href="https://www.lnmiit.ac.in/">
                     <img src="src/resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo" className='w-[12rem] h-[5rem] p-1'></img>    
                 </a>
@@ -13,7 +13,7 @@ const Footer = () => {
             {/* Logo Container Closed */}
 
             {/* Social Handles Started */}
-            <div className='socialHandles h-28'>
+            <div className='socialHandles h-28 mb-10'>
                 <div><p className='text-center'>FOLLOW US</p></div>
                 <br/>
                 <div className='flex gap-5'>
