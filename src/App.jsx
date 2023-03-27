@@ -15,7 +15,7 @@ function App() {
         {/* Content Closed */}
 
         {/* Footer Started */}
-        <div><Footer/></div>
+        <Footer/>
         {/* Footer Closed */}
 
       </div>

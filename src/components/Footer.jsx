@@ -49,10 +49,10 @@ const Footer = () => {
             <div className='copyright text-white h-28 w-48 text-xs'>
                 <p>Copyright © 2018-2023 Department of Physics, LNMIIT. All Rights Reserved.</p>
                 <br/>
-                <p>Handcrafted with ❤️  by <br/> Y22 Students <br/>(
-                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>Aditya Chaudhary </a>
-                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>, Tushar Sukhwal </a>
-                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>, Dhruv Chandak)</a>
+                <p>Handcrafted with ❤️  by-<br/>
+                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>-Aditya Chaudhary (Y22) </a><br/>
+                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>-Tushar Sukhwal (Y22) </a><br/>
+                    <a href='' className='hover:cursor-pointer hover:duration-150 hover:font-bold'>-Dhruv Chandak (Y22)</a><br/>
                 </p>
             </div>
             {/* Copyright Section CLosed */}
