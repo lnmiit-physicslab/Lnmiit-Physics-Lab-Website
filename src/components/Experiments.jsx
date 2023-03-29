@@ -1,7 +1,10 @@
 import React from "react";
+import { experiments } from "../constants";
 
 const Experiments = () => {
-	return <div>this is the experiments page .</div>;
+	return (
+    <div>experiments </div>
+	);
 };
 
 export default Experiments;
