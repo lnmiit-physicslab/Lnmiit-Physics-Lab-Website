@@ -4,51 +4,62 @@ const about =
 const site_title = "UG Physics Laboratory";
 const title_desc = "Department of Physics , LNMIIT Jaipur";
 
-const experiments = [
+export const experiments = [
   {
     id: 1,
-    name: "",
-    link: "https://youtu.be/34VvJvlhvq0",
+    name: ".",
+    link: ["34VvJvlhvq0"],
   },
   {
     id: 2,
     name: "Acc. due to gravity by bar pendulum",
+    link: ["34VvJvlhvq0"]
   },
   {
     id: 3,
     name: "Helmholtz coil",
+    link: ["w90jgVHoI8g"]
   },
   {
     id: 4,
     name: "Measurement of band gap of semiconductor",
+    link: ["YM1Ohh-FM7Q","rJunKtwhYUI"]
+    
   },
   {
     id: 5,
     name: "Refractive index of glass with prism",
+    link: ["tnWoL2XiWco","kQMNaP7X_Tg","6lSA7v1htfg"]
   },
   {
     id: 6,
     name: "Wavelength of Sodium light with Newton's Rings",
+    link: ["FUb52bdzAOM"]
   },
   {
     id: 7,
     name: "Gyroscope",
+    link : [""]
   },
   {
     id: 8,
     name: "Electromagnetic Induction",
+    link : [""]
   },
   {
     id: 9,
     name: "Mechanical waves",
+    link : ["v16gm2unMoo","Y4ZuKgz_ui8"]
   },
   {
     id: 10,
     name: "Fraunhoffer Diffraction",
+    link : ["uohd0TtqOaw","PgW7qaOZD0U"]
   },
   {
     id: 11,
     name: "Diffraction grating",
+    link : ["N0lxwqANsd4","desLn3tMLcc"]
   },
 ];
 
@@ -105,16 +116,16 @@ const UsefulLinks = [
   "Contact Us",
 ];
 
-const Faculty = [
+export const facultyMembers = [
   {
-    id: 1,
+    id:1,
     name: "Anupam Singh",
     post: "Professor & Dean(Student Affairs)",
     degree: "Ph.D.,Carnegie Mellon University,USA",
     research: "High Energy Physics and Cosmology",
   },
   {
-    id: 2,
+    id:2,
     name: "Ganesh Datt Sharma",
     post: "Professor & Dean(Research & Consultancy)",
     degree: "Ph.D.,IIT Delhi",
@@ -195,19 +206,19 @@ const Faculty = [
   },
 
 ];
-const YtLinks = [
+export const YtLinks = [
   {
     id: 1,
     name: "Graph Basics",
     teacher: "by - Prof. Amit Neogi",
-    link: "https://youtu.be/AGUKQpg_LGw",
+    link: "AGUKQpg_LGw",
     heading: "Graph",
   },
   {
     id: 2,
     name: "Semi-Log Graph Part 1",
     teacher: "by - Prof. Amit Neogi",
-    link: "https://youtu.be/8sd4or77Xgs",
+    link: "8sd4or77Xgs",
     heading: "Graph",
   },
 
@@ -215,7 +226,7 @@ const YtLinks = [
     id: 3,
     name: "Semi-Log Graph Part 2",
     teacher: "by - Prof. Amit Neogi",
-    link: "https://youtu.be/Xv0uyZWz3E8",
+    link: "Xv0uyZWz3E8",
     heading: "Graph",
   },
 
@@ -223,7 +234,7 @@ const YtLinks = [
     id: 4,
     name: "Mass Spring System",
     teacher: "by - Prof. Somnath Biswas",
-    link: "https://youtu.be/EF_mhQDTB5w",
+    link: "EF_mhQDTB5w",
     heading: "Instrument",
   },
 
@@ -231,7 +242,7 @@ const YtLinks = [
     id: 5,
     name: "Resistivity Of A Wire",
     teacher: "by - Prof. Somnath Biswas",
-    link: "https://youtu.be/IreyQWy_0Zg",
+    link: "IreyQWy_0Zg",
     heading: "Instrument",
   },
 
@@ -239,7 +250,7 @@ const YtLinks = [
     id: 6,
     name: "Screw Gauge",
     teacher: "by - Prof. Somnath Biswas",
-    link: "https://youtu.be/XXhI4p7IT6c",
+    link: "XXhI4p7IT6c",
     heading: "Instrument",
   },
 
@@ -247,7 +258,7 @@ const YtLinks = [
     id: 7,
     name: "Wheatstone Bridge",
     teacher: "by - Prof. Somnath Biswas",
-    link: "https://youtu.be/0ryE3_NqnKI",
+    link: "0ryE3_NqnKI",
     heading: "Instrument",
   },
 
@@ -255,7 +266,7 @@ const YtLinks = [
     id: 8,
     name: "Wheatstone Bridge Setup",
     teacher: "by - Prof. Somnath Biswas",
-    link: "https://youtu.be/F12SP8sJmUA",
+    link: "F12SP8sJmUA",
     heading: "Instrument",
   },
 
@@ -263,7 +274,7 @@ const YtLinks = [
     id: 9,
     name: "Multimeter",
     teacher: "by - Prof. Somnath Biswas",
-    link: "https://youtu.be/sD1iJymORxQ",
+    link: "sD1iJymORxQ",
     heading: "Instrument",
   },
 
@@ -271,7 +282,7 @@ const YtLinks = [
     id: 10,
     name: "'g' By Bar Pendulum",
     teacher: "by - Prof. Anupam Singh",
-    link: "https://youtu.be/34VvJvlhvq0",
+    link: "34VvJvlhvq0",
     heading: "Experiment",
   },
 
@@ -279,7 +290,7 @@ const YtLinks = [
     id: 11,
     name: "Helmholtz Coil",
     teacher: "by - Prof. Subhayan Biswas",
-    link: "https://youtu.be/w90jgVHoI8g",
+    link: "w90jgVHoI8g",
     heading: "Experiment",
   },
 
@@ -287,7 +298,7 @@ const YtLinks = [
     id: 12,
     name: "Band Gap of Semiconductor",
     teacher: "by - Prof. Subhayan Biswas",
-    link: "https://youtu.be/YM1Ohh-FM7Q",
+    link: "YM1Ohh-FM7Q",
     heading: "Experiment",
   },
 
@@ -295,7 +306,7 @@ const YtLinks = [
     id: 13,
     name: "Band Gap of Semiconductor",
     teacher: "by - Prof. Subhayan Biswas",
-    link: "https://youtu.be/rJunKtwhYUI",
+    link: "rJunKtwhYUI",
     heading: "Experiment",
   },
 
@@ -303,7 +314,7 @@ const YtLinks = [
     id: 14,
     name: "Refractive Index of Glass with Prism",
     teacher: "by - Prof. Anjishnu Sarkar",
-    link: "https://youtu.be/tnWoL2XiWco",
+    link: "tnWoL2XiWco",
     heading: "Experiment",
   },
 
@@ -311,7 +322,7 @@ const YtLinks = [
     id: 15,
     name: "Refractive Index of Glass with Prism",
     teacher: "by - Prof. Anjishnu Sarkar",
-    link: "https://youtu.be/kQMNaP7X_Tg",
+    link: "kQMNaP7X_Tg",
     heading: "Experiment",
   },
 
@@ -319,7 +330,7 @@ const YtLinks = [
     id: 16,
     name: "Refractive Index of Glass with Prism",
     teacher: "by - Prof. Anjishnu Sarkar",
-    link: "https://youtu.be/6lSA7v1htfg",
+    link: "6lSA7v1htfg",
     heading: "Experiment",
   },
 
@@ -327,7 +338,7 @@ const YtLinks = [
     id: 17,
     name: "Mechanical Waves",
     teacher: "by - Prof. Amit Neogi",
-    link: "https://youtu.be/v16gm2unMoo",
+    link: "v16gm2unMoo",
     heading: "Experiment",
   },
 
@@ -335,7 +346,7 @@ const YtLinks = [
     id: 18,
     name: "Mechanical Waves",
     teacher: "by - Prof. Amit Neogi",
-    link: "https://youtu.be/Y4ZuKgz_ui8",
+    link: "Y4ZuKgz_ui8",
     heading: "Experiment",
   },
 
@@ -343,7 +354,7 @@ const YtLinks = [
     id: 19,
     name: "Diffraction-Single Slit",
     teacher: "by- Prof. Boyd F. Edwards",
-    link: "https://youtu.be/uohd0TtqOaw",
+    link: "uohd0TtqOaw",
     heading: "Experiment",
   },
 
@@ -351,7 +362,7 @@ const YtLinks = [
     id: 20,
     name: "Fraunhoffer Diffraction",
     teacher: "by- Shaoul Ezekiel",
-    link: "https://youtu.be/PgW7qaOZD0U",
+    link: "PgW7qaOZD0U",
     heading: "Experiment",
   },
 
@@ -359,7 +370,7 @@ const YtLinks = [
     id: 21,
     name: "Spectrometer Grating",
     teacher: "by- Dr. P. Balraju",
-    link: "https://youtu.be/N0lxwqANsd4",
+    link: "N0lxwqANsd4",
     heading: "Experiment",
   },
 
@@ -367,8 +378,9 @@ const YtLinks = [
     id: 22,
     name: "Diffraction Grating",
     teacher: "by- @vt.physics",
-    link: "https://youtu.be/desLn3tMLcc",
+    link: "desLn3tMLcc",
     heading: "Experiment",
   },
 
 ];
+
