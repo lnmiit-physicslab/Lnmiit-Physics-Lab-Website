@@ -19,12 +19,12 @@ function NavBar() {
 		hello;
 	}
 	return (
-		<div className="w-[100vw] h-[7vh] absolute z-10">
-			<div className="flex justify-around mt-7 p-4 text-lg font-bold">
+		<div className="absolute z-10 h-[7vh] w-[100vw]">
+			<div className="mt-7 flex justify-around p-4 text-lg font-bold">
 				<div>
 					<button
 						onClick={experiments}
-						className="hover:animate-pulse hover:scale-110 hover:duration-150 hover:text-indigo-400"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150"
 					>
 						<Link to="/menu/experiments">Experiments</Link>
 					</button>
@@ -32,7 +32,7 @@ function NavBar() {
 				<div>
 					<button
 						onClick={videos}
-						className="hover:animate-pulse hover:scale-110 hover:duration-150 hover:text-indigo-400  md:mr-36"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150  md:mr-36"
 					>
 						<Link to="/menu/videos">Videos</Link>
 					</button>
@@ -40,7 +40,7 @@ function NavBar() {
 				<div>
 					<button
 						onClick={faclulty}
-						className="hover:animate-pulse hover:scale-110 hover:duration-150 hover:text-indigo-400"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150"
 					>
 						<Link to="/menu/faculty">Faculty</Link>
 					</button>
@@ -48,7 +48,7 @@ function NavBar() {
 				<div>
 					<button
 						onClick={facilities}
-						className="hover:animate-pulse hover:scale-110 hover:duration-150 hover:text-indigo-400"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150"
 					>
 						<Link to="/menu/facilities">Facilities</Link>
 					</button>
