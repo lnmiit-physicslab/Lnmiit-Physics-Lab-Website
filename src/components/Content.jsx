@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
 	return (
-		<div className="text-center h-[100vh] pt-48">Content Coming Soon....</div>
+		<div className="h-[100vh] pt-48 text-center">Content Coming Soon....</div>
 	);
 };
 

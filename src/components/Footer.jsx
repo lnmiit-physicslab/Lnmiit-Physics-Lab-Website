@@ -2,21 +2,21 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="flex flex-wrap justify-around p-5 bg-gray-300 w-screen  text-slate-900">
+		<div className="flex w-screen flex-wrap justify-around bg-gray-300 p-5  text-slate-900">
 			{/* Logo Container Started */}
 			<div className="logo h-28 ">
 				<a href="https://www.lnmiit.ac.in/">
 					<img
-						src="src/resources/images/lnmiit_logo1_reduced.png"
+						src="/src/resources/images/lnmiit_logo1_reduced.png"
 						alt="LNMIIT Logo"
-						className="w-[12rem] h-[5rem] p-1"
+						className="h-[5rem] w-[12rem] p-1"
 					></img>
 				</a>
 			</div>
 			{/* Logo Container Closed */}
 
 			{/* Social Handles Started */}
-			<div className="socialHandles h-28 mb-10">
+			<div className="socialHandles mb-10 h-28">
 				<div>
 					<p className="text-center">FOLLOW US</p>
 				</div>
@@ -25,7 +25,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.facebook.com/lnmiit.ac.in/">
 							<img
-								src="src/resources/images/socialHandles/facebook.svg"
+								src="/src/resources/images/socialHandles/facebook.svg"
 								className="w-10"
 							></img>
 						</a>
@@ -33,7 +33,7 @@ const Footer = () => {
 					<span>
 						<a href="https://twitter.com/lnmiit_jaipur?lang=en">
 							<img
-								src="src/resources/images/socialHandles/twitter.svg"
+								src="/src/resources/images/socialHandles/twitter.svg"
 								className="w-10"
 							></img>
 						</a>
@@ -41,7 +41,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/">
 							<img
-								src="src/resources/images/socialHandles/linkedin.svg"
+								src="/src/resources/images/socialHandles/linkedin.svg"
 								className="w-10"
 							></img>
 						</a>
@@ -49,7 +49,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w">
 							<img
-								src="src/resources/images/socialHandles/youtube.svg"
+								src="/src/resources/images/socialHandles/youtube.svg"
 								className="w-10"
 							></img>
 						</a>
@@ -57,7 +57,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.instagram.com/lnmiit/">
 							<img
-								src="src/resources/images/socialHandles/instagram.svg"
+								src="/src/resources/images/socialHandles/instagram.svg"
 								className="w-10"
 							></img>
 						</a>
@@ -81,21 +81,21 @@ const Footer = () => {
 					<br />-
 					<a
 						href=""
-						className="hover:cursor-pointer hover:duration-150 hover:font-extrabold"
+						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
 					>
 						Aditya Chaudhary (Y22){" "}
 					</a>
 					<br />-
 					<a
 						href=""
-						className="hover:cursor-pointer hover:duration-150 hover:font-extrabold"
+						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
 					>
 						Tushar Sukhwal (Y22){" "}
 					</a>
 					<br />-
 					<a
 						href=""
-						className="hover:cursor-pointer hover:duration-150 hover:font-extrabold"
+						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
 					>
 						Dhruv Chandak (Y22)
 					</a>
@@ -108,4 +108,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
