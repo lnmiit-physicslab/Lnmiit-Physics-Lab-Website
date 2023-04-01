@@ -199,13 +199,7 @@ export const facultyMembers = [
 		degree: "Ph.D.,Tata Institue of Fundamental Research,Mumbai",
 		research: "Research Areas:General Relativity,Aspects of Quantum Gravity",
 	},
-	{
-		id: 12,
-		name: "Laxmi Narayan Sharma",
-		post: "Staff",
-		degree: "",
-		research: "",
-	},
+			
 ];
 export const YtLinks = [
 	{
@@ -380,13 +374,6 @@ export const YtLinks = [
 		name: "Diffraction Grating",
 		teacher: "by- @vt.physics",
 		link: "desLn3tMLcc",
-		heading: "Experiment",
-	},
-	{
-		id: 23,
-		name: "dev",
-		teacher: "dev",
-		link: "S5a0eXPoc",
 		heading: "Experiment",
 	},
 ];
