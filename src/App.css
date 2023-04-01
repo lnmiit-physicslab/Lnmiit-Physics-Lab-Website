@@ -1,13 +1,16 @@
 body{
-    background-image: url("./src/resources/images/background.png");
+    background: linear-gradient(0deg, rgba(114,136,218,1) 0%, rgba(227,149,149,1) 50%, rgba(155,122,219,1) 100%);
+    background: rgb(114,136,218);
+    background-image: url("/src/resources/images/background.png");
     background-size: contain;
     z-index: -100;
+    
     
 
 }
 @media only screen and (max-width: 600px) {
     body {
-        background-image:url("./src/resources/images/background.png") ;
+        background-image:url("/src/resources/images/background.png") ;
         background-size: 1000px;
         z-index: -100;
 
