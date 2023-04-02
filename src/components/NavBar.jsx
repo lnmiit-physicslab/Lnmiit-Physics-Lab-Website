@@ -1,4 +1,4 @@
-import Experiments from "./Experiments";
+import Experiments from "../Experiments/Experiments";
 import Videos from "./Videos";
 import Facilities from "./Facilities";
 import Faculty from "./Faculty";
