@@ -92,7 +92,7 @@ const Footer = () => {
 					>
 						Tushar Sukhwal (Y22){" "}
 					</a>
-{/* 					<br />-
+					{/* 					<br />-
 					<a
 						href=""
 						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
@@ -108,4 +108,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

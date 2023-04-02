@@ -32,10 +32,9 @@ function Videos() {
 				</div>
 			</div>
 
-				{/* section-2 */}
+			{/* section-2 */}
 
 			<div className="section1-wrapper m-10 rounded-3xl border-2 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
-
 				<h1 className="pt-5 text-center text-5xl">Instrument</h1>
 				<div className="    flex flex-wrap items-center  justify-center gap-10 pt-10  ">
 					{YtLinks.filter((vid) => {
@@ -61,9 +60,8 @@ function Videos() {
 					))}
 				</div>
 			</div>
-				{/* section-3 */}
+			{/* section-3 */}
 			<div className="section1-wrapper m-10 rounded-3xl border-2 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
-
 				<h1 className="pt-5 text-center text-5xl">Graph</h1>
 				<div className="    flex flex-wrap items-center  justify-center gap-10 pt-10  ">
 					{YtLinks.filter((vid) => {

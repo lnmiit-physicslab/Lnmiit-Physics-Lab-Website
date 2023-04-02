@@ -3,13 +3,13 @@ import ContentInfo from "./ContentInfo";
 import OurVision from "./OurVision";
 import LabPhotos from "./LabPhotos";
 const Content = () => {
-  return (
-    <div className="md:p-[6rem] pl-0 pr-0 justify-around">
-      <OurVision/>
-      <ContentInfo/>
-      <LabPhotos/>
-    </div>
-  );
+	return (
+		<div className="justify-around pl-0 pr-0 md:p-[6rem]">
+			<OurVision />
+			<ContentInfo />
+			<LabPhotos />
+		</div>
+	);
 };
 
 export default Content;
