@@ -1,11 +1,14 @@
 import React from "react";
-import { experiments } from "../constants";
 import Sidebar from "./SideBar";
+import ExperimentNavBar from "../components/ExperimentNavBar";
 
 const Experiments = () => {
-	return <div>
-		<Sidebar /> 
-		</div>;
+	return (
+		<div className="flex">
+			<Sidebar/>
+			<ExperimentNavBar/>
+		</div>
+	);
 };
 
 export default Experiments;
