@@ -12,29 +12,31 @@
 } */
 
 table {
-  width: 100%;
-  border-collapse: collapse;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 th,
 td {
-  padding: 15px;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: black;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: black;
 }
 th {
-  text-align: left;
+	text-align: left;
 }
 thead th {
-  background-color:darkgrey;
+	background-color: darkgrey;
 }
 tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.3);
 }
-table, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
 }
 /* tbody td {
   position: relative;
@@ -50,72 +52,71 @@ table, th, td{
   z-index: -1;
 } */
 
-
 .App {
-  display: flex;
-  height: 100vh;
+	display: flex;
+	height: 100vh;
 }
 
 .content {
-  padding: 40px 60px;
+	padding: 40px 60px;
 }
 
 /* FADE ANIMATIONS */
 .fade-enter {
-  opacity: 0;
+	opacity: 0;
 }
 
 .fade-enter-active {
-  opacity: 1;
-  transition: opacity 400ms;
+	opacity: 1;
+	transition: opacity 400ms;
 }
 
 .fade-exit {
-  opacity: 1;
+	opacity: 1;
 }
 
 .fade-exit-active {
-  opacity: 0;
-  transition: opacity 400ms;
+	opacity: 0;
+	transition: opacity 400ms;
 }
 
 /* SIDEBAR */
 
 .sidebar__button {
-  background: transparent;
-  padding: 10px;
-  border: 1px solid white;
-  border-radius: 4px;
-  color: white;
-  transition: 0.3s linear;
+	background: transparent;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+	transition: 0.3s linear;
 }
 
 .sidebar {
-  min-width: 300px;
-  padding: 20px;
-  color: white;
-  transition: 0.5s ease-in;
+	min-width: 300px;
+	padding: 20px;
+	color: white;
+	transition: 0.5s ease-in;
 }
 
 .sidebar-closed {
-  min-width: 40px;
+	min-width: 40px;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
 
 .sidebar__listItem {
-  margin: 50px 10px;
-  display: flex;
-  height: 20px;
+	margin: 50px 10px;
+	display: flex;
+	height: 20px;
 }
 
 .sidebar__listItem span {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 .sidebar__icon {
-  margin: 0 15px 0 0;
+	margin: 0 15px 0 0;
 }
