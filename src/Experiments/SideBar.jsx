@@ -21,7 +21,7 @@ const menuItems = [
 ];
 
 const Sidebar = () => {
-	const [isOpen, setIsOpen] = useState(true);
+	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div className="left-0 w-[20%] App">
 			<div className={cx("sidebar bg-gray-500", { "sidebar-closed": !isOpen })}>
