@@ -1,0 +1,17 @@
+.typewrite{
+  animation: type 1.5s ease 0s 1 alternate;
+  font-size: xx-large;
+  transition: 1s;
+  opacity: 1;
+}
+@keyframes type {
+  0%{
+    opacity: 0;
+    font-size: small;
+  }
+  100%{
+    opacity: 1;
+    font-size: xx-large;
+  }
+
+}
