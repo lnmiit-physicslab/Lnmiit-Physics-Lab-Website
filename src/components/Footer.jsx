@@ -1,8 +1,8 @@
 import React from "react";
-
+import '../css/footer.css'
 const Footer = () => {
 	return (
-		<div className="flex w-screen flex-wrap justify-around bg-gray-300 p-5  text-slate-900">
+		<div className="flex w-screen flex-wrap justify-around items-center bg-gray-300 p-5 text-white text-slate-900 site-footer">
 			{/* Logo Container Started */}
 			<div className="logo h-28 ">
 				<a href="https://www.lnmiit.ac.in/">
@@ -21,12 +21,12 @@ const Footer = () => {
 					<p className="text-center">FOLLOW US</p>
 				</div>
 				<br />
-				<div className="flex gap-5">
+				<div className="flex gap-5 items-center">
 					<span>
 						<a href="https://www.facebook.com/lnmiit.ac.in/">
 							<img
 								src="/src/resources/images/socialHandles/facebook.svg"
-								className="w-10"
+								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
 					</span>
@@ -34,7 +34,7 @@ const Footer = () => {
 						<a href="https://twitter.com/lnmiit_jaipur?lang=en">
 							<img
 								src="/src/resources/images/socialHandles/twitter.svg"
-								className="w-10"
+								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
 					</span>
@@ -42,7 +42,7 @@ const Footer = () => {
 						<a href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/">
 							<img
 								src="/src/resources/images/socialHandles/linkedin.svg"
-								className="w-10"
+								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
 					</span>
@@ -50,7 +50,7 @@ const Footer = () => {
 						<a href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w">
 							<img
 								src="/src/resources/images/socialHandles/youtube.svg"
-								className="w-10"
+								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
 					</span>
@@ -58,21 +58,21 @@ const Footer = () => {
 						<a href="https://www.instagram.com/lnmiit/">
 							<img
 								src="/src/resources/images/socialHandles/instagram.svg"
-								className="w-10"
+								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
 					</span>
 				</div>
 				<br />
 				{/* Website update time */}
-				<p className="text-center font-light">Last updated on 27-03-2023</p>
+				<p className="text-center font-light text-sm">Last updated on 04-04-2023</p>
 			</div>
 			{/* Social Handles Closed */}
 
 			{/* Copyright Section Started */}
 			<div className="copyright h-28 w-48 text-xs">
 				<p>
-					Copyright © 2018-2023 Department of Physics, LNMIIT. All Rights
+					Copyright © 2023-2028 Department of Physics, LNMIIT. All Rights
 					Reserved.
 				</p>
 				<br />

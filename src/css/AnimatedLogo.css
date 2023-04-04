@@ -1,16 +1,15 @@
 body {
 	text-align: center;
-
 }
 
 #atom {
-    z-index: -1;
+	z-index: 100;
 	position: relative;
-    width: 300px;
+	width: 300px;
 	height: 300px;
 	display: inline-block;
-    margin-top: -25px;
-    margin-bottom: -30px;
+	margin-top: -25px;
+	margin-bottom: -30px;
 }
 
 #nucleus,
@@ -30,8 +29,13 @@ body {
 }
 
 #nucleus {
-    background: rgb(38,31,124);
-    background: linear-gradient(21deg, rgba(38,31,124,1) 0%, rgba(50,39,203,1) 35%, rgba(191,97,80,1) 100%);
+	background: rgb(38, 31, 124);
+	background: linear-gradient(
+		21deg,
+		rgba(38, 31, 124, 1) 0%,
+		rgba(50, 39, 203, 1) 35%,
+		rgba(191, 97, 80, 1) 100%
+	);
 	box-shadow: 0 0 15px #2196f3;
 	-webkit-animation: shining 2s infinite linear;
 	-moz-animation: shining 2s infinite linear;
@@ -148,91 +152,91 @@ body {
 @-webkit-keyframes orbitSpecial {
 	0% {
 		border: 0;
-		border-top: 10px solid 	rgba(181,229,207,0.5);
+		border-top: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	35% {
 		border: 0;
-		border-right: 10px solid 	rgba(181,229,207,0.5);
+		border-right: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	70% {
 		border: 0;
-		border-bottom: 10px solid 	rgba(181,229,207,0.5);
+		border-bottom: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	100% {
 		border: 0;
-		border-left: 10px solid 	rgba(181,229,207,0.5);
+		border-left: 10px solid rgba(181, 229, 207, 0.5);
 	}
 }
 @-moz-keyframes orbitSpecial {
 	0% {
 		border: 0;
-		border-top: 10px solid 	rgba(181,229,207,0.5);
+		border-top: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	35% {
 		border: 0;
-		border-right: 10px solid 	rgba(181,229,207,0.5);
+		border-right: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	70% {
 		border: 0;
-		border-bottom: 10px solid 	rgba(181,229,207,0.5);
+		border-bottom: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	100% {
 		border: 0;
-		border-left: 10px solid 	rgba(181,229,207,0.5);
+		border-left: 10px solid rgba(181, 229, 207, 0.5);
 	}
 }
 @-ms-keyframes orbitSpecial {
 	0% {
 		border: 0;
-		border-top: 10px solid 	rgba(181,229,207,0.5);
+		border-top: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	35% {
 		border: 0;
-		border-right: 10px solid 	rgba(181,229,207,0.5);
+		border-right: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	70% {
 		border: 0;
-		border-bottom: 10px solid 	rgba(181,229,207,0.5);
+		border-bottom: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	100% {
 		border: 0;
-		border-left: 10px solid 	rgba(181,229,207,0.5);
+		border-left: 10px solid rgba(181, 229, 207, 0.5);
 	}
 }
 @-o-keyframes orbitSpecial {
 	0% {
 		border: 0;
-		border-top: 10px solid 	rgba(181,229,207,0.5);
+		border-top: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	35% {
 		border: 0;
-		border-right: 10px solid 	rgba(181,229,207,0.5);
+		border-right: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	70% {
 		border: 0;
-		border-bottom: 10px solid 	rgba(181,229,207,0.5);
+		border-bottom: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	100% {
 		border: 0;
-		border-left: 10px solid 	rgba(181,229,207,0.5);
+		border-left: 10px solid rgba(181, 229, 207, 0.5);
 	}
 }
 @keyframes orbitSpecial {
 	0% {
 		border: 0;
-		border-top: 10px solid 	rgba(181,229,207,0.5);
+		border-top: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	35% {
 		border: 0;
-		border-right: 10px solid 	rgba(181,229,207,0.5);
+		border-right: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	70% {
 		border: 0;
-		border-bottom: 10px solid 	rgba(181,229,207,0.5);
+		border-bottom: 10px solid rgba(181, 229, 207, 0.5);
 	}
 	100% {
 		border: 0;
-		border-left: 10px solid 	rgba(181,229,207,0.5);
+		border-left: 10px solid rgba(181, 229, 207, 0.5);
 	}
 }
 @-webkit-keyframes shining {

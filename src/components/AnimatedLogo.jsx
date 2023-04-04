@@ -1,4 +1,5 @@
 import "../css/AnimatedLogo.css";
+import '../css/typewrite.css'
 
 const AnimatedLogo = () => {
 	return (
@@ -16,8 +17,8 @@ const AnimatedLogo = () => {
 				</div>
 			</div>
 			<div className="select-none text-center">
-				<p className="text-4xl">UG Physics Laboratory</p>
-				<p className="text-2xl">LNMIIT , Jaipur</p>
+				<p className="typewrite">UG Physics Laboratory</p>
+				<p className="text-2xl drop-shadow-2xl">LNMIIT , Jaipur</p>
 			</div>
 		</div>
 	);
