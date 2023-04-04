@@ -1,31 +1,32 @@
 import { Link } from "react-router-dom";
+import '../css/navBar.css'
 
 const NavBar2 = () => {
 	return (
-		<div className="z-10 h-[7vh]  w-[100vw]">
-			<div className="mt-7 flex justify-around p-4 text-lg font-bold">
+		<div className="z-10 h-[7vh] w-[100vw] text-white grad">
+			<div className="flex justify-around p-4 text-lg font-bold">
 				<div>
-					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150">
+					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150">
 						<Link to="/menu/experiments">Experiments</Link>
 					</button>
 				</div>
 				<div>
-					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150  ">
+					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150  ">
 						<Link to="/menu/videos">Videos</Link>
 					</button>
 				</div>
 				<div>
-					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150">
+					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150">
 						<Link to="/">Home</Link>
 					</button>
 				</div>
 				<div>
-					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150">
+					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150">
 						<Link to="/menu/faculty">Faculty</Link>
 					</button>
 				</div>
 				<div>
-					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150">
+					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150">
 						<Link to="/menu/facilities">Facilities</Link>
 					</button>
 				</div>

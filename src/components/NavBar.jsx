@@ -3,6 +3,7 @@ import Videos from "./Videos";
 import Facilities from "./Facilities";
 import Faculty from "./Faculty";
 import { Link } from "react-router-dom";
+import '../css/navBar.css'
 
 function NavBar() {
 	function experiments() {
@@ -11,20 +12,19 @@ function NavBar() {
 	function videos() {
 		<Videos />;
 	}
-	function faclulty() {
+	function faculty() {
 		<Faculty />;
 	}
 	function facilities() {
 		<Facilities />;
-		hello;
 	}
 	return (
-		<div className="absolute z-10 h-[7vh] w-[100vw]">
-			<div className="mt-7 flex justify-around p-4 text-lg font-bold">
+		<div className="absolute z-10 h-[7vh] w-[100vw] text-white grad">
+			<div className="flex justify-around p-4 text-lg font-bold">
 				<div>
 					<button
 						onClick={experiments}
-						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
 					>
 						<Link to="/menu/experiments">Experiments</Link>
 					</button>
@@ -32,15 +32,15 @@ function NavBar() {
 				<div>
 					<button
 						onClick={videos}
-						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150  md:mr-36"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150  md:mr-36"
 					>
 						<Link to="/menu/videos">Videos</Link>
 					</button>
 				</div>
 				<div>
 					<button
-						onClick={faclulty}
-						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150"
+						onClick={faculty}
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
 					>
 						<Link to="/menu/faculty">Faculty</Link>
 					</button>
@@ -48,7 +48,7 @@ function NavBar() {
 				<div>
 					<button
 						onClick={facilities}
-						className="hover:scale-110 hover:animate-pulse hover:text-indigo-400 hover:duration-150"
+						className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
 					>
 						<Link to="/menu/facilities">Facilities</Link>
 					</button>
