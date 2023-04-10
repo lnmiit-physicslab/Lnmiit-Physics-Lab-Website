@@ -1,6 +1,6 @@
 const Ex1resources = () => {
   return (
-    <div>Ex1resources</div>
+    <div>Ex2resources</div>
   )
 }
 export default Ex1resources

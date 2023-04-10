@@ -1,6 +1,6 @@
 const Ex1procedure = () => {
   return (
-    <div>Ex1procedure</div>
+    <div>Ex3procedure</div>
   )
 }
 export default Ex1procedure
