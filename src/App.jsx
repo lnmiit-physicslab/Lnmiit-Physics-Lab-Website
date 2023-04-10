@@ -88,52 +88,52 @@ function App() {
 						<Route path="Ex1resources" element={<Ex1resources />} />
 						<Route path="Ex1procedure" element={<Ex1procedure />} />
 						<Route path="Ex1viva" element={<Ex1viva />} />
-						<Route index path="Ex2theory" element={<Ex2theory />} />
+						<Route path="Ex2theory" element={<Ex2theory />} />
 						<Route path="Ex2video" element={<Ex2video />} />
 						<Route path="Ex2resources" element={<Ex2resources />} />
 						<Route path="Ex2procedure" element={<Ex2procedure />} />
 						<Route path="Ex2viva" element={<Ex2viva />} />
-						<Route index path="Ex3theory" element={<Ex3theory />} />
+						<Route path="Ex3theory" element={<Ex3theory />} />
 						<Route path="Ex3video" element={<Ex3video />} />
 						<Route path="Ex3resources" element={<Ex3resources />} />
 						<Route path="Ex3procedure" element={<Ex3procedure />} />
 						<Route path="Ex3viva" element={<Ex3viva />} />
-						<Route index path="Ex4theory" element={<Ex4theory />} />
+						<Route path="Ex4theory" element={<Ex4theory />} />
 						<Route path="Ex4video" element={<Ex4video />} />
 						<Route path="Ex4resources" element={<Ex4resources />} />
 						<Route path="Ex4procedure" element={<Ex4procedure />} />
 						<Route path="Ex4viva" element={<Ex4viva />} />
-						<Route index path="Ex5theory" element={<Ex5theory />} />
+						<Route path="Ex5theory" element={<Ex5theory />} />
 						<Route path="Ex5video" element={<Ex5video />} />
 						<Route path="Ex5resources" element={<Ex5resources />} />
 						<Route path="Ex5procedure" element={<Ex5procedure />} />
 						<Route path="Ex5viva" element={<Ex5viva />} />
-						<Route index path="Ex6theory" element={<Ex6theory />} />
+						<Route path="Ex6theory" element={<Ex6theory />} />
 						<Route path="Ex6video" element={<Ex6video />} />
 						<Route path="Ex6resources" element={<Ex6resources />} />
 						<Route path="Ex6procedure" element={<Ex6procedure />} />
 						<Route path="Ex6viva" element={<Ex6viva />} />
-						<Route index path="Ex7theory" element={<Ex7theory />} />
+						<Route path="Ex7theory" element={<Ex7theory />} />
 						<Route path="Ex7video" element={<Ex7video />} />
 						<Route path="Ex7resources" element={<Ex7resources />} />
 						<Route path="Ex7procedure" element={<Ex7procedure />} />
 						<Route path="Ex7viva" element={<Ex7viva />} />
-						<Route index path="Ex8theory" element={<Ex8theory />} />
+						<Route path="Ex8theory" element={<Ex8theory />} />
 						<Route path="Ex8video" element={<Ex8video />} />
 						<Route path="Ex8resources" element={<Ex8resources />} />
 						<Route path="Ex8procedure" element={<Ex8procedure />} />
 						<Route path="Ex8viva" element={<Ex8viva />} />
-						<Route index path="Ex9theory" element={<Ex9theory />} />
+						<Route path="Ex9theory" element={<Ex9theory />} />
 						<Route path="Ex9video" element={<Ex9video />} />
 						<Route path="Ex9resources" element={<Ex9resources />} />
 						<Route path="Ex9procedure" element={<Ex9procedure />} />
 						<Route path="Ex9viva" element={<Ex9viva />} />
-						<Route index path="Ex10theory" element={<Ex10theory />} />
+						<Route path="Ex10theory" element={<Ex10theory />} />
 						<Route path="Ex10video" element={<Ex10video />} />
 						<Route path="Ex10resources" element={<Ex10resources />} />
 						<Route path="Ex10procedure" element={<Ex10procedure />} />
 						<Route path="Ex10viva" element={<Ex10viva />} />
-						<Route index path="Ex11theory" element={<Ex11theory />} />
+						<Route path="Ex11theory" element={<Ex11theory />} />
 						<Route path="Ex11video" element={<Ex11video />} />
 						<Route path="Ex11resources" element={<Ex11resources />} />
 						<Route path="Ex11procedure" element={<Ex11procedure />} />
