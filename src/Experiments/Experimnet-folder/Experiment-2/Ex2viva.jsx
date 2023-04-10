@@ -1,6 +1,6 @@
 const Ex1viva = () => {
   return (
-    <div>Ex1viva</div>
+    <div>Ex2viva</div>
   )
 }
 export default Ex1viva

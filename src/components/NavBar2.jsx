@@ -7,7 +7,7 @@ const NavBar2 = () => {
 			<div className="flex justify-around p-4 text-lg font-bold">
 				<div>
 					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150">
-						<Link to="/menu/experiments">Experiments</Link>
+						<Link to="/menu/experiments/Ex1theory">Experiments</Link>
 					</button>
 				</div>
 				<div>

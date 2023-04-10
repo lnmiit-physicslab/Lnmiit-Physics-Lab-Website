@@ -4,7 +4,7 @@ import Facilities from "./Facilities";
 import Faculty from "./Faculty";
 import { Link } from "react-router-dom";
 import "../css/navBar.css";
-import useIsMobile from "../hooks/WindowResize";
+
 
 function NavBar() {
 	function experiments() {
@@ -27,7 +27,7 @@ function NavBar() {
 							onClick={experiments}
 							className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
 						>
-							<Link to="/menu/experiments">Experiments</Link>
+							<Link to="/menu/experiments/Ex1theory">Experiments</Link>
 						</button>
 					</div>
 					<div>
