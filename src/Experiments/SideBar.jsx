@@ -2,28 +2,14 @@ import React, { useState } from "react";
 import { experiments } from "../constants";
 import { CSSTransition } from "react-transition-group";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faBars,
-	faCompass,
-	faUsers,
-	faCogs,
-	faServer,
-	faCloud,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import cx from "classnames";
+import { useEffect } from "react";
 
-const menuItems = [
-	{ title: "Dashboard", icon: faCompass },
-	{ title: "Users", icon: faUsers },
-	{ title: "Cloud services", icon: faCloud },
-	{ title: "Usage data", icon: faCogs },
-	{ title: "Server list", icon: faServer },
-];
-
-const Sidebar = () => {
+const Sidebar = ({setExNo , exNo , tab , setTab}) => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<div className="left-0 w-[20%] App">
+		<div className="App left-0 w-[20%]">
 			<div className={cx("sidebar bg-gray-500", { "sidebar-closed": !isOpen })}>
 				<button
 					className={"sidebar__button"}
@@ -42,7 +28,7 @@ const Sidebar = () => {
 									classNames={"fade"}
 									unmountOnExit
 								>
-                  <div className="text-left">{`${item.id}. ${item.name}`}</div>
+									<div className="cursor-pointer text-left " onClick={() => setExNo(item.id)}>{`${item.id}. ${item.name}`}</div>
 								</CSSTransition>
 							</div>
 						</li>

@@ -1,23 +1,44 @@
 import React from "react";
-
-const ExperimentNavBar = () => {
+import { useState } from "react";
+import { Link } from "react-router-dom";
+const ExperimentNavBar = ({ tab, setTab, exNo, setExNo }) => {
 	return (
-		<div className=" flex h-7 w-[370%] justify-around bg-gray-300">
-			<div className="hover:animate-pulse hover:text-indigo-500 hover:duration-150">
+		<div className=" flex h-7 w-[400%] justify-around bg-gray-300">
+			<Link
+				to={`Ex${exNo}theory`}
+				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				onClick={setTab("theory")}
+			>
 				Theory
-			</div>
-			<div className="hover:animate-pulse hover:text-indigo-500 hover:duration-150">
+			</Link>
+			<Link
+				to={`Ex${exNo}procedure`}
+				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				onClick={setTab("procedure")}
+			>
 				Procedure
-			</div>
-			<div className="hover:animate-pulse hover:text-indigo-500 hover:duration-150">
+			</Link>
+			<Link
+				to={`Ex${exNo}video`}
+				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				onClick={setTab("video")}
+			>
 				Video
-			</div>
-			<div className="hover:animate-pulse hover:text-indigo-500 hover:duration-150">
+			</Link>
+			<Link
+				to={`Ex${exNo}resources`}
+				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				onClick={setTab("resources")}
+			>
 				Resources
-			</div>
-			<div className="hover:animate-pulse hover:text-indigo-500 hover:duration-150">
+			</Link>
+			<Link
+				to={`Ex${exNo}viva`}
+				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				onClick={setTab("viva")}
+			>
 				Viva Voice
-			</div>
+			</Link>
 		</div>
 	);
 };

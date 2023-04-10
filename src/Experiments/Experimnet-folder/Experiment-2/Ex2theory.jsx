@@ -1,6 +1,6 @@
 const Ex1theory = () => {
   return (
-    <div>Ex1theory</div>
+    <div>Ex2theory</div>
   )
 }
 export default Ex1theory
