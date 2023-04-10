@@ -1,5 +1,5 @@
 import "../css/AnimatedLogo.css";
-import '../css/typewrite.css'
+import "../css/typewrite.css";
 
 const AnimatedLogo = () => {
 	return (
