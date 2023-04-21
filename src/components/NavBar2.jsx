@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import '../css/navBar.css'
+import "../css/navBar.css";
 
 const NavBar2 = () => {
 	return (
-		<div className="z-10 h-[7vh] w-[100vw] text-white grad md:visible invisible">
+		<div className="grad invisible z-10 h-[7vh] w-[100vw] text-white md:visible">
 			<div className="flex justify-around p-4 text-lg font-bold">
 				<div>
 					<button className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150">

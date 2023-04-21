@@ -199,7 +199,6 @@ export const facultyMembers = [
 		degree: "Ph.D.,Tata Institue of Fundamental Research,Mumbai",
 		research: "Research Areas:General Relativity,Aspects of Quantum Gravity",
 	},
-			
 ];
 export const YtLinks = [
 	{
