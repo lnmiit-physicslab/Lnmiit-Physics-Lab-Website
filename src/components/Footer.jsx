@@ -1,8 +1,8 @@
 import React from "react";
-import '../css/footer.css'
+import "../css/footer.css";
 const Footer = () => {
 	return (
-		<div className="flex w-screen flex-wrap justify-around items-center bg-gray-300 p-5 text-white text-slate-900 site-footer">
+		<div className="site-footer flex w-screen flex-wrap items-center justify-around bg-gray-300 p-5 text-white text-slate-900">
 			{/* Logo Container Started */}
 			<div className="logo h-28 ">
 				<a href="https://www.lnmiit.ac.in/">
@@ -21,7 +21,7 @@ const Footer = () => {
 					<p className="text-center">FOLLOW US</p>
 				</div>
 				<br />
-				<div className="flex gap-5 items-center">
+				<div className="flex items-center gap-5">
 					<span>
 						<a href="https://www.facebook.com/lnmiit.ac.in/">
 							<img
@@ -65,7 +65,9 @@ const Footer = () => {
 				</div>
 				<br />
 				{/* Website update time */}
-				<p className="text-center font-light text-sm">Last updated on 04-04-2023</p>
+				<p className="text-center text-sm font-light">
+					Last updated on 04-04-2023
+				</p>
 			</div>
 			{/* Social Handles Closed */}
 

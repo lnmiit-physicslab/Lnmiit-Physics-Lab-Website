@@ -4,7 +4,7 @@ import "../css/content.css";
 const ContentInfo = () => {
 	return (
 		<div>
-			<div className="flex flex-wrap justify-around items-center">
+			<div className="flex flex-wrap items-center justify-around">
 				<div className="aboutUS  m-10 md:m-0 md:w-[40%]">
 					<p className=" text-2xl font-extrabold">ABOUT US</p>
 					<br />
