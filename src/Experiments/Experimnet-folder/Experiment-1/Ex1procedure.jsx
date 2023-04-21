@@ -1,4 +1,8 @@
 const Ex1procedure = () => {
-	return <div>Ex1procedure</div>;
+	return (
+		<div>
+			
+		</div>
+	);
 };
 export default Ex1procedure;

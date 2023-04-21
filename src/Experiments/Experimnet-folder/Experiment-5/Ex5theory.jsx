@@ -1,4 +1,7 @@
-const Ex1theory = () => {
-	return <div>Ex1theory</div>;
-};
-export default Ex1theory;
+import React from 'react'
+
+export default function Ex5theory() {
+	return (
+		<div>Ex5theory</div>
+	)
+}

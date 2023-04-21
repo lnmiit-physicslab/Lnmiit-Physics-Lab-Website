@@ -1,4 +1,9 @@
-const Ex1resources = () => {
-	return <div>Ex1resources</div>;
-};
-export default Ex1resources;
+import React from 'react'
+
+const Ex3resources = () => {
+	return (
+		<div>Ex3resources</div>
+	)
+}
+
+export default Ex3resources

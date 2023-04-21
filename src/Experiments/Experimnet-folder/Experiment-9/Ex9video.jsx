@@ -1,6 +1,7 @@
-const Ex1video = () => {
+import React from 'react'
+
+export default function Ex9video() {
   return (
-    <div>Ex1video</div>
+    <div>Ex9video</div>
   )
 }
-export default Ex1video

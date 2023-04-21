@@ -18,6 +18,11 @@ body {
 	}
 }
 
+.expHead{
+	font-size:x-large;
+	font-weight: 600;
+}
+
 .tag {
 	opacity: 0;
 	transform: translate(0, 10vh);
