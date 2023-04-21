@@ -6,7 +6,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import cx from "classnames";
 import { useEffect } from "react";
 
-const Sidebar = ({setExNo , exNo , tab , setTab}) => {
+const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div className="App left-0 w-[20%]">
@@ -28,7 +28,10 @@ const Sidebar = ({setExNo , exNo , tab , setTab}) => {
 									classNames={"fade"}
 									unmountOnExit
 								>
-									<div className="cursor-pointer text-left " onClick={() => setExNo(item.id)}>{`${item.id}. ${item.name}`}</div>
+									<div
+										className="cursor-pointer text-left "
+										onClick={() => setExNo(item.id)}
+									>{`${item.id}. ${item.name}`}</div>
 								</CSSTransition>
 							</div>
 						</li>
