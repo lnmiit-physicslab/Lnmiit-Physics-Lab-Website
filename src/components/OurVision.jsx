@@ -19,7 +19,7 @@ const OurVision = () => {
 				<p className="text-2xl font-extrabold">OUR VISION</p>
 			</div>
 			<div className="flex justify-center p-6">
-				<div className="font-semibold">
+				<div className="font-black font-semibold text-lg">
 					<div class="slideshow-container">
 						<div class="slide">{str}</div>
 					</div>

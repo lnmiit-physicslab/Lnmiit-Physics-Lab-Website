@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Ex5procedure() {
+const Ex5procedure = () => {
 	return (
 		<div>Ex5procedure</div>
 	)
 }
+
+export default Ex5procedure

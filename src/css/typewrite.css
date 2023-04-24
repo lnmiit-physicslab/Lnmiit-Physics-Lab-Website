@@ -1,9 +1,36 @@
 .typewrite{
-  animation: type 1.5s ease 0s 1 alternate;
-  font-size: xx-large;
+  font-size: 80px;
   transition: 1s;
   opacity: 1;
+  font-weight:600;
+  color: white;
+  
+  @apply bg-gradient-to-r from-slate-700 via-gray-900 to-slate-700 bg-clip-text text-transparent;
+  
 }
+.shadow{
+  box-shadow:
+  3.6px 3.5px 3.7px -27px rgba(0, 0, 0, 0.038),
+  8.2px 8px 8.4px -27px rgba(0, 0, 0, 0.056),
+  14.3px 13.9px 14.6px -27px rgba(0, 0, 0, 0.069),
+  22.7px 22px 23.2px -27px rgba(0, 0, 0, 0.08),
+  35px 34px 35.7px -27px rgba(0, 0, 0, 0.091),
+  54.6px 53.1px 55.8px -27px rgba(0, 0, 0, 0.104),
+  90.6px 88.1px 92.6px -27px rgba(0, 0, 0, 0.122),
+  181px 176px 185px -27px rgba(0, 0, 0, 0.16)
+;
+}
+.hello{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 33px;
+}
+
+.hello-2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 @keyframes type {
   0%{
     opacity: 0;

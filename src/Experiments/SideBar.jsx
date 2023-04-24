@@ -10,10 +10,11 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div className="App left-0 w-[20%]">
-			<div className={cx("sidebar bg-gray-500", { "sidebar-closed": !isOpen })}>
+			<div className={cx("sidebar", { "sidebar-closed": !isOpen })}>
 				<button
 					className={"sidebar__button"}
 					onClick={() => setIsOpen(!isOpen)}
+					className="text-slate-900 hover:scale-150 hover:cursor-pointer hover:duration-200"
 				>
 					<FontAwesomeIcon icon={faBars} />
 				</button>
@@ -29,7 +30,7 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 									unmountOnExit
 								>
 									<div
-										className="cursor-pointer text-left "
+										className="cursor-pointer text-left text-slate-900 hover:scale-110 hover:cursor-pointer hover:duration-200"
 										onClick={() => setExNo(item.id)}
 									>{`${item.id}. ${item.name}`}</div>
 								</CSSTransition>

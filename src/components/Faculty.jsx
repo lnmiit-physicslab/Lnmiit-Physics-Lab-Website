@@ -3,7 +3,7 @@ import React from "react";
 
 function Faculty() {
 	return (
-		<div className="m-10 mt-10 min-h-screen rounded-3xl border-2 pt-10 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+		<div className="m-10 mt-10 min-h-screen rounded-3xl border-2 pt-10 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]  bg-gray-50/75">
 			<h1 className="mb-7 text-center text-5xl">Faculty Members</h1>
 			<div className="flex flex-wrap items-center justify-center ">
 				{facultyMembers.map((fac) => (

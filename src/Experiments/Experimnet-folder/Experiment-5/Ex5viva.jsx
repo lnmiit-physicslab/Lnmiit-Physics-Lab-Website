@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Ex5viva() {
+const Ex5viva = () => {
 	return (
 		<div>Ex5viva</div>
 	)
 }
+
+export default Ex5viva

@@ -17,8 +17,8 @@ const AnimatedLogo = () => {
 				</div>
 			</div>
 			<div className="select-none text-center">
-				<p className="typewrite">UG Physics Laboratory</p>
-				<p className="text-2xl drop-shadow-2xl">LNMIIT , Jaipur</p>
+				<p className="hello-2 text-[80px]">UG Physics Laboratory</p>
+				<p className="text-2xl drop-shadow-2xl hello">LNMIIT , Jaipur</p>
 			</div>
 		</div>
 	);
