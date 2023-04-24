@@ -1,6 +1,7 @@
-const Ex1viva = () => {
+import React from 'react'
+
+export default function Ex10viva() {
   return (
-    <div>Ex1viva</div>
+    <div>Ex10viva</div>
   )
 }
-export default Ex1viva

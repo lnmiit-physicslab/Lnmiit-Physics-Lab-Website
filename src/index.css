@@ -6,3 +6,22 @@
 	--base-shadow: shadow-[0px_4px_16px_rgba(17, 17, 26, 0.1),
 		_0px_8px_24px_rgba(17, 17, 26, 0.1), _0px_16px_56px_rgba(17, 17, 26, 0.1)];
 }
+
+
+.very-main-wrapper {
+	position: relative;
+}
+
+.very-main-wrapper::before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	background-image: url("/src/resources/images/newback.jpg");
+	background-size: contain;
+}

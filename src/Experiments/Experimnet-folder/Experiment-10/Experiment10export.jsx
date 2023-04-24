@@ -1,9 +1,7 @@
-import { Routes } from "react-router-dom"
+import React from 'react'
 
-const Experiment1export = () => {
+export default function Experiment10export() {
   return (
-    <div>
-    </div>
+    <div>Experiment10export</div>
   )
 }
-export default Experiment1export

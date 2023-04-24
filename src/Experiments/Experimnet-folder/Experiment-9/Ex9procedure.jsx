@@ -1,6 +1,7 @@
-const Ex1procedure = () => {
+import React from 'react'
+
+export default function Ex9procedure() {
   return (
-    <div>Ex1procedure</div>
+    <div>Ex9procedure</div>
   )
 }
-export default Ex1procedure
