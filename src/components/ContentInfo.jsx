@@ -8,7 +8,7 @@ const ContentInfo = () => {
 				<div className="aboutUS  m-10 md:m-0 md:w-[40%]">
 					<p className=" text-2xl font-extrabold">ABOUT US</p>
 					<br />
-					<p>
+					<p className=" font-black font-semibold text-lg">
 						Established in 2003 the undergraduate laboratory for 1st year B.Tech
 						students is equipped with several experiments in different branches
 						in Physics. The lab is divided into two sections, one is UG Physics
