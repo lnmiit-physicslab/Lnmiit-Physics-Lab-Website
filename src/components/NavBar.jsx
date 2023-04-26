@@ -5,17 +5,17 @@ import Faculty from "./Faculty";
 import { Link } from "react-router-dom";
 import "../css/navBar.css";
 
-function NavBar() {
-	function experiments() {
+const NavBar = () => {
+	const  experiments = () => {
 		<Experiments />;
 	}
-	function videos() {
+	const videos = () => {
 		<Videos />;
-	}
-	function faculty() {
+	};
+	const faculty = () => {
 		<Faculty />;
 	}
-	function facilities() {
+	const facilities = () => {
 		<Facilities />;
 	}
 	return (
@@ -56,5 +56,5 @@ function NavBar() {
 			</div>
 		</div>
 	);
-}
+};
 export default NavBar;
