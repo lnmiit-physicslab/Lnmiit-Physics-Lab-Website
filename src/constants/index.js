@@ -129,7 +129,7 @@ export const facultyMembers = [
 		post: "Professor & Dean(Research & Consultancy)",
 		degree: "Ph.D.,IIT Delhi",
 		research:
-			"Organic Electronics,Organic Solar Cells, Dye Sensitized Solar Cells,Nano-Science and Technology",
+			"Research Areas: Organic Electronics,Organic Solar Cells, Dye Sensitized Solar Cells,Nano-Science and Technology",
 	},
 	{
 		id: 3,
@@ -137,14 +137,14 @@ export const facultyMembers = [
 		post: "Professor & HOD(Dept. of Physics)",
 		degree: "Ph.D.,IIT Kharagpur",
 		research:
-			"Research Areas:Magnetic Nano-materials and Nano-Structures,Spintronic Devices,FET-based Sensor Devices ,Materials for Fuel Cells and Hydrogen Storage",
+			"Research Areas: Magnetic Nano-materials and Nano-Structures,Spintronic Devices,FET-based Sensor Devices ,Materials for Fuel Cells and Hydrogen Storage",
 	},
 	{
 		id: 4,
 		name: "Subhayan Biswas",
 		post: "Associate Professor",
 		degree: "Ph.D.,IACS ,Kolkata",
-		research: "Research Areas:Third Generation Solar Cells,Photocatalysis",
+		research: "Research Areas: Third Generation Solar Cells,Photocatalysis",
 	},
 	{
 		id: 5,
@@ -168,7 +168,7 @@ export const facultyMembers = [
 		post: "Assistant Professor",
 		degree: "Ph.D.,IIT Kanpur",
 		research:
-			"Research Areas:Theoretical & Computational Biophysics, Molecular Motors,Genetic Networks,Theory of Single Molecular Pulling Experiments,DNA Nanomechanics",
+			"Research Areas: Theoretical & Computational Biophysics, Molecular Motors,Genetic Networks,Theory of Single Molecular Pulling Experiments,DNA Nanomechanics",
 	},
 	{
 		id: 8,
@@ -199,6 +199,7 @@ export const facultyMembers = [
 		degree: "Ph.D.,Tata Institue of Fundamental Research,Mumbai",
 		research: "Research Areas:General Relativity,Aspects of Quantum Gravity",
 	},
+
 ];
 export const YtLinks = [
 	{
