@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/footer.css";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
 	return (
 		<div className="site-footer flex w-screen flex-wrap items-center justify-around bg-gray-300 p-5 text-white text-slate-900">
@@ -66,7 +68,7 @@ const Footer = () => {
 				<br />
 				{/* Website update time */}
 				<p className="text-center text-sm font-light">
-					Last updated on 04-04-2023
+					Last updated on 4 May 2023
 				</p>
 			</div>
 			{/* Social Handles Closed */}
@@ -81,19 +83,19 @@ const Footer = () => {
 				<p>
 					Handcrafted with ❤️ by-
 					<br />-
-					<a
+					<Link to="/menu/Aditya"
 						href=""
 						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
 					>
 						Aditya Chaudhary (Y22){" "}
-					</a>
+					</Link>
 					<br />-
-					<a
+					<Link to="/menu/Aditya"
 						href=""
 						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
 					>
 						Tushar Sukhwal (Y22){" "}
-					</a>
+					</Link>
 				</p>
 			</div>
 			{/* Copyright Section CLosed */}

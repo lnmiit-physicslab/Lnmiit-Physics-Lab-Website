@@ -63,6 +63,7 @@ import Ex11procedure from "./Experiments/Experimnet-folder/Experiment-11/Ex11pro
 import Ex11viva from "./Experiments/Experimnet-folder/Experiment-11/Ex11viva";
 import Ex11resources from "./Experiments/Experimnet-folder/Experiment-11/Ex11resources";
 import "./index.css";
+import Card from "./components/Card";
 
 
 function App() {
@@ -145,6 +146,8 @@ function App() {
 						<Route path="facilities" element={<Facilities />} />
 						<Route path="faculty" element={<Faculty />} />
 						<Route path="videos" element={<Videos />} />
+						<Route path="Aditya" element={<Card />}/>
+						<Route path="Aditya" element={<Card />}/>
 					</Route>
 				</Route>
 			</Routes>
