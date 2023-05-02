@@ -25,14 +25,14 @@ export default function Ex8theory() {
     </p>
     (8.1)
     <p align="center">
-      <img src="resources/images/e7/7.7.jpg" style={{ width: "20%" }} />
+      <img src="/src/resources/images/e7/7.7.jpg" style={{ width: "20%" }} />
     </p>
     <p>
       where φ is the magnetic flux. A simple apparatus has been designed, whose
       schematic
     </p>
     <p align="center">
-      <img src="resources/images/e7/7.7.1png.jpg" style={{ width: "35%" }} />
+      <img src="/src/resources/images/e7/7.7.1png.jpg" style={{ width: "35%" }} />
     </p>
     <p align="center">
       Figure 8.1: Schematic of the coil moving in and out of the magnetic field.
@@ -65,7 +65,7 @@ export default function Ex8theory() {
     </p>
     (8.2)
     <p align="center">
-      <img src="resources/images/e7/7.12.jpg" style={{ width: "30%" }} />
+      <img src="/src/resources/images/e7/7.12.jpg" style={{ width: "30%" }} />
     </p>
     <p>
       The motion can be regarded approximately as simple harmonic and its time
@@ -73,11 +73,11 @@ export default function Ex8theory() {
     </p>
     (8.3)
     <p align="center">
-      <img src="resources/images/e7/7.13png.jpg" style={{ width: "20%" }} />
+      <img src="/src/resources/images/e7/7.13png.jpg" style={{ width: "20%" }} />
     </p>
     <p>From Eq. (8.2) and (8.3), we get.</p>
     <p align="center">
-      <img src="resources/images/e7/7.6.jpg" style={{ width: "20%" }} />
+      <img src="/src/resources/images/e7/7.6.jpg" style={{ width: "20%" }} />
     </p>
     <p>
       where vmax is the maximum linear velocity associated with ωmax. Angular

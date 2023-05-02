@@ -4,7 +4,7 @@ import { CSSTransition } from "react-transition-group";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import cx from "classnames";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -29,10 +29,10 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 									classNames={"fade"}
 									unmountOnExit
 								>
-									<div
+									<Link to={`/menu/experiments/Ex${item.id}theory`}
 										className="cursor-pointer text-left text-slate-900 hover:scale-110 hover:cursor-pointer hover:duration-200"
 										onClick={() => setExNo(item.id)}
-									>{`${item.id}. ${item.name}`}</div>
+									>{`${item.id}. ${item.name}`}</Link>
 								</CSSTransition>
 							</div>
 						</li>

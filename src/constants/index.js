@@ -5,11 +5,11 @@ const site_title = "UG Physics Laboratory";
 const title_desc = "Department of Physics , LNMIIT Jaipur";
 
 export const experiments = [
-	{
-		id: 1,
-		name: ".",
-		link: ["34VvJvlhvq0"],
-	},
+	// {
+	// 	id: 1,
+	// 	name: ".",
+	// 	link: ["34VvJvlhvq0"],
+	// },
 	{
 		id: 2,
 		name: "Acc. due to gravity by bar pendulum",

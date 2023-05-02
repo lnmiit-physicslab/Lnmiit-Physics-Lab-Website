@@ -22,7 +22,7 @@ export default function Ex11procedure() {
     previous prism experiment.
   </p>
   <p align="center">
-    <img src="resources/images/e10/10.3.jpg" style={{ width: "40%" }} />
+    <img src="/src/resources/images/e10/10.3.jpg" style={{ width: "40%" }} />
   </p>
   <p align="center"> Figure 11.3: Grating settings</p>
   <p>
@@ -75,7 +75,7 @@ export default function Ex11procedure() {
     order images on both sides, if the image on the left is higher than
   </p>
   <p align="center">
-    <img src="resources/images/e10/10.4.jpg" style={{ width: "40%" }} />
+    <img src="/src/resources/images/e10/10.4.jpg" style={{ width: "40%" }} />
   </p>
   <p align="center"> Figure 11.4: Grating images of higher order</p>
   <p>
@@ -127,7 +127,7 @@ export default function Ex11procedure() {
   </p>
   <p>2. Calculate % error for your reported λ measurement.</p>
   <p align="center">
-    <img src="resources/images/e10/10.5.jpg" style={{ width: "50%" }} />
+    <img src="/src/resources/images/e10/10.5.jpg" style={{ width: "50%" }} />
   </p>
   <p align="center">
     Table 11.1: For first order (m = 1). CSR - Circular scale reading, VSR -

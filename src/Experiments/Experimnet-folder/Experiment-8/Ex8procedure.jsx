@@ -40,7 +40,7 @@ export default function Ex8procedure() {
     instructor will explain you how to use the software.
   </p>
   <p align="center">
-    <img src="resources/images/e7/7.5.jpg" style={{ width: "30%" }} />
+    <img src="/src/resources/images/e7/7.5.jpg" style={{ width: "30%" }} />
   </p>
   <p align="center">Figure 8.2: Circuit diagram for charging of a capacitor</p>
   <ul>
@@ -69,7 +69,7 @@ export default function Ex8procedure() {
     </li>
     (8.6)
     <p align="center">
-      <img src="resources/images/e7/7.14.jpg" style={{ width: "30%" }} />
+      <img src="/src/resources/images/e7/7.14.jpg" style={{ width: "30%" }} />
     </p>
     <p>
       Note that when the magnet is at its mean position, then ω = ωmax or
@@ -79,7 +79,7 @@ export default function Ex8procedure() {
     </p>
     (8.7)
     <p align="center">
-      <img src="resources/images/e7/7.4.jpg" style={{ width: "30%" }} />
+      <img src="/src/resources/images/e7/7.4.jpg" style={{ width: "30%" }} />
     </p>
     <p>
       Hence a plot of the slope of ε(t) at the zero, corresponding to the mean
@@ -100,7 +100,7 @@ export default function Ex8procedure() {
   </p>
   (8.8)
   <p align="center">
-    <img src="resources/images/e7/7.3.jpg" style={{ width: "30%" }} />
+    <img src="/src/resources/images/e7/7.3.jpg" style={{ width: "30%" }} />
   </p>
   <p>
     where I is moment of inertia about origin, k is damping coefficient and λ0
@@ -163,10 +163,10 @@ export default function Ex8procedure() {
   </h4>
   <p />
   <p align="center">
-    <img src="resources/images/e7/7.2.jpg" style={{ width: "55%" }} />
+    <img src="/src/resources/images/e7/7.2.jpg" style={{ width: "55%" }} />
   </p>
   <p align="center">
-    <img src="resources/images/e7/e7.1.jpg" style={{ width: "55%" }} />
+    <img src="/src/resources/images/e7/e7.1.jpg" style={{ width: "55%" }} />
   </p>
   <p />
   <h4>
