@@ -14,7 +14,7 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 				<button
 					className={"sidebar__button"}
 					onClick={() => setIsOpen(!isOpen)}
-					className="text-slate-900 hover:scale-150 hover:cursor-pointer hover:duration-200"
+					ClassName="text-slate-900 hover:scale-150 hover:cursor-pointer hover:duration-200"
 				>
 					<FontAwesomeIcon icon={faBars} />
 				</button>

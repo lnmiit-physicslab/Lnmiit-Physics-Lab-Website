@@ -94,14 +94,6 @@ const Footer = () => {
 					>
 						Tushar Sukhwal (Y22){" "}
 					</a>
-										<br />-
-					<a
-						href=""
-						className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
-					>
-						Dhruv Chandak (Y22)
-					</a>
-					<br />
 				</p>
 			</div>
 			{/* Copyright Section CLosed */}
