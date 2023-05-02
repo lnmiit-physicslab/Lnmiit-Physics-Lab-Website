@@ -46,7 +46,7 @@ export default function Ex7procedure() {
   <p />
   <p>For mass m = ...... gm.</p>
   <p align="center">
-    <img src="resources/images/e6/e6.8.jpg" className="img-responsive" />
+    <img src="/src/resources/images/e6/e6.8.jpg" className="img-responsive" />
   </p>
   (6.8)
   <p align="center">where, ωgr = (ωg1 + ωg2)/2</p>(6.9)

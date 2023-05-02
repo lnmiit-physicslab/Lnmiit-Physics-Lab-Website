@@ -52,7 +52,7 @@ export default function Ex6procedure() {
     2 and 4 as shown in Fig. 6.6, to bring it over the glass plate P'.
   </p>
   <p align="center">
-    <img src="resources/images/e5/5.4.jpg" style={{ width: "20%" }} />
+    <img src="/src/resources/images/e5/5.4.jpg" style={{ width: "20%" }} />
   </p>
   <p align="center">
     Figure 6.6: Experimental setup of Newton’s ring showing the screws
@@ -84,7 +84,7 @@ export default function Ex6procedure() {
     and 20th rings respectively.
   </p>
   <p align="center">
-    <img src="resources/images/e5/5.5.jpg" style={{ width: "40%" }} />
+    <img src="/src/resources/images/e5/5.5.jpg" style={{ width: "40%" }} />
   </p>
   <p align="center">
     Table 6.1: Table for measurement of the diameter of the dark rings. MSR -

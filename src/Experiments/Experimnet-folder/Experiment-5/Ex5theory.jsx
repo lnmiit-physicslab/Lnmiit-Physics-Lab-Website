@@ -52,10 +52,10 @@ export default function Ex5theory() {
       <b>Relation between μ and λ</b>
     </h4>
     <p align="center">
-      <img src="resources/images/e4/4.1.jpg" className="img-responsive" />
+      <img src="/src/resources/images/e4/4.1.jpg" className="img-responsive" />
     </p>
     <p align="center">
-      <img src="resources/images/e4/4.2.jpg" className="img-responsive" />{" "}
+      <img src="/src/resources/images/e4/4.2.jpg" className="img-responsive" />{" "}
     </p>
     <p align="center">
       Figure 5.3: Variation of the angle of deviation (θd) with the angle of
@@ -76,7 +76,7 @@ export default function Ex5theory() {
     </p>
     (5.1)
     <p align="center">
-      <img src="resources/images/e4/4.3.jpg" />
+      <img src="/src/resources/images/e4/4.3.jpg" />
     </p>
     <p>
       {" "}
@@ -87,14 +87,14 @@ export default function Ex5theory() {
     </p>
     (5.2)
     <p align="center">
-      <img src="resources/images/e4/4.4.jpg" />
+      <img src="/src/resources/images/e4/4.4.jpg" />
     </p>
     <p>An empirical equation of the form</p>(5.3)
     <p align="center">
-      <img src="resources/images/e4/4.5.jpg" />
+      <img src="/src/resources/images/e4/4.5.jpg" />
     </p>
     <p align="center">
-      <img src="resources/images/e4/4.6.jpg" className="img-responsive" />
+      <img src="/src/resources/images/e4/4.6.jpg" className="img-responsive" />
     </p>
     <p align="center">Figure 5.4: Condition for minimum deviation</p>
     <p>

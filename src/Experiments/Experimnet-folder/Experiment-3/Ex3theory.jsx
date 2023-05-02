@@ -15,7 +15,7 @@ const Ex3theory = () => {
       <b>Theory :</b>
     </h4>
     <p align="center">
-      <img src="resources/images/e6/e6.1.jpg" />
+      <img src="/src/resources/images/e6/e6.1.jpg" />
     </p>
     <p>
       The magnetic induction of a circular coil of radius R, carrying a current
@@ -24,7 +24,7 @@ const Ex3theory = () => {
     </p>
     (7.1)
     <p align="center">
-      <img src="resources/images/e6/e6.2.jpg" className="img-responsive" />
+      <img src="/src/resources/images/e6/e6.2.jpg" className="img-responsive" />
     </p>
     <p>
       where μ0 is the permeability of free space. At z = 0, B(0) = μoI/(2R) ~=
@@ -33,7 +33,7 @@ const Ex3theory = () => {
       magnetic field adds in the space between them. Then we have{" "}
     </p>
     <p align="center">
-      <img src="resources/images/e6/e6.3.jpg" />
+      <img src="/src/resources/images/e6/e6.3.jpg" />
     </p>
     <p>where, st = S/R, zt = z/R and B10 = μoI/(2R).</p>
     <p>
@@ -62,7 +62,7 @@ const Ex3theory = () => {
       spacer rails so
     </p>
     <p align="center">
-      <img src="resources/images/e6/e6.4.jpg" className="img-responsive" />
+      <img src="/src/resources/images/e6/e6.4.jpg" className="img-responsive" />
     </p>
     <p align="center">Figure 7.3: Experimental setup of Helmholtz coil.</p>
     <p>
