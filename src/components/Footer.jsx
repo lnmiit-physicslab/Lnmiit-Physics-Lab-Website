@@ -80,7 +80,7 @@ const Footer = () => {
 					Reserved.
 				</p>
 				<br />
-				<p>
+				<p className="text-base">
 					Handcrafted with ❤️ by-
 					<br />-
 					<Link to="/menu/Aditya"
