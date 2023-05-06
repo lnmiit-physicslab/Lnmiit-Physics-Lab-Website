@@ -9,11 +9,6 @@ export const Slider = [
 		quote: "Experiment is the interpreter of nature",
 	},
 	{
-		id: 3,
-		quote:
-			"Physics is the study of the basic laws that govern the universe, from the smallest subatomic particles to the largest structures in the cosmos.",
-	},
-	{
 		id: 4,
 		quote:
 			"The universe is full of magical things patiently waiting for our wits to grow sharper",

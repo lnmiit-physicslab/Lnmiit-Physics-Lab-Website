@@ -3,7 +3,6 @@ import AnimatedLogo from "../components/AnimatedLogo";
 import Footer from "../components/Footer";
 import Content from "../components/Content";
 import MobileNavbar from "../components/MobileNavbar";
-import App from "../App";
 
 const Home = () => {
 	return (
