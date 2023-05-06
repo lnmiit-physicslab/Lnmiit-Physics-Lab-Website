@@ -12,6 +12,26 @@
 	position: relative;
 }
 
+@media only screen and (max-width: 500px) {
+	.flexify{
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	.head{
+		font-size: 30px;
+		color: #1900ffc6;
+		font-weight: 900;
+	}
+	.textify{
+		font-size: 20px;
+	}
+}
+
 .very-main-wrapper::before {
 	content: ' ';
 	display: block;
@@ -22,6 +42,8 @@
 	width: 100%;
 	height: 100%;
 	opacity: 0.8;
+	background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
 	background-image: url("/src/resources/images/newback.jpg");
-	background-size: contain;
 }
