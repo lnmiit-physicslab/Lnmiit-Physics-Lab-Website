@@ -14,7 +14,7 @@ function Videos() {
 						<div className="mb-10 border-2 shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] ">
 							<div
 								key={vid.id}
-								className=" w-[420px] flex-col items-center justify-center  "
+								className="w-[420px] flex-col items-center justify-center  "
 							>
 								<iframe
 									className=" rounded-lg align-middle"
