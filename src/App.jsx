@@ -67,7 +67,7 @@ import Card from "./components/Card";
 
 
 function App() {
-	const [exNo, setExNo] = useState(1);
+	const [exNo, setExNo] = useState(2);
 	const [tab, setTab] = useState("Theory");
 
 	return (
