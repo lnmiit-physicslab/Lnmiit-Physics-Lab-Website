@@ -13,6 +13,12 @@ body {
 	color: black;
 
 }
+@media only screen and (max-width: 500px ) {
+
+	* {
+		overflow-x: hidden;
+	}
+}
 
 @media only screen and (max-width: 500px){
 	.head{
@@ -20,12 +26,13 @@ body {
 	}
 }
 
+/* 
 @media only screen and (max-width: 600px) {
 	body {
 		background-image: linear-gradient(to right bottom, #6f8bb6, #3b9dbe, #1cacac, #5bb687, #9db761);
 		z-index: -100;
 	}
-}
+} */
 
 .expHead{
 	font-size:x-large;

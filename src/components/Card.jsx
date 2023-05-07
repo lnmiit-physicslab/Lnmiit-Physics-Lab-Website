@@ -1,9 +1,9 @@
 import "../css/card.css"
 const Aditya = () => {
 	return (
-		<div className="tab-content m-20 min-h-screen flex justify-evenly items-center rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+		<div className="tab-content md:m-20 min-h-screen flex  flex-wrap justify-evenly items-center rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 			<div id="Aditya" className="card flex flex-col justify-center gap-2 items-center">
-				<div className="w-96">
+				<div className="md:w-96 w-[90%]">
 					<img
 						src="/src/resources/images/Aditya.jpeg"
 						className="rounded-2xl"
@@ -60,7 +60,7 @@ const Aditya = () => {
 				</div>
 			</div>
 			<div id="Tushar" className="card flex flex-col justify-center gap-2 items-center">
-				<div className="w-96">
+				<div className="md:w-96 w-[90%]">
 					<img src="/src/resources/images/Aditya.jpeg" className="rounded-2xl"/>
 				</div>
 				<div className="text-3xl">

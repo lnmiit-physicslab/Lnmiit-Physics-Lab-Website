@@ -6,13 +6,13 @@ const MobileNavbar = () => {
 			<div class=" visible  md:hidden">
 				<input id="toggle" type="checkbox" />
 
-				<label class="toggle-container" for="toggle">
-					<span class="button button-toggle"></span>
+				<label className="toggle-container ml-[-200px]" for="toggle">
+					<span className="button button-toggle"></span>
 				</label>
 
 				{/* <!-- The Nav Menu --> */}
-				<nav class="nav">
-					<Link to="/menu/experiments" className="nav-item">
+				<nav class="nav w-[120px] ">
+					<Link to="/menu/experiments" className="nav-item ">
 						Experiments
 					</Link>
 					<Link to="/menu/videos" className="nav-item">
