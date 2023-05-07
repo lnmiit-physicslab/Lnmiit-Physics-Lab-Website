@@ -20,21 +20,21 @@ const ExperimentNavBar = ({ tab, setTab, exNo, setExNo }) => {
 			</Link>
 			<Link
 				to={`Ex${exNo}video`}
-				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				className="vis hover:animate-pulse hover:text-indigo-500 hover:duration-150"
 				onClick={setTab("video")}
 			>
 				Video
 			</Link>
 			<Link
 				to={`Ex${exNo}resources`}
-				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				className="vis hover:animate-pulse hover:text-indigo-500 hover:duration-150"
 				onClick={setTab("resources")}
 			>
 				Resources
 			</Link>
 			<Link
 				to={`Ex${exNo}viva`}
-				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
+				className="vis hover:animate-pulse hover:text-indigo-500 hover:duration-150"
 				onClick={setTab("viva")}
 			>
 				Viva Voice
