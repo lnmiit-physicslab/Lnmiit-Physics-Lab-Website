@@ -21,7 +21,7 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 				<ul>
 					{experiments.map((item) => (
 						<li key={item.id}>
-							<div className={"sidebar__listItem"}>
+							<div className={"sidebar__listItem"} className="rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 								<FontAwesomeIcon className={"sidebar__icon"} icon={item.icon} />
 								<CSSTransition
 									in={isOpen}
@@ -29,8 +29,9 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 									classNames={"fade"}
 									unmountOnExit
 								>
-									<Link to={`/menu/experiments/Ex${item.id}theory`}
-										className="cursor-pointer text-left text-slate-900 hover:scale-110 hover:cursor-pointer hover:duration-200"
+									<Link
+										to={`/menu/experiments/Ex${item.id}theory`}
+										className="cursor-pointer text-left text-slate-900 hover:scale-110 hover:cursor-pointer hover:duration-200 "
 										onClick={() => setExNo(item.id)}
 									>{`${item.id}. ${item.name}`}</Link>
 								</CSSTransition>
