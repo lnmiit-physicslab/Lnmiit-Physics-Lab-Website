@@ -5,10 +5,10 @@ const ContentInfo = () => {
 	return (
 		<div>
 			<div className="flex flex-wrap items-center justify-around">
-				<div className="aboutUS  m-10 md:m-0 md:w-[40%] rounded-3xl shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] bg-gray-50/75 p-3">
+				<div className="aboutUS m-10 rounded-2xl shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] bg-gray-50/75 p-3">
 					<p className=" text-2xl font-extrabold">ABOUT US</p>
 					<br />
-					<p className=" font-black font-semibold text-lg">
+					<p className="para font-black font-semibold text-lg">
 						Established in 2003 the undergraduate laboratory for 1st year B.Tech
 						students is equipped with several experiments in different branches
 						in Physics. The lab is divided into two sections, one is UG Physics

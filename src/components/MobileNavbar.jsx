@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const MobileNavbar = () => {
 	return (
 		<div>
-			<div class="container visible ml-[10px] md:hidden">
+			<div class=" visible  md:hidden">
 				<input id="toggle" type="checkbox" />
 
 				<label class="toggle-container" for="toggle">
