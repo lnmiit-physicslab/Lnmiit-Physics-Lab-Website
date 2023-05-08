@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Ex10video() {
 	return (
-		<div className="flex flex-col justify-evenly tab-content m-10 mt-10 min-h-screen rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+		<div className="flex flex-col justify-evenly tab-content m-10 mt-10 min-h-screen rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 			<p align="center">
 				<iframe
 					width="500vw"
