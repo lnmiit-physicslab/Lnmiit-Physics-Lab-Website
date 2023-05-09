@@ -16,7 +16,7 @@ const Experiments = ({ setExNo, exNo, tab, setTab }) => {
 					setTab={setTab}
 					tab={tab}
 				/>
-				<Outlet />
+				<Outlet/>
 			</div>
 		</div>
 	);
