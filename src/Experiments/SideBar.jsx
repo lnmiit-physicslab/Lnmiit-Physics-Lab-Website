@@ -7,9 +7,9 @@ import cx from "classnames";
 import { Link } from "react-router-dom";
 
 const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
-	const [isOpen, setIsOpen] = useState(false);
+	const [isOpen, setIsOpen] = useState(true);
 	return (
-		<div className="App left-0 w-[20%]">
+		<div className="App right-0 w-[20%] ">
 			<div className={cx("sidebar", { "sidebar-closed": !isOpen })}>
 				<button
 					className={"sidebar__button"}
@@ -18,10 +18,10 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 				>
 					<FontAwesomeIcon icon={faBars} />
 				</button>
-				<ul>
+				<ul className="pt-4">
 					{experiments.map((item) => (
 						<li key={item.id}>
-							<div className={"sidebar__listItem"} className="rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+							<div className="{sidebar__listItem} rounded-3xl border-2 bg-gray-50/75 py-4 px-1  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] ">
 								<FontAwesomeIcon className={"sidebar__icon"} icon={item.icon} />
 								<CSSTransition
 									in={isOpen}
@@ -31,8 +31,8 @@ const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 								>
 									<Link
 										to={`/menu/experiments/Ex${item.id}theory`}
-										className="cursor-pointer text-left text-slate-900 hover:scale-110 hover:cursor-pointer hover:duration-200 "
-										onClick={() => setExNo(item.id)}
+										className="cursor-pointer text-left text-slate-900 hover:scale-110 hover:cursor-pointer hover:duration-200  "
+										onClick={() => {setExNo(item.id);}}
 									>{`${item.id}. ${item.name}`}</Link>
 								</CSSTransition>
 							</div>

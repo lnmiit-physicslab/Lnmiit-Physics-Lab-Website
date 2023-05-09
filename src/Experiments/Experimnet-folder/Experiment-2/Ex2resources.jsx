@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ex2resources = () => {
 	return (
-		<div className='tab-content m-10 mt-10 flex flex-col h-[40%] rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]'>
+		<div className='tab-content m-10 mt-10 flex flex-col h-[40%] rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]'>
 			<h3 className=' font-extrabold'>Resources</h3>
 			<div className='flex flex-col items-start content-evenly'>
 				<a target="_blank" href='https://www.youtube.com/watch?v=x_t7x26vTRI'>1. https://www.youtube.com/watch?v=x_t7x26vTRI</a>
