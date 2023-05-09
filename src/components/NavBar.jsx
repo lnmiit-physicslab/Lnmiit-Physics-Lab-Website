@@ -19,14 +19,14 @@ const NavBar = () => {
 		<Facilities />;
 	}
 	return (
-		<div className="grad invisible absolute z-10 h-[7vh] w-[100vw] text-white  md:visible ">
+		<div className="grad absolute z-10 h-[7vh] w-[100vw] text-white">
 			<div className="flex justify-around p-4 text-lg font-bold">
 				<div>
 					<button
 						onClick={experiments}
 						className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
 					>
-						<Link to="/menu/experiments/Ex1theory">Experiments</Link>
+						<Link to="/menu/experiments/Ex2theory">Experiments</Link>
 					</button>
 				</div>
 				<div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<div className="site-footer flex w-screen flex-wrap items-center justify-around bg-gray-300 p-5 text-white text-slate-900">
+		<div className="site-footer flex w-screen flex-wrap items-center justify-around bg-gray-300 p-5 text-white ">
 			{/* Logo Container Started */}
 			<div className="logo h-28 ">
 				<a href="https://www.lnmiit.ac.in/">
@@ -74,7 +74,7 @@ const Footer = () => {
 			{/* Social Handles Closed */}
 
 			{/* Copyright Section Started */}
-			<div className="copyright h-28 w-48 text-xs">
+			<div className="copyright h-32 w-48 text-xs">
 				<p>
 					Copyright © 2023-2028 Department of Physics, LNMIIT. All Rights
 					Reserved.
