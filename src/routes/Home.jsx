@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<div>
 			<NavBar />
-			<MobileNavbar />
+			{/* <MobileNavbar /> */}
 			<AnimatedLogo />
 			<Content />
 			<Footer />

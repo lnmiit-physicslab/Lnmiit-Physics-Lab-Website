@@ -1,18 +1,10 @@
 body {
-	/* background: linear-gradient(
-		0deg,
-		rgba(114, 136, 218, 1) 0%,
-		rgba(227, 149, 149, 1) 50%,
-		rgba(155, 122, 219, 1) 100%
-	);
-	background: rgb(114, 136, 218);
-	background-image: url("/src/resources/images/backspec.jpg");
-	background-size: contain; */
 	z-index: -100;
-	/* color: whitesmoke; */
 	color: black;
 
 }
+
+
 
 @media only screen and (max-width: 800px ) {
 	.vis{
@@ -24,6 +16,9 @@ body {
 	* {
 		overflow-x: hidden;
 	}
+	.sidebar{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -31,14 +26,6 @@ body {
 		font-size: 37px;
 	}
 }
-
-/* 
-@media only screen and (max-width: 600px) {
-	body {
-		background-image: linear-gradient(to right bottom, #6f8bb6, #3b9dbe, #1cacac, #5bb687, #9db761);
-		z-index: -100;
-	}
-} */
 
 .expHead{
 	font-size:x-large;
@@ -56,10 +43,6 @@ body {
 	transform: translate(0, 0);
 }
 
-/* css for mobile navbar start  */
-/* Basic Styles */
-
-/* Toggle Functionality */
 #toggle {
 	display: none;
 }

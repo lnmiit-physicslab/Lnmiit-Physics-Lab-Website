@@ -7,7 +7,7 @@ const Routing = ({ credits, setCredits }) => {
 	return (
 		<div>
 			<NavBar2 />
-			<MobileNavbar />
+			{/* <MobileNavbar /> */}
 			<Outlet />
 			<Footer credits={credits} setCredits={setCredits} />
 		</div>

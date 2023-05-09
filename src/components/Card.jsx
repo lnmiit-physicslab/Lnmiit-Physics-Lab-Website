@@ -1,4 +1,4 @@
-import "../css/card.css"
+
 const Aditya = () => {
 	return (
 		<div className="tab-content md:m-20 min-h-screen flex  flex-wrap justify-evenly items-center rounded-3xl border-2 bg-gray-50/75 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
