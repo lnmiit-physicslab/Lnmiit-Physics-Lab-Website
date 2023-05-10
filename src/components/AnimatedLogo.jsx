@@ -3,7 +3,7 @@ import "../css/typewrite.css";
 
 const AnimatedLogo = () => {
 	return (
-		<div>
+		<div className="-z-10">
 			<div id="atom">
 				<div id="nucleus"></div>
 				<div class="orbit">
