@@ -6,15 +6,16 @@ export default function Ex6video() {
 			<h3>VIDEO</h3>
 				<p align="center">
 					<iframe
-						width="500vw"
-						height="280vh"
+						// width="500vw"
+					// height="280vh"
+					className='video'
 						src="https://www.youtube.com/embed/FUb52bdzAOM"
 						frameborder="0"
 						allow="autoplay; encrypted-media"
 						allowfullscreen
 					></iframe>
 				</p>
-			<p className=" invisible">
+			<p className="hidden md:invisible md:inline">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vero
 				architecto. Ullam doloribus consequatur sunt dolor nobis rem, culpa
 				optio facere! Nostrum fugit, veritatis laudantium dolor eaque dicta

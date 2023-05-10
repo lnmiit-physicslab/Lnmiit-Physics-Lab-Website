@@ -4,21 +4,24 @@ body {
 
 }
 
-
-
-@media only screen and (max-width: 800px ) {
+@media (min-width: 500px) and (max-width: 2000px ) {
 	.vis{
 		display: none;
 	}
+
 }
 
 @media only screen and (max-width: 500px ) {
 	* {
 		/* overflow-x: hidden; */
 	}
-	.sidebar{
-		display: none;
+
+	.video{
+		width:45%;
+		height:40vh;
+
 	}
+	
 }
 
 @media only screen and (max-width: 500px){

@@ -9,15 +9,15 @@ import { Link } from "react-router-dom";
 const Sidebar = ({ setExNo, exNo, tab, setTab }) => {
 	const [isOpen, setIsOpen] = useState(true);
 	return (
-		<div className="App right-0 w-[20%] ">
+		<div className="App right-0 w-[20%] -mt-5 z-10 md:pt-20 ml-9 md:ml-0">
 			<div className={cx("sidebar", { "sidebar-closed": !isOpen })}>
-				<button
-					className={"sidebar__button"}
+				{/* <button
+					className="{sidebar__button} vis"
 					onClick={() => setIsOpen(!isOpen)}
 					ClassName="text-slate-900 hover:scale-150 hover:cursor-pointer hover:duration-200"
 				>
 					<FontAwesomeIcon icon={faBars} />
-				</button>
+				</button> */}
 				<ul className="pt-4">
 					{experiments.map((item) => (
 						<li key={item.id}>
