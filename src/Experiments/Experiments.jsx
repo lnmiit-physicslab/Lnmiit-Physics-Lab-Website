@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 const Experiments = ({ setExNo, exNo, tab, setTab }) => {
 	return (
-		<div className="flex">
+		<div className="flex flex-col sm:flex-row">
 			<div className="sidebar">
 				<Sidebar setExNo={setExNo} exNo={exNo} setTab={setTab} tab={tab} />
 			</div>
