@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Ex8resources() {
 	return (
-		<div className="tab-content m-10 mt-10 flex flex-col h-[40%] rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+		<div className="tab-content m-10 mt-10 flex h-[40%] flex-col rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 			<div id="menu3" className="tab-pane fade">
 				<h3>RESOURCES</h3>
 				<p>
@@ -21,7 +21,7 @@ export default function Ex8resources() {
 							href="http://nptel.ac.in/courses/Webcourse-contents/IIT-%20Guwahati/engg_phy2/md07_experiment/module10/lectures/lect1/em_induction/topic2/slides/slide6.htm"
 							target="_blank"
 						>
-							http://nptel.ac.in/courses/Webcourse-contents/IIT-%20Guwahati/engg_phy2/md07_experiment/module10/lectures/lect1/em_induction/topic2/slides/slide6.htm
+							http://nptel.ac.in/courses/Webcourse-contents/IIT-%20Guwahati/engg<br></br>_phy2/md07_experiment/module10/lectures/lect1/<br></br>em_induction/topic2/slides/slide6.htm
 						</a>
 						<br />
 						<br />
