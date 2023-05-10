@@ -10,7 +10,8 @@ const Home = () => {
 		<div>
 			{/* <NavBar /> */}
 			{/* <MobileNavbar /> */}
-			<Nav /> 
+			{/* <Nav />  */}
+			<NavBar/>
 			<AnimatedLogo />
 			<Content />
 			<Footer />

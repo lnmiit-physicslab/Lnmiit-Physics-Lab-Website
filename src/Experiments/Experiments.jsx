@@ -7,9 +7,9 @@ import Nav from "../components/Nav";
 const Experiments = ({ setExNo, exNo, tab, setTab }) => {
 	return (
 		<div className="flex flex-col sm:flex-row">
-			<div className="sidebar">
+			{/* <div className="sidebar">
 				<Sidebar setExNo={setExNo} exNo={exNo} setTab={setTab} tab={tab} />
-			</div>
+			</div> */}
 			<div>
 				<ExperimentNavBar
 					setExNo={setExNo}
@@ -17,7 +17,7 @@ const Experiments = ({ setExNo, exNo, tab, setTab }) => {
 					setTab={setTab}
 					tab={tab}
 				/>
-				<Nav />
+				{/* <Nav /> */}
 				<Outlet />
 			</div>
 		</div>
