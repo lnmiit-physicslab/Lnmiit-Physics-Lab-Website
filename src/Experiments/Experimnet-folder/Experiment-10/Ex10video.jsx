@@ -5,8 +5,9 @@ export default function Ex10video() {
 		<div className="flex flex-col justify-evenly tab-content m-10 mt-10 min-h-screen rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 			<p align="center">
 				<iframe
-					width="500vw"
-					height="280vh"
+					// width="500vw"
+					// height="280vh"
+					className='video'
 					src="https://www.youtube.com/embed/uohd0TtqOaw"
 					frameBorder={0}
 					allow="autoplay; encrypted-media"
@@ -15,15 +16,16 @@ export default function Ex10video() {
 			</p>
 			<p align="center">
 				<iframe
-					width="500vw"
-					height="280vh"
+					// width="500vw"
+					// height="280vh"
+					className='video'
 					src="https://www.youtube.com/embed/PgW7qaOZD0U"
 					frameBorder={0}
 					allow="autoplay; encrypted-media"
 					allowFullScreen=""
 				/>
 			</p>
-			<p className=" invisible">
+			<p className="hidden md:invisible md:inline">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vero
 				architecto. Ullam doloribus consequatur sunt dolor nobis rem, culpa
 				optio facere! Nostrum fugit, veritatis laudantium dolor eaque dicta

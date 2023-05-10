@@ -21,7 +21,7 @@ export default function Ex6resources() {
 							href="https://www.kullabs.com/classes/subjects/units/lessons/notes/note-detail/1729"
 							target="_blank"
 						>
-							https://www.kullabs.com/classes/subjects/units/lessons/notes/note-detail/1729
+							https://www.kullabs.com/classes/subjects/units/<br></br>lessons/notes/note-detail/1729
 						</a>
 						<br />
 						<br />

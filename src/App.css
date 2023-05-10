@@ -8,15 +8,17 @@ body {
 	.vis{
 		display: none;
 	}
+	.video{
+		width:45%;
+		height:40vh;
+	}
+	
 }
 
 @media only screen and (max-width: 500px){
 	.head{
 		font-size: 37px;
 	}
-	/* * {
-		overflow-x: hidden;
-	} */
 }
 
 .expHead{

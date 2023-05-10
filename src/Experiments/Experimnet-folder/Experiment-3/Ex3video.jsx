@@ -7,15 +7,16 @@ const Ex3video = () => {
 				<h3>VIDEO</h3>
 				<p align="center">
 					<iframe
-						width="500vw"
-						height="280vh"
+						// width="500vw"
+					// height="280vh"
+					className='video'
 						src="https://www.youtube-nocookie.com/embed/w90jgVHoI8g?rel=0&showinfo=0"
 						frameBorder={0}
 						allow="autoplay; encrypted-media"
 						allowFullScreen=""
 					/>
 				</p>
-				<p className=" invisible">
+				<p className="hidden md:invisible md:inline">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
 					vero architecto. Ullam doloribus consequatur sunt dolor nobis rem,
 					culpa optio facere! Nostrum fugit, veritatis laudantium dolor eaque
