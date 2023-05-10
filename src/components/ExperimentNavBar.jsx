@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 const ExperimentNavBar = ({ tab, setTab, exNo, setExNo }) => {
 	return (
-		<div className=" flex h-7 w-[100%] justify-around bg-gray-300">
+		<div className=" flex h-7 w-[100%] justify-around bg-gray-300 mt-40 md:mt-20" >
 			<Link
 				to={`Ex${exNo}theory`}
 				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
