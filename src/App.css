@@ -16,6 +16,10 @@ body {
 		/* overflow-x: hidden; */
 	}
 
+	.sidebar {
+		display: none;
+	}
+
 	.video{
 		width:45%;
 		height:40vh;

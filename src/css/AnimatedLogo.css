@@ -16,7 +16,7 @@ body {
 
 @media (min-width: 500px) and (max-width: 2000px) {
   #atom {
-		z-index: 100;
+		z-index: 1;
 		position: relative;
 		width: 300px;
 		height: 300px;
