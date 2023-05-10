@@ -2,6 +2,7 @@ import React from "react";
 import Sidebar from "./SideBar";
 import ExperimentNavBar from "../components/ExperimentNavBar";
 import { Outlet } from "react-router-dom";
+import Nav from "../components/Nav";
 
 const Experiments = ({ setExNo, exNo, tab, setTab }) => {
 	return (
@@ -16,7 +17,8 @@ const Experiments = ({ setExNo, exNo, tab, setTab }) => {
 					setTab={setTab}
 					tab={tab}
 				/>
-				<Outlet/>
+				<Nav />
+				<Outlet />
 			</div>
 		</div>
 	);
