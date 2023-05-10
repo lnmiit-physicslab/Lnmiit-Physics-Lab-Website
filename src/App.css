@@ -1,5 +1,5 @@
 body {
-	z-index: -100;
+	z-index: -10;
 	color: black;
 
 }
@@ -8,9 +8,18 @@ body {
 	.vis{
 		display: none;
 	}
+
+}
+
+@media only screen and (max-width: 500px ) {
+	* {
+		/* overflow-x: hidden; */
+	}
+
 	.video{
 		width:45%;
 		height:40vh;
+
 	}
 	
 }

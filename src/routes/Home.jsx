@@ -3,12 +3,14 @@ import AnimatedLogo from "../components/AnimatedLogo";
 import Footer from "../components/Footer";
 import Content from "../components/Content";
 import MobileNavbar from "../components/MobileNavbar";
+import Nav from "../components/Nav";
 
 const Home = () => {
 	return (
 		<div>
-			<NavBar />
+			{/* <NavBar /> */}
 			{/* <MobileNavbar /> */}
+			<Nav /> 
 			<AnimatedLogo />
 			<Content />
 			<Footer />
