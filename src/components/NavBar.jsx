@@ -62,7 +62,7 @@ const NavBar = () => {
 				<div className="hidden md:block">
 					<a href="https://www.lnmiit.ac.in/">
 						<img
-							src="/src/resources/images/lnmiit_logo1_reduced.png"
+							src="/resources/images/lnmiit_logo1_reduced.png"
 							alt="LNMIIT Logo"
 							className="h-[5rem] w-[12rem] p-3"
 						></img>
