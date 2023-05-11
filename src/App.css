@@ -23,9 +23,14 @@ body {
 	.video{
 		width:45%;
 		height:40vh;
-
+		
 	}
 	
+}
+
+.video {
+	width: 30%;
+	height: 30vh;
 }
 
 @media only screen and (max-width: 500px){

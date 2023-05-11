@@ -29,7 +29,7 @@ export default function Ex10procedure() {
     the laser beam is incident on the full width of the slit.
   </p>
   <p align="center">
-    <img src="/src/resources/images/e9/9.7.jpg" style={{ width: "40%" }} />
+    <img src="/resources/images/e9/9.7.jpg" style={{ width: "40%" }} />
   </p>
   <p align="center">
     Figure 10.2: Experimental setup for single slit diffraction pattern
@@ -73,7 +73,7 @@ export default function Ex10procedure() {
   </h4>
   <p />
   <p align="center">
-    <img src="/src/resources/images/e9/9.8.jpg" style={{ width: "50%" }} />
+    <img src="/resources/images/e9/9.8.jpg" style={{ width: "50%" }} />
   </p>
   <p />
   <h4>

@@ -21,7 +21,7 @@ const Ex5procedure = () => {
       following parts. To obtain satisfactory
     </p>
     <p align="center">
-      <img src="/src/resources/images/e4/4.7.jpg" className="img-responsive" />
+      <img src="/resources/images/e4/4.7.jpg" className="img-responsive" />
     </p>
     <p align="center">Figure 4: Schematic diagram of the prism spectromete</p>
     <p>
@@ -78,18 +78,18 @@ const Ex5procedure = () => {
     </p>
     (5.4),(5.5)
     <p align="center">
-      <img src="/src/resources/images/e4/4.8.jpg" />
+      <img src="/resources/images/e4/4.8.jpg" />
     </p>
     <p>Therefore, the least count</p>(5.6),(5.7)
     <p align="center">
-      <img src="/src/resources/images/e4/4.9.jpg" />
+      <img src="/resources/images/e4/4.9.jpg" />
     </p>
     <p>Since 1 CSD = (1/2)° = 30', we have</p>(5.8)
     <p align="center">
-      <img src="/src/resources/images/e4/4.10.jpg" />
+      <img src="/resources/images/e4/4.10.jpg" />
     </p>
     <p align="center">
-      <img src="/src/resources/images/e4/4.11.jpg" className="img-responsive" />
+      <img src="/resources/images/e4/4.11.jpg" className="img-responsive" />
     </p>
     <p align="center">
       Figure 5.6: Measurement of the reflecting angle of prism.
@@ -153,13 +153,13 @@ const Ex5procedure = () => {
       spectrum. The approximate prism position is as shown in Fig. 5.7.
     </p>
     <p align="center">
-      <img src="/src/resources/images/e4/4.12.jpg" />
+      <img src="/resources/images/e4/4.12.jpg" />
     </p>
     <p align="center">
       Figure 5.7: Prism position for viewing the spectrum due to refraction
     </p>
     <p align="center">
-      <img src="/src/resources/images/e4/4.13.jpg" className="img-responsive" />
+      <img src="/resources/images/e4/4.13.jpg" className="img-responsive" />
     </p>
     <p align="center">Table 5.1: Discharge lamp wavelengths</p>
     <p>
@@ -212,7 +212,7 @@ const Ex5procedure = () => {
     </h5>
     <p>Least count of the spectrometer (l.c.) = .......</p>
     <p align="center">
-      <img src="/src/resources/images/e4/4.14.jpg" className="img-responsive" />
+      <img src="/resources/images/e4/4.14.jpg" className="img-responsive" />
     </p>
     <p align="center">
       Table 5.2: Table for measuring angle of prism (A). CSR - Circular scale
@@ -251,7 +251,7 @@ const Ex5procedure = () => {
       1. Calculate the refractive index for different values of wavelengths.
     </p>
     <p>
-      <img src="/src/resources/images/e4/4.15.jpg" className="img-responsive" />
+      <img src="/resources/images/e4/4.15.jpg" className="img-responsive" />
     </p>
     <p align="center">
       Table 5.3: Table for measuring angle of minimum deviation. CSR - Circular
@@ -279,7 +279,7 @@ const Ex5procedure = () => {
       gradient.
     </p>
     <p align="center">
-      <img src="/src/resources/images/e4/4.16.jpg" className="img-responsive" />
+      <img src="/resources/images/e4/4.16.jpg" className="img-responsive" />
     </p>
     <p align="center">
       Figure 5.8: Difference of angles in the two cases should be as follows:

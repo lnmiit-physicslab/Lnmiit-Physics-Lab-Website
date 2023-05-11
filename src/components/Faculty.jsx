@@ -13,7 +13,7 @@ function Faculty() {
 						className="flexify flex  w-[100%] items-center pl-7 pb-5 md:w-[40%]"
 					>
 						<img
-							src={`/src/resources/images/faculty/${fac.id}.jpg`}
+							src={`/resources/images/faculty/${fac.id}.jpg`}
 							alt=""
 							className="h-56 w-56"
 						/>

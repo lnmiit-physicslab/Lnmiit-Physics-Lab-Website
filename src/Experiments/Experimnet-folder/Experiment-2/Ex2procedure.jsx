@@ -20,7 +20,7 @@ const Ex2procedure = () => {
       </p>
       <p align="center">
         <img
-          src="/src/resources/images/e1/bar_pendu.jpg"
+          src="/resources/images/e1/bar_pendu.jpg"
           className="img-responsive"
         />
       </p>

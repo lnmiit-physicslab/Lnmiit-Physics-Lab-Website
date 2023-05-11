@@ -45,7 +45,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("/src/resources/images/newback.jpg");
+	background-image: url("/resources/images/newback.jpg");
 }
 
 * {

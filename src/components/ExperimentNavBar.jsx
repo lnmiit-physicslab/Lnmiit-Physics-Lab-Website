@@ -38,7 +38,7 @@ const ExperimentNavBar = ({ tab, setTab, exNo, setExNo }) => {
 				className="hover:animate-pulse hover:text-indigo-500 hover:duration-150"
 				onClick={setTab("viva")}
 			>
-				Viva Voice
+				Viva Voce
 			</Link>
 		</div>
 	);
