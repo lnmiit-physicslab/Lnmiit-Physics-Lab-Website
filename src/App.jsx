@@ -87,7 +87,7 @@ function App() {
 								/>
 							}
 						>
-							<Route index path="Ex1theory" element={<Ex1theory />} />
+							<Route path="Ex1theory" element={<Ex1theory />} />
 							<Route path="Ex1video" element={<Ex1video />} />
 							<Route path="Ex1resources" element={<Ex1resources />} />
 							<Route path="Ex1procedure" element={<Ex1procedure />} />
