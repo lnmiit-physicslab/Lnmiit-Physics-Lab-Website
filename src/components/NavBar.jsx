@@ -45,6 +45,11 @@ const NavBar = () => {
 					</li>
 					<NavLinks />
 					<li>
+						<Link to="/menu/videos" className="inline-block py-7 px-3">
+							Videos
+						</Link>
+					</li>
+					<li>
 						<Link to="/menu/faculty" className="inline-block py-7 px-3">
 							Faculty
 						</Link>

@@ -6,47 +6,59 @@ export const quiz8 = {
   questions: [
     {
       question:
-        'The formation of maximum intensities at some points and minimum intensities at the other due to the superposition of _________two coherent light waves.',
-      choices: ['Two coherent light waves', 'Two independent light waves', 'Two light waves with same wavelength', 'Any two light waves'],
+        'The rate of change of flux through the coil is proportional to the velocity of the',
+      choices: ['Arc', 'Magnet', 'both', 'none'],
       type: 'MCQs',
-      correctAnswer: 'Two coherent light waves',
+      correctAnswer: 'Magnet',
     },
     {
       question:
-        'For interference two waves must be of the',
-      choices: ['Different frequencies', 'Same frequencies', 'Same frequencies and constant phase difference', 'rent frequencies and constant phase difference'],
+        'If I is the moment of inertia of the oscillatory system and ω is the angular velocity of the magnet, then the kinetic energy and potential energy of the system is , where L is the effective length of the corresponding simple pendulum',
+      choices: [' Iω^2⁄2 and MgL', 'Iω^2 and MgL(1-cosθ)', 'Iω^2⁄2 and MgL(1-cosθ)', 'Iω^2 and MgL'],
       type: 'MCQs',
-      correctAnswer: 'Same frequencies and constant phase difference',
+      correctAnswer: 'Iω^2⁄2 and MgL(1-cosθ)',
     },
     {
       question:
-        'For constructive interference Φ =',
+        'ωmax is equal to',
       choices: [
-        'nπ',
-        '2nπ',
-        '(2n + 1)π',
-        'None of the the above',
+        '4πsin(θ°⁄2)/T',
+        ' 4πLsin(θ°⁄2)/T',
+        'πLsin(θ°⁄2)/T',
+        'πsin(θ°⁄2)/T',
       ],
       type: 'MCQs',
-      correctAnswer: '2nπ',
+      correctAnswer: '4πsin(θ°⁄2)/T',
     },
     {
-      question: 'When light is incident on a thin film (thickness of the order of wave length of the incident light), it suffers partial reflection and partial transmission at',
-      choices: ['Upper surface', 'Lower surface', 'Both upper and lower', 'none'],
+      question: 'once a capacitor attains a voltage ", current can flow through the capacitor only if the induced emf is',
+      choices: ['Greater than', 'Less than', 'Equal to', 'Greater than or equal to'],
       type: 'MCQs',
-      correctAnswer: 'Both upper and lower',
+      correctAnswer: 'Greater than',
     },
     {
-      question: 'Interference occurs between the rays in the',
-      choices: ['Reflected and reflected parts', 'Reflected and transmitted parts', 'Transmitted and transmitted parts', 'None'],
+      question: 'If the time constant RC is not small compared to the time taken for the magnet to cross the coil, the capacitor does not get fully charged in',
+      choices: ['AC signal', 'DC signal', 'Both', 'None'],
       type: 'MCQs',
-      correctAnswer: 'Reflected and transmitted parts'
+      correctAnswer: 'AC signal'
     },
     {
-      question: 'The transmitted light ray again suffers _________ at lower surface.',
-      choices: ['Reflection', 'Transmission', 'Partial reflection and transmission', 'Partial transmission'],
+      question: 'When the magnet is at its mean position, then ω = ωmax or velocity is at its maximum since Vmax = ωmax R. However, d/d =',
+      choices: ['0', '1', '0(theta)', 'None'],
       type: 'MCQs',
-      correctAnswer: 'Reflection'
+      correctAnswer: '0'
+    },
+    {
+      question: 'A plot of the slope of ε(t) at the zero, corresponding to the mean position against (Vmax)^2 would be',
+      choices: ['Curved', 'Linear', 'Circular', 'Hyperbolic'],
+      type: 'MCQs',
+      correctAnswer: 'Linear'
+    },
+    {
+      question: 'We observe that the successive oscillations are not of the same amplitude. This is due to damping. Possible sources are',
+      choices: ['Air resistance', 'Friction at the point of suspension', 'Induced emf (Lenz’s law).', 'All of the above'],
+      type: 'MCQs',
+      correctAnswer: 'All of the above'
     }
   ],
 }
