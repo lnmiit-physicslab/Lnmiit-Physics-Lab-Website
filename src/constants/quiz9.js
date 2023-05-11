@@ -6,47 +6,59 @@ export const quiz9 = {
   questions: [
     {
       question:
-        'The formation of maximum intensities at some points and minimum intensities at the other due to the superposition of _________two coherent light waves.',
-      choices: ['Two coherent light waves', 'Two independent light waves', 'Two light waves with same wavelength', 'Any two light waves'],
+        'For a given harmonic, the wavelength λ is where L is the length of the stretch string and n is the number of segments in the string',
+      choices: ['λ =2n/L', 'λ =2L/n', 'λ =2nL', 'λ =L/2n'],
       type: 'MCQs',
-      correctAnswer: 'Two coherent light waves',
+      correctAnswer: 'λ =2L/n',
     },
     {
       question:
-        'For interference two waves must be of the',
-      choices: ['Different frequencies', 'Same frequencies', 'Same frequencies and constant phase difference', 'rent frequencies and constant phase difference'],
+        'The velocity of a wave traveling in a string is also dependent on',
+      choices: ['Tension', 'linear mass density', 'length', 'a & b both'],
       type: 'MCQs',
-      correctAnswer: 'Same frequencies and constant phase difference',
+      correctAnswer: 'a & b both',
     },
     {
       question:
-        'For constructive interference Φ =',
+        'If the frequency is varied while the tension and length are held constant, a plot of frequency , f , vs. number of segments, n , will give a',
       choices: [
-        'nπ',
-        '2nπ',
-        '(2n + 1)π',
-        'None of the the above',
+        'Straight line',
+        'Parabola',
+        'circle',
+        'increasing curve',
       ],
       type: 'MCQs',
-      correctAnswer: '2nπ',
+      correctAnswer: 'Straight line',
     },
     {
-      question: 'When light is incident on a thin film (thickness of the order of wave length of the incident light), it suffers partial reflection and partial transmission at',
-      choices: ['Upper surface', 'Lower surface', 'Both upper and lower', 'none'],
+      question: 'The velocity of any wave is given by',
+      choices: ['λf', '2Lf/n', 'λ/f', 'a & b both'],
       type: 'MCQs',
-      correctAnswer: 'Both upper and lower',
+      correctAnswer: 'a & b both',
     },
     {
-      question: 'Interference occurs between the rays in the',
-      choices: ['Reflected and reflected parts', 'Reflected and transmitted parts', 'Transmitted and transmitted parts', 'None'],
+      question: 'The speed of a wave on a string which is under tension T and having a mass per unit length μ is given by',
+      choices: ['√𝞵T', '√𝞵⁄T', '√T⁄μ', '𝞵⁄T'],
       type: 'MCQs',
-      correctAnswer: 'Reflected and transmitted parts'
+      correctAnswer: '√T⁄μ'
     },
     {
-      question: 'The transmitted light ray again suffers _________ at lower surface.',
-      choices: ['Reflection', 'Transmission', 'Partial reflection and transmission', 'Partial transmission'],
+      question: 'The velocity of mechanical wave depends on',
+      choices: ['inertia of the medium', 'elasticity of the medium', 'elasticity and inertia of the medium', 'None'],
       type: 'MCQs',
-      correctAnswer: 'Reflection'
+      correctAnswer: 'elasticity and inertia of the medium'
+    },
+    {
+      question: 'y1 represents a wave traveling in the one direction and y2 represents a wave traveling in opposite direction. Adding these two functions gives the resultant wave function y which have',
+      choices: ['Only sin function', 'Only cos function', 'Both sin and cos function', 'Is a constant function'],
+      type: 'MCQs',
+      correctAnswer: 'Both sin and cos function'
+    },
+    {
+      question: 'k which is wave number, is given by',
+      choices: ['2πf', '2πλ', '2πL', 'None'],
+      type: 'MCQs',
+      correctAnswer: '2πf'
     }
   ],
 }
