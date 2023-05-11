@@ -6,7 +6,7 @@ const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
-    <>
+    <div>
       {links.map((link) => (
         <div>
           <div className="px-3 text-left md:cursor-pointer group">
@@ -25,7 +25,7 @@ const NavLinks = () => {
                   }`}
                 ></ion-icon>
               </span>
-              <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
+              <span className="text-xl md:mt-1 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                 <ion-icon name="chevron-down"></ion-icon>
               </span>
             </h1>
@@ -108,7 +108,7 @@ const NavLinks = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
