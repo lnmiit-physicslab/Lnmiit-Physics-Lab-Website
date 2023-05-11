@@ -4,7 +4,7 @@ import "../index.css";
 
 function Faculty() {
 	return (
-		<div className=" m-3 mt-10 min-h-screen rounded-3xl border-2 bg-gray-50/75 pt-10 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]  md:m-10">
+		<div className=" m-3 mt-10 min-h-screen rounded-3xl border-2 bg-gray-50/100 pt-10 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]  md:m-10">
 			<h1 className="mb-7 text-center  text-3xl font-bold md:text-5xl">Faculty Members</h1>
 			<div className="flex flex-wrap  justify-center ">
 				{facultyMembers.map((fac) => (
