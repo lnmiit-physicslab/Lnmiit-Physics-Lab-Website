@@ -6,47 +6,59 @@ export const quiz7 = {
   questions: [
     {
       question:
-        'The formation of maximum intensities at some points and minimum intensities at the other due to the superposition of _________two coherent light waves.',
-      choices: ['Two coherent light waves', 'Two independent light waves', 'Two light waves with same wavelength', 'Any two light waves'],
+        'The general equation that relates the torque to the rate of change of angular momentum is:',
+      choices: ['てdt=dL', 'てdL=dt', 'て=dt.dL', 'None'],
       type: 'MCQs',
-      correctAnswer: 'Two coherent light waves',
+      correctAnswer: 'てdt=dL',
     },
     {
       question:
-        'For interference two waves must be of the',
-      choices: ['Different frequencies', 'Same frequencies', 'Same frequencies and constant phase difference', 'rent frequencies and constant phase difference'],
+        'In torque-free precession',
+      choices: ['Angular momentum and angular velocity is constant', 'Angular velocity is constant and angular momentum vector changes orientation with time', 'Angular momentum is constant and angular velocity vector changes orientation with time', 'Both vector changes orientation with time'],
       type: 'MCQs',
-      correctAnswer: 'Same frequencies and constant phase difference',
+      correctAnswer: 'Angular momentum is constant and angular velocity vector changes orientation with time',
     },
     {
       question:
-        'For constructive interference Φ =',
+        'The angular velocity of the precession is given by:',
       choices: [
-        'nπ',
-        '2nπ',
-        '(2n + 1)π',
-        'None of the the above',
+        'Ω =Mgω/Ir',
+        'Ω =dt/dӨ',
+        'Ω =Mgr/L',
+        'Ω =Mg/Iω',
       ],
       type: 'MCQs',
-      correctAnswer: '2nπ',
+      correctAnswer: 'Ω =Mgr/L',
     },
     {
-      question: 'When light is incident on a thin film (thickness of the order of wave length of the incident light), it suffers partial reflection and partial transmission at',
-      choices: ['Upper surface', 'Lower surface', 'Both upper and lower', 'none'],
+      question: 'Uses of Gyroscopes',
+      choices: ['Navigation', 'Satellites', 'Racing cars', 'All of the above'],
       type: 'MCQs',
-      correctAnswer: 'Both upper and lower',
+      correctAnswer: 'All of the above',
     },
     {
-      question: 'Interference occurs between the rays in the',
-      choices: ['Reflected and reflected parts', 'Reflected and transmitted parts', 'Transmitted and transmitted parts', 'None'],
+      question: 'A student sits on a spinning stool with her arms folded. When she extends her arms away from her body, her kinetic energy',
+      choices: ['Increases', 'Decreases', 'Stays the same', 'Depends on her mass'],
       type: 'MCQs',
-      correctAnswer: 'Reflected and transmitted parts'
+      correctAnswer: 'Decreases'
     },
     {
-      question: 'The transmitted light ray again suffers _________ at lower surface.',
-      choices: ['Reflection', 'Transmission', 'Partial reflection and transmission', 'Partial transmission'],
+      question: 'Gyroscopic effect is not observed in which of the following actions performed by the ships?',
+      choices: ['Rolling', 'Pitching', 'Steering', 'All of the above'],
       type: 'MCQs',
-      correctAnswer: 'Reflection'
+      correctAnswer: 'Rolling'
+    },
+    {
+      question: 'What is the effect of reactive gyroscopic couple when an aeroplane takes a right turn and propeller rotates in anticlockwise direction?',
+      choices: ['The nose and tail of the aeroplane are in horizontal plane', 'The nose of the aeroplane is raised and tail is dipped', 'The nose of the aeroplane is dipped and tail is raised', 'None of the above'],
+      type: 'MCQs',
+      correctAnswer: 'The nose of the aeroplane is dipped and tail is raised'
+    },
+    {
+      question: 'The axis of precession is ____________ to the plane in which the axis of spin is going to rotate',
+      choices: ['parallel', 'Perpendicular', 'spiral', 'None of the above'],
+      type: 'MCQs',
+      correctAnswer: 'Perpendicular'
     }
   ],
 }

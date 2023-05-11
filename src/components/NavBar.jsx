@@ -8,13 +8,12 @@ import "../css/navBar.css";
 //New imports
 import React, { useState } from "react";
 // import Logo from "../../assets/Logo.png";
-import Button from "./Button";
 import NavLinks from "./NavLinks";
 
 const NavBar = () => {
 	const [open, setOpen] = useState(false);
 	return (
-		<nav className="z-50 bg-white">
+		<nav className="z-50 grad">
 			<div className="flex items-center justify-around font-medium">
 				<div className="z-50 flex w-full justify-between p-5 md:w-auto">
 					<Link to="/">
@@ -24,7 +23,7 @@ const NavBar = () => {
 							viewBox="0 0 24 24"
 							stroke-width="1.5"
 							stroke="currentColor"
-							class="h-10 w-10"
+							class="h-10 w-10 text-white"
 						>
 							<path
 								stroke-linecap="round"
@@ -39,24 +38,35 @@ const NavBar = () => {
 				</div>
 				<ul className="z-50 hidden items-center gap-8 font-[Poppins] uppercase md:flex">
 					<li>
-						<Link to="/" className="inline-block py-7 px-3 ">
+						<Link to="/" className="inline-block py-7 px-3 text-white">
 							Home
 						</Link>
 					</li>
 					<NavLinks />
 					<li>
-						<Link to="/menu/faculty" className="inline-block py-7 px-3">
+						<Link to="/menu/videos" className="inline-block py-7 px-3 text-white">
+							Videos
+						</Link>
+					</li>
+					<li>
+						<Link to="/menu/faculty" className="inline-block py-7 px-3 text-white">
 							Faculty
 						</Link>
 					</li>
 					<li>
-						<Link to="/menu/facilities" className="inline-block py-7 px-3">
+						<Link to="/menu/facilities" className="inline-block py-7 px-3 text-white">
 							Facilites
 						</Link>
 					</li>
 				</ul>
 				<div className="hidden md:block">
-					<Button />
+					<a href="https://www.lnmiit.ac.in/">
+						<img
+							src="/src/resources/images/lnmiit_logo1_reduced.png"
+							alt="LNMIIT Logo"
+							className="h-[5rem] w-[12rem] p-3"
+						></img>
+					</a>
 				</div>
 				{/* Mobile nav */}
 				<ul

@@ -6,47 +6,59 @@ export const quiz10 = {
   questions: [
     {
       question:
-        'The formation of maximum intensities at some points and minimum intensities at the other due to the superposition of _________two coherent light waves.',
-      choices: ['Two coherent light waves', 'Two independent light waves', 'Two light waves with same wavelength', 'Any two light waves'],
+        'Diffraction is the _______ phenomenon which describes the deviation from straight line propagation of a wave when it encounters an obstruction',
+      choices: ['Particle', 'Wave', 'Both', 'None'],
       type: 'MCQs',
-      correctAnswer: 'Two coherent light waves',
+      correctAnswer: 'Waves',
     },
     {
       question:
-        'For interference two waves must be of the',
-      choices: ['Different frequencies', 'Same frequencies', 'Same frequencies and constant phase difference', 'rent frequencies and constant phase difference'],
+        'In the case of light waves both opaque and transparent obstacles cause this effect',
+      choices: ['opaque', 'Transparent', 'Partial transparent', 'Both a and b'],
       type: 'MCQs',
-      correctAnswer: 'Same frequencies and constant phase difference',
+      correctAnswer: 'Partial transparent',
     },
     {
       question:
-        'For constructive interference Φ =',
+        'Fraunhoffer diffraction , which occurs when the waves incident on the slit and the screen (detector) are plane waves. This diffraction is produced when both the light source and screen are effectively at ______ from the given obstacle.',
       choices: [
-        'nπ',
-        '2nπ',
-        '(2n + 1)π',
-        'None of the the above',
+        'Small distance',
+        'Large distance',
+        'Infinite distance',
+        'Very small distance',
       ],
       type: 'MCQs',
-      correctAnswer: '2nπ',
+      correctAnswer: 'Infinite distance',
     },
     {
-      question: 'When light is incident on a thin film (thickness of the order of wave length of the incident light), it suffers partial reflection and partial transmission at',
-      choices: ['Upper surface', 'Lower surface', 'Both upper and lower', 'none'],
+      question: 'In frensel diffraction, diffraction is produed when',
+      choices: ['Source is at a finite distance from the obstacle', 'Screen is at a finite distance from the obstacle', 'Either of them is at a finite distance from the obstacle', 'Both are at a finite distance from the obstacle'],
       type: 'MCQs',
-      correctAnswer: 'Both upper and lower',
+      correctAnswer: 'Either of them is at a finite distance from the obstacle',
     },
     {
-      question: 'Interference occurs between the rays in the',
-      choices: ['Reflected and reflected parts', 'Reflected and transmitted parts', 'Transmitted and transmitted parts', 'None'],
+      question: 'We can observe Fraunhoffer diffraction experimentally by using a collimated light source and',
+      choices: ['Placing the viewing screen at the focal plane of a convex lens', 'Convex lens is located behind the obstacle located behind the obstacle', 'By placing the screen at a large distance from the obstacle.', 'All of them'],
       type: 'MCQs',
-      correctAnswer: 'Reflected and transmitted parts'
+      correctAnswer: 'All of them'
     },
     {
-      question: 'The transmitted light ray again suffers _________ at lower surface.',
-      choices: ['Reflection', 'Transmission', 'Partial reflection and transmission', 'Partial transmission'],
+      question: 'Wave theory predicts that the Fraunhoffer diffraction pattern intensity due to a rectangular slit will be of the form',
+      choices: ['I = IoSinβ/β2', 'I = IoSin2β/β2', 'I = IoSin2β/2β', 'I = IoSinβ/2β'],
       type: 'MCQs',
-      correctAnswer: 'Reflection'
+      correctAnswer: 'I = IoSin2β/β2'
+    },
+    {
+      question: 'The minima in the diffraction pattern occurs when I(θ) =',
+      choices: ['0', '1', 'Infinite', 'None'],
+      type: 'MCQs',
+      correctAnswer: '0'
+    },
+    {
+      question: 'The slit width a can be calculated as a = ______? where y = the distance between central maxima to the mth order minima point and D = distance between slit and photo diode (observed form instrument)',
+      choices: ['mD/y', 'my/D', 'mλD/y', 'mλy/D'],
+      type: 'MCQs',
+      correctAnswer: 'mλD/y'
     }
   ],
 }

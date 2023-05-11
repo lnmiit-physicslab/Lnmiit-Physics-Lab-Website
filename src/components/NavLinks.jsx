@@ -6,7 +6,7 @@ const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
-    <div>
+    <div className="text-white">
       {links.map((link) => (
         <div>
           <div className="px-3 text-left md:cursor-pointer group">
@@ -30,7 +30,7 @@ const NavLinks = () => {
               </span>
             </h1>
             {link.submenu && (
-              <div>
+              <div className="text-black">
                 <div className="absolute top-20 hidden group-hover:md:block hover:md:block">
                   <div className="py-3">
                     <div
@@ -48,7 +48,7 @@ const NavLinks = () => {
                           <li className="text-sm text-gray-600 my-2.5">
                             <Link
                               to={slink.link}
-                              className="hover:text-primary"
+                              className="hover:text-primary hover:underline"
                             >
                               {slink.name}
                             </Link>

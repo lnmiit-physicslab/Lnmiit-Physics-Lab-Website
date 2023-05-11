@@ -7,6 +7,10 @@ import "../App.css";
 function Facilities() {
 	return (
 		<div className=" min-h-screen">
+			<div className=" ml-5 textify mt-5 mr-5 mb-5 rounded-2xl  border-2 bg-gray-50/75 p-[2rem] text-2xl shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
+				<h1 className="text-4xl font-extrabold">This is the link for the Lab Manual</h1>
+				<a href="https://www.lnmiit.ac.in/Department/Physics/uploaded_files/lab-manual.pdf" target="_blank" className="text-2xl text-red-800 hover:underline">click here!</a>
+			</div>
 			<h1 className="head mt-16 mb-14 text-5xl">COMPUTATIONAL RESEARCH FACILITY</h1>
 			<p className="textify ml-5  mr-5 rounded-2xl border-2  bg-gray-50/75 p-[2rem] text-2xl shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
 				{ComputationalReaserchFacility}
