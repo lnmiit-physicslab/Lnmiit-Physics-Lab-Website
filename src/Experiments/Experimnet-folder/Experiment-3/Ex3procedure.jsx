@@ -41,19 +41,19 @@ const Ex3procedure = () => {
       </b>
     </h5>
     <p align="center">
-      <img src="/src/resources/images/e6/e6.6.jpg " />
+      <img src="/resources/images/e6/e6.6.jpg " />
     </p>
     <h5>
       <b>(B) Magnetic field along the axis in a single coil</b>
     </h5>
     <p align="center">
-      <img src="/src/resources/images/e6/e6.6.jpg" />
+      <img src="/resources/images/e6/e6.6.jpg" />
     </p>
     <h5>
       <b>(C) Magnetic field along the diameter in a single coil</b>
     </h5>
     <p align="center">
-      <img src="/src/resources/images/e6/e6.6.jpg" />
+      <img src="/resources/images/e6/e6.6.jpg" />
     </p>
     <p>
       Plot the intensity of magnetic field with distance along the coil for

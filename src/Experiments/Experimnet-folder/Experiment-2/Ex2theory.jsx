@@ -41,7 +41,7 @@ const Ex1theory = () => {
         </p>
         (2.2)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.1.jpg" />
+          <img src="/resources/images/e1/e1.1.jpg" />
         </p>
         <p>
           where I is the moment of inertia of the bar about the point of
@@ -49,7 +49,7 @@ const Ex1theory = () => {
         </p>
         (2.3) , (2.4)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.2.jpg" />
+          <img src="/resources/images/e1/e1.2.jpg" />
         </p>
         <p>
           is the angular velocity of the compound pendulum. Thus, the period of
@@ -57,11 +57,11 @@ const Ex1theory = () => {
         </p>
         (2.5)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.3.jpg" />
+          <img src="/resources/images/e1/e1.3.jpg" />
         </p>
         <p>Due to the parallel axis theorem we have</p>(2.6)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.4.jpg" />
+          <img src="/resources/images/e1/e1.4.jpg" />
         </p>
         <p>
           where, I 0 is the moment of inertia of the pendulum about it’s center of
@@ -70,7 +70,7 @@ const Ex1theory = () => {
         </p>
         (2.7)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.5.jpg" />
+          <img src="/resources/images/e1/e1.5.jpg" />
         </p>
         <p>
           Since I 0 can be expressed as M k 2 , where k is the radius of gyration,
@@ -78,7 +78,7 @@ const Ex1theory = () => {
         </p>
         (2.8)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.6.jpg" />
+          <img src="/resources/images/e1/e1.6.jpg" />
         </p>
         <p>
           A simple pendulum consists of a mass m hanging at the end of a string of
@@ -86,7 +86,7 @@ const Ex1theory = () => {
         </p>
         (2.9)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.7.jpg" />
+          <img src="/resources/images/e1/e1.7.jpg" />
         </p>
         <p>
           So, the time period of a simple pendulum equals the time period of a
@@ -94,11 +94,11 @@ const Ex1theory = () => {
         </p>
         (2.10)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.8.jpg" />
+          <img src="/resources/images/e1/e1.8.jpg" />
         </p>
         <p>Re-arranging the above equation</p>(2.11)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.9.jpg" />
+          <img src="/resources/images/e1/e1.9.jpg" />
         </p>
         <p>
           gives us a quadratic equation in d. If d1 and d2 are the two solutions
@@ -122,7 +122,7 @@ const Ex1theory = () => {
         </p>
         (2.14)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.10.jpg" />
+          <img src="/resources/images/e1/e1.10.jpg" />
         </p>
         <p>
           In order to gain insight in the dependence of T on d let us first look
@@ -131,7 +131,7 @@ const Ex1theory = () => {
         </p>
         (2.15) , (2.16)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.11.jpg" />
+          <img src="/resources/images/e1/e1.11.jpg" />
         </p>
         <p>
           Thus T decreases as d increases. In the opposite limit i.e. for large d
@@ -139,7 +139,7 @@ const Ex1theory = () => {
         </p>
         (2.17) , (2.18)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.12.jpg" />
+          <img src="/resources/images/e1/e1.12.jpg" />
         </p>
         <p>
           Thus T increases as d increases in this case. Physically the origins of
@@ -157,7 +157,7 @@ const Ex1theory = () => {
         </p>
         (2.19)
         <p align="center">
-          <img src="/src/resources/images/e1/e1.13.jpg" />
+          <img src="/resources/images/e1/e1.13.jpg" />
         </p>
         <p>
           Eq. (2.19) can be written as I0 = M.d^2 . This relation is satisfied at

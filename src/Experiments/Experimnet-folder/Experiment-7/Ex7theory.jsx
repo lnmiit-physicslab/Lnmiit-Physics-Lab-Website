@@ -49,7 +49,7 @@ export default function Ex7theory() {
     <p />
     (6.2)
     <p align="center">
-      <img src="/src/resources/images/e6/e6.1.jpg" />
+      <img src="/resources/images/e6/e6.1.jpg" />
     </p>
     <p>
       The gyroscope now starts precising with frequency ωp under the influence
@@ -57,16 +57,16 @@ export default function Ex7theory() {
       of L. In a time dt, L will rotate by
     </p>
     <p align="center">
-      <img src="/src/resources/images/e6/e6.2.jpg" className="img-responsive" />
+      <img src="/resources/images/e6/e6.2.jpg" className="img-responsive" />
     </p>
     <p align="center">Figure 6.1: Gyroscope experimental setup</p>
     <p>dΦ, given by</p>(6.3)
     <p align="center">
-      <img src="/src/resources/images/e6/e6.3.jpg" />
+      <img src="/resources/images/e6/e6.3.jpg" />
     </p>
     (6.4)
     <p align="center">
-      <img src="/src/resources/images/e6/e6.4.jpg" className="img-responsive" />
+      <img src="/resources/images/e6/e6.4.jpg" className="img-responsive" />
     </p>
     <p>
       where we have used Eqns. 6.1, 6.2 and 6.3. If Tp is the time for one
@@ -75,15 +75,15 @@ export default function Ex7theory() {
     </p>
     (6.5)
     <p align="center">
-      <img src="/src/resources/images/e6/e6.5.jpg" />
+      <img src="/resources/images/e6/e6.5.jpg" />
     </p>
     (6.6)
     <p align="center">
-      <img src="/src/resources/images/e6/e6.6.jpg" />
+      <img src="/resources/images/e6/e6.6.jpg" />
     </p>
     <p>Therefore from Eqn. 6.4,</p>(6.7)
     <p align="center">
-      <img src="/src/resources/images/e6/e6.7.jpg" />
+      <img src="/resources/images/e6/e6.7.jpg" />
     </p>
     <p>
       Thus a plot of 1/Tg vs Tp should yield a straight line for a fixed m, from

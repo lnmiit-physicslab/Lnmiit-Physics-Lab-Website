@@ -67,14 +67,14 @@ export default function Ex11theory() {
   </p>
   (11.1)
   <p align="center">
-    <img src="/src/resources/images/e10/10.1.jpg" style={{ width: "50%" }} />
+    <img src="/resources/images/e10/10.1.jpg" style={{ width: "50%" }} />
   </p>
   <p>
     Eq. (11.1) is known as grating equation. The light that corresponds to
     direct transmission
   </p>
   <p align="center">
-    <img src="/src/resources/images/e10/10.2.jpg" style={{ width: "20%" }} />
+    <img src="/resources/images/e10/10.2.jpg" style={{ width: "20%" }} />
   </p>
   <p>
     (or specular reflection in the case of a reflection grating) is called the
