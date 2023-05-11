@@ -69,7 +69,7 @@ export default function Ex6theory() {
       In the case of Newton’s ring interference is due to division of amplitude.
     </p>
     <p align="center">
-      <img src="/src/resources/images/e5/5.1.jpg" style={{ width: "30%" }} />
+      <img src="/resources/images/e5/5.1.jpg" style={{ width: "30%" }} />
     </p>
     <p align="center">Figure 6.1: Experimental setup of Newton’s ring</p>
     <p>
@@ -107,7 +107,7 @@ export default function Ex6theory() {
     (6.6)
     <p align="center">δ = 2μt cosα</p>
     <p align="center">
-      <img src="/src/resources/images/e5/5.2.jpg" style={{ width: "50%" }} />
+      <img src="/resources/images/e5/5.2.jpg" style={{ width: "50%" }} />
     </p>
     <p>
       Where t is the thickness of the film at B (or at D) and α is the angle of
@@ -150,7 +150,7 @@ export default function Ex6theory() {
     <p align="center"> Dn = diameter of the nth ring,</p>
     <p align="center"> R = radius of curvature of the plano-convex lens</p>
     <p align="center">
-      <img src="/src/resources/images/e5/5.3.jpg" style={{ width: "50%" }} />
+      <img src="/resources/images/e5/5.3.jpg" style={{ width: "50%" }} />
     </p>
     <p>
       In practice, it is not possible to find the exact centre of the bull’s eye

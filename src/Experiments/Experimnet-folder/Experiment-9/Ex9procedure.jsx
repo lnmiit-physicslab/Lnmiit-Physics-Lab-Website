@@ -20,11 +20,11 @@ export default function Ex9procedure() {
 					while Fig. 9.2 shows the various intruments of the experiment.
 				</p>
 				<p align="center">
-					<img src="/src/resources/images/e8/8.2.jpg" style={{ width: "50%" }} />
+					<img src="/resources/images/e8/8.2.jpg" style={{ width: "50%" }} />
 				</p>
 				<p align="center">Figure 9.1: Schematic of standing wave generation.</p>
 				<p align="center">
-					<img src="/src/resources/images/e8/8.3.jpg" style={{ width: "30%" }} />
+					<img src="/resources/images/e8/8.3.jpg" style={{ width: "30%" }} />
 				</p>
 				<p align="center">Figure 9.2: Experimental setup Observation</p>
 				<p />
@@ -42,13 +42,13 @@ export default function Ex9procedure() {
 					<b>For constant mass</b> m = ......... kg
 				</p>
 				<p align="center">
-					<img src="/src/resources/images/e8/8.4.jpg" style={{ width: "60%" }} />
+					<img src="/resources/images/e8/8.4.jpg" style={{ width: "60%" }} />
 				</p>
 				<p>
 					<b>For varying mass</b>
 				</p>
 				<p align="center">
-					<img src="/src/resources/images/e8/8.5.jpg" style={{ width: "60%" }} />
+					<img src="/resources/images/e8/8.5.jpg" style={{ width: "60%" }} />
 				</p>
 				<p />
 				<h4>

@@ -77,7 +77,7 @@ export default function Ex9theory() {
   </p>
   (9.5)
   <p align="center">
-    <img src="/src/resources/images/e8/8.1.jpg" style={{ width: "20%" }} />
+    <img src="/resources/images/e8/8.1.jpg" style={{ width: "20%" }} />
   </p>
 </div>
 

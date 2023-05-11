@@ -5,7 +5,7 @@ const Aditya = () => {
 			<div id="Aditya" className="card flex flex-col justify-center gap-2 items-center">
 				<div className="md:w-96 w-[90%]">
 					<img
-						src="/src/resources/images/Aditya.jpeg"
+						src="/resources/images/Aditya.jpeg"
 						className="rounded-2xl"
 					/>
 				</div>
@@ -21,7 +21,7 @@ const Aditya = () => {
 						<span>
 							<a href="https://twitter.com/13Aditya06" target="_blank">
 								<img
-									src="/src/resources/images/socialHandles/twitter.svg"
+									src="/resources/images/socialHandles/twitter.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -32,7 +32,7 @@ const Aditya = () => {
 								target="_blank"
 							>
 								<img
-									src="/src/resources/images/socialHandles/linkedin.svg"
+									src="/resources/images/socialHandles/linkedin.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -40,7 +40,7 @@ const Aditya = () => {
 						<span>
 							<a href="https://github.com/AdityaTheJaat" target="_blank">
 								<img
-									src="/src/resources/images/socialHandles/github.svg"
+									src="/resources/images/socialHandles/github.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -51,7 +51,7 @@ const Aditya = () => {
 								target="_blank"
 							>
 								<img
-									src="/src/resources/images/socialHandles/instagram.svg"
+									src="/resources/images/socialHandles/instagram.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -61,7 +61,7 @@ const Aditya = () => {
 			</div>
 			<div id="Tushar" className="card flex flex-col justify-center gap-2 items-center">
 				<div className="md:w-96 w-[90%]">
-					<img src="/src/resources/images/Aditya.jpeg" className="rounded-2xl"/>
+					<img src="/resources/images/Aditya.jpeg" className="rounded-2xl"/>
 				</div>
 				<div className="text-3xl">
 					<h1>Tushar Sukhwal</h1>
@@ -75,7 +75,7 @@ const Aditya = () => {
 						<span>
 							<a href="https://www.facebook.com/lnmiit.ac.in/" target="_blank">
 								<img
-									src="/src/resources/images/socialHandles/facebook.svg"
+									src="/resources/images/socialHandles/facebook.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -83,7 +83,7 @@ const Aditya = () => {
 						<span>
 							<a href="https://twitter.com/Tushars_071" target="_blank">
 								<img
-									src="/src/resources/images/socialHandles/twitter.svg"
+									src="/resources/images/socialHandles/twitter.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -94,7 +94,7 @@ const Aditya = () => {
 								target="_blank"
 							>
 								<img
-									src="/src/resources/images/socialHandles/linkedin.svg"
+									src="/resources/images/socialHandles/linkedin.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -102,7 +102,7 @@ const Aditya = () => {
 						<span>
 							<a href="https://github.com/Tushar-Sukhwal-7" target="_blank">
 								<img
-									src="/src/resources/images/socialHandles/github.svg"
+									src="/resources/images/socialHandles/github.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
@@ -110,7 +110,7 @@ const Aditya = () => {
 						<span>
 							<a href="https://www.instagram.com/Tushars_071/" target="_blank">
 								<img
-									src="/src/resources/images/socialHandles/instagram.svg"
+									src="/resources/images/socialHandles/instagram.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>

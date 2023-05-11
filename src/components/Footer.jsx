@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="logo h-28 ">
 				<a href="https://www.lnmiit.ac.in/">
 					<img
-						src="/src/resources/images/lnmiit_logo1_reduced.png"
+						src="/resources/images/lnmiit_logo1_reduced.png"
 						alt="LNMIIT Logo"
 						className="h-[5rem] w-[12rem] p-1"
 					></img>
@@ -27,7 +27,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.facebook.com/lnmiit.ac.in/">
 							<img
-								src="/src/resources/images/socialHandles/facebook.svg"
+								src="/resources/images/socialHandles/facebook.svg"
 								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
@@ -35,7 +35,7 @@ const Footer = () => {
 					<span>
 						<a href="https://twitter.com/lnmiit_jaipur?lang=en">
 							<img
-								src="/src/resources/images/socialHandles/twitter.svg"
+								src="/resources/images/socialHandles/twitter.svg"
 								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
@@ -43,7 +43,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/">
 							<img
-								src="/src/resources/images/socialHandles/linkedin.svg"
+								src="/resources/images/socialHandles/linkedin.svg"
 								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
@@ -51,7 +51,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w">
 							<img
-								src="/src/resources/images/socialHandles/youtube.svg"
+								src="/resources/images/socialHandles/youtube.svg"
 								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>
@@ -59,7 +59,7 @@ const Footer = () => {
 					<span>
 						<a href="https://www.instagram.com/lnmiit/">
 							<img
-								src="/src/resources/images/socialHandles/instagram.svg"
+								src="/resources/images/socialHandles/instagram.svg"
 								className="w-10 hover:scale-125 hover:duration-200"
 							></img>
 						</a>

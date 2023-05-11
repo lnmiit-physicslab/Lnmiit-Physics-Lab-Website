@@ -55,7 +55,7 @@ export default function Ex10theory() {
   </p>
   (10.1)
   <p align="center">
-    <img src="/src/resources/images/e9/9.1.jpg" style={{ width: "15%" }} />
+    <img src="/resources/images/e9/9.1.jpg" style={{ width: "15%" }} />
   </p>
   <p>
     where β = (ka sin θ)/2, k = 2π/λ, a = slit width and θ = angle formed by the
@@ -64,7 +64,7 @@ export default function Ex10theory() {
   </p>
   (10.2)
   <p align="center">
-    <img src="/src/resources/images/e9/9.2.jpg" style={{ width: "15%" }} />
+    <img src="/resources/images/e9/9.2.jpg" style={{ width: "15%" }} />
   </p>
   <p>
     where, m is the order number in diffraction pattern and θm is angle measured
@@ -72,18 +72,18 @@ export default function Ex10theory() {
     this pattern is shown in
   </p>
   <p align="center">
-    <img src="/src/resources/images/e9/9.3.jpg" style={{ width: "40%" }} />
+    <img src="/resources/images/e9/9.3.jpg" style={{ width: "40%" }} />
   </p>
   <p align="center">
     Figure 10.1: The Fraunhoffer diffraction pattern of a single slit.
   </p>
   <p>Fig. 10.1. If θm is small, then</p>(10.3)
   <p align="center">
-    <img src="/src/resources/images/e9/9.4.jpg" style={{ width: "20%" }} />
+    <img src="/resources/images/e9/9.4.jpg" style={{ width: "20%" }} />
   </p>
   <p>Further from geometry we have</p>(10.4)
   <p align="center">
-    <img src="/src/resources/images/e9/9.5.jpg" style={{ width: "20%" }} />
+    <img src="/resources/images/e9/9.5.jpg" style={{ width: "20%" }} />
   </p>
   <p>
     where y = the distance between central maxima to the mth order minima point
@@ -92,7 +92,7 @@ export default function Ex10theory() {
   </p>
   (10.5)
   <p align="center">
-    <img src="/src/resources/images/e9/9.6.jpg" style={{ width: "10%:" }} />
+    <img src="/resources/images/e9/9.6.jpg" style={{ width: "10%:" }} />
   </p>
 </div>
 

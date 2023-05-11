@@ -28,7 +28,7 @@ function Facilities() {
 				<div className="flex w-[350px] flex-col items-center justify-center pb-5 md:w-1/4 ">
 					<img
 						className=" shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-2xl"
-						src="/src/resources/images/facility/grating_setup.jpeg "
+						src="/resources/images/facility/grating_setup.jpeg "
 						alt="gratingsetup"
 					/>
 					<p className="pt-1 text-2xl">Diffraction Grating Setup </p>
@@ -37,7 +37,7 @@ function Facilities() {
 				<div className="flex w-[350px] flex-col  items-center justify-center pb-5 md:w-1/4">
 					<img
 						className=" shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-2xl"
-						src="/src/resources/images/facility/newtons_rings.jpeg "
+						src="/resources/images/facility/newtons_rings.jpeg "
 						alt="gratingsetup"
 					/>
 					<p className="pt-1 text-2xl">Newton's Rings Setup </p>
@@ -46,7 +46,7 @@ function Facilities() {
 				<div className="flex w-[350px] flex-col items-center justify-center pb-5 md:w-1/4">
 					<img
 						className=" shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-2xl"
-						src="/src/resources/images/facility/spectrometer_setup.jpeg "
+						src="/resources/images/facility/spectrometer_setup.jpeg "
 						alt="gratingsetup"
 					/>
 					<p className="pt-1 text-2xl">Spectrometer Setup</p>
