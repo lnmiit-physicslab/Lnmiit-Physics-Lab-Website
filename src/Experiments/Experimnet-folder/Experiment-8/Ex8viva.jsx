@@ -50,12 +50,6 @@ const Quiz = () => {
 		<div className="quiz-container">
 			{!showResult ? (
 				<div>
-					<div className="invisible">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut
-						repellendus consequatur, exercitationem dignissimos ducimus placeat?
-						Blanditiis sint ducimus neque odio minus ipsa, ratione magnam modi
-						quod doloribus quia sapiente?
-					</div>
 					<div>
 						<span className="active-question-no">
 							{addLeadingZero(activeQuestion + 1)}
@@ -104,6 +98,12 @@ const Quiz = () => {
 					</p>
 				</div>
 			)}
+			<div className="hidden md:invisible md:inline">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut
+				repellendus consequatur, exercitationem dignissimos ducimus placeat?
+				Blanditiis sint ducimus neque odio minus ipsa, ratione magnam modi quod
+				doloribus quia sapiente?
+			</div>
 		</div>
 	);
 };

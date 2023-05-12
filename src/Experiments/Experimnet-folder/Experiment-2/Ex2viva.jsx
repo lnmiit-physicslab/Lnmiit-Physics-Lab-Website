@@ -98,7 +98,7 @@ const Quiz = () => {
 					</p>
 				</div>
 			)}
-			<div className="invisible">
+			<div className="hidden md:inline md:invisible">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut
 				repellendus consequatur, exercitationem dignissimos ducimus placeat?
 				Blanditiis sint ducimus neque odio minus ipsa, ratione magnam modi quod

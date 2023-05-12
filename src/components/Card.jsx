@@ -24,8 +24,8 @@ const Aditya = () => {
 				id="Aditya"
 				className="card flex flex-col items-center justify-center gap-2"
 			>
-				<div className="w-[90%] md:w-96">
-					<img src="/resources/images/Aditya.jpeg" className="rounded-2xl" />
+				<div className=" w-[90%] md:w-96">
+					<img src="/resources/images/Aditya.jpeg" className="rounded-2xl w-[85%]  m-auto" />
 				</div>
 				<div className="text-3xl">
 					<h1>Aditya Chaudhary</h1>
@@ -36,7 +36,7 @@ const Aditya = () => {
 						<p className="text-center">Follow me on</p>
 					</div>
 					<div className="flex items-center gap-5">
-						<span>
+						{/* <span>
 							<a
 								href="https://discord.com/AdityaTheJaat#4795"
 								target="_blank"
@@ -46,7 +46,7 @@ const Aditya = () => {
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
-						</span>
+						</span> */}
 						<span>
 							<a href="https://twitter.com/13Aditya06" target="_blank">
 								<img
@@ -93,7 +93,7 @@ const Aditya = () => {
 				className="card flex flex-col items-center justify-center gap-2"
 			>
 				<div className="w-[90%] md:w-96">
-					<img src="/resources/images/Aditya.jpeg" className="rounded-2xl" />
+					<img src="/DSC_0349.jpg" className="rounded-2xl w-[100%] " />
 				</div>
 				<div className="text-3xl">
 					<h1>Tushar Sukhwal</h1>
@@ -104,14 +104,14 @@ const Aditya = () => {
 						<p className="text-center">Follow me on</p>
 					</div>
 					<div className="flex items-center gap-5">
-						<span>
+						{/* <span>
 							<a href="https://www.facebook.com/lnmiit.ac.in/" target="_blank">
 								<img
 									src="/resources/images/socialHandles/facebook.svg"
 									className="w-10 hover:scale-125 hover:duration-200"
 								></img>
 							</a>
-						</span>
+						</span> */}
 						<span>
 							<a href="https://twitter.com/Tushars_071" target="_blank">
 								<img
