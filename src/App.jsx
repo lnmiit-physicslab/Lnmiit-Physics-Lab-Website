@@ -7,11 +7,11 @@ import Experiments from "./Experiments/Experiments";
 import Facilities from "./components/Facilities";
 import Videos from "./components/Videos";
 import Faculty from "./components/Faculty";
-import Ex1theory from "./Experiments/Experimnet-folder/Experiment-1/Ex1theory";
-import Ex1video from "./Experiments/Experimnet-folder/Experiment-1/Ex1video";
-import Ex1procedure from "./Experiments/Experimnet-folder/Experiment-1/Ex1procedure";
-import Ex1viva from "./Experiments/Experimnet-folder/Experiment-1/Ex1viva";
-import Ex1resources from "./Experiments/Experimnet-folder/Experiment-1/Ex1resources";
+// import Ex1theory from "./Experiments/Experimnet-folder/Experiment-1/Ex1theory";
+// import Ex1video from "./Experiments/Experimnet-folder/Experiment-1/Ex1video";
+// import Ex1procedure from "./Experiments/Experimnet-folder/Experiment-1/Ex1procedure";
+// import Ex1viva from "./Experiments/Experimnet-folder/Experiment-1/Ex1viva";
+// import Ex1resources from "./Experiments/Experimnet-folder/Experiment-1/Ex1resources";
 import Ex2theory from "./Experiments/Experimnet-folder/Experiment-2/Ex2theory";
 import Ex2video from "./Experiments/Experimnet-folder/Experiment-2/Ex2video";
 import Ex2procedure from "./Experiments/Experimnet-folder/Experiment-2/Ex2procedure";
@@ -87,11 +87,11 @@ function App() {
 								/>
 							}
 						>
-							<Route path="Ex1theory" element={<Ex1theory />} />
+							{/* <Route path="Ex1theory" element={<Ex1theory />} />
 							<Route path="Ex1video" element={<Ex1video />} />
 							<Route path="Ex1resources" element={<Ex1resources />} />
 							<Route path="Ex1procedure" element={<Ex1procedure />} />
-							<Route path="Ex1viva" element={<Ex1viva />} />
+							<Route path="Ex1viva" element={<Ex1viva />} /> */}
 							<Route path="Ex2theory" element={<Ex2theory />} />
 							<Route path="Ex2video" element={<Ex2video />} />
 							<Route path="Ex2resources" element={<Ex2resources />} />

@@ -8,8 +8,23 @@
 		_0px_8px_24px_rgba(17, 17, 26, 0.1), _0px_16px_56px_rgba(17, 17, 26, 0.1)];
 }
 
+/* footer css  */
+.site-footer {
+	background: linear-gradient(90deg, #00dbde, #fc00ff);
+	font-family: Poppins;
+}
+/* footer css close  */
+
+.nice-class {
+	@apply hidden md:inline md:invisible ; 
+}
+
 .very-main-wrapper {
 	position: relative;
+}
+body {
+	z-index: -10;
+	color: black;
 }
 
 @media only screen and (max-width: 500px) {
@@ -53,8 +68,11 @@
 }
 @media only screen and (max-width: 500px) {
 	.tab-content {
-		margin: 10px;
-		padding: 10px;
+		margin: 5px;
+		padding: 5px;
 		font-size: 16px;
 	}
+}
+
+.tab-content {
 }
