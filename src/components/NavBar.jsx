@@ -1,13 +1,8 @@
-import Experiments from "../Experiments/Experiments";
-import Videos from "./Videos";
-import Facilities from "./Facilities";
-import Faculty from "./Faculty";
 import { Link } from "react-router-dom";
 import "../css/navBar.css";
 
 //New imports
 import React, { useState } from "react";
-// import Logo from "../../assets/Logo.png";
 import NavLinks from "./NavLinks";
 
 const NavBar = () => {
@@ -62,7 +57,7 @@ const NavBar = () => {
 				<div className="hidden md:block">
 					<a href="https://www.lnmiit.ac.in/">
 						<img
-							src="/src/resources/images/lnmiit_logo1_reduced.png"
+							src="/resources/images/lnmiit_logo1_reduced.png"
 							alt="LNMIIT Logo"
 							className="h-[5rem] w-[12rem] p-3"
 						></img>
@@ -71,12 +66,12 @@ const NavBar = () => {
 				{/* Mobile nav */}
 				<ul
 					className={`
-        fixed top-0 bottom-0 w-full overflow-y-auto bg-white py-24 pl-4 duration-500
+        fixed top-0 bottom-0 w-full overflow-y-auto grad py-24 pl-4 duration-500
         md:hidden ${open ? "left-0" : "left-[-100%]"}
         `}
 				>
 					<li>
-						<Link to="/" className="ml-3 inline-block  w-full py-7 text-left">
+						<Link to="/" className="ml-3 inline-block  w-full py-7 text-left text-white">
 							Home
 						</Link>
 					</li>
@@ -85,7 +80,7 @@ const NavBar = () => {
 					<li>
 						<Link
 							to="/menu/faculty"
-							className="ml-3 inline-block w-full py-7 text-left"
+							className="ml-3 inline-block w-full py-7 text-left text-white"
 						>
 							Faculty
 						</Link>
@@ -93,7 +88,7 @@ const NavBar = () => {
 					<li>
 						<Link
 							to="/menu/facilities"
-							className="ml-3 inline-block w-full py-7 text-left"
+							className="ml-3 inline-block w-full py-7 text-left text-white"
 						>
 							Facilites
 						</Link>

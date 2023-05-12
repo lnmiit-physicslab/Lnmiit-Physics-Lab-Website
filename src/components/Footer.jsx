@@ -68,7 +68,7 @@ const Footer = () => {
 				<br />
 				{/* Website update time */}
 				<p className="text-center text-sm font-light">
-					Last updated on 4 May 2023
+					Last updated on 13 May 2023
 				</p>
 			</div>
 			{/* Social Handles Closed */}
