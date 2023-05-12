@@ -42,7 +42,7 @@ export default function Ex6resources() {
 					</b>
 				</p>
 			</div>
-			<p className=" invisible">
+			<p className=" nice-class">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vero
 				architecto. Ullam doloribus consequatur sunt dolor nobis rem, culpa
 				optio facere! Nostrum fugit, veritatis laudantium dolor eaque dicta

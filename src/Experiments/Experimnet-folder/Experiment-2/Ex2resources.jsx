@@ -4,7 +4,7 @@ const Ex2resources = () => {
 	return (
 		<div className="tab-content  m-10 mt-10   flex flex-col rounded-3xl  border-2 bg-gray-50/100 pl-10 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 			<h3 className=" font-extrabold">Resources</h3>
-			<div className="flex min-h-full flex-col content-evenly items-start pt-5">
+			<div className="flex min-h-full flex-col content-evenly gap-4 items-start pt-5">
 				<a target="_blank" href="https://www.youtube.com/watch?v=x_t7x26vTRI">
 					1. https://www.youtube.com/watch?v=x_t7x26vTRI
 				</a>
@@ -36,21 +36,14 @@ const Ex2resources = () => {
 					target="_blank"
 					href="https://www.scribd.com/document/24187365/Bar-Pendulum"
 				>
-					6. https://www.scribd.com/document/24187365/Bar-Pendulum
+					6. https://www.scribd.com/document/Bar-Pendulum
 				</a>
 			</div>
-			<p className=" invisible">
+			<p className=" nice-class">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vero
 				architecto. Ullam doloribus consequatur sunt dolor nobis rem, culpa
 				optio facere! Nostrum fugit, veritatis laudantium dolor eaque dicta
-				saepe nam quibusdam consectetur reiciendis sit temporibus amet
-				repudiandae harum debitis ullam ad accusantium officiis esse, corporis
-				culpa omnis. Expedita illo aliquid saepe facere hic dolorum rem sapiente
-				tempora dolores, natus dignissimos quos suscipit eum ut, nobis commodi
-				numquam vero quidem fuga quia. Maiores, fugiat asperiores tempora nisi
-				aperiam minima facilis error earum unde id? Quas, veritatis non, soluta
-				aliquid quam sapiente doloribus hic labore nesciunt, illo obcaecati esse
-				neque eligendi distinctio!
+
 			</p>
 		</div>
 	);

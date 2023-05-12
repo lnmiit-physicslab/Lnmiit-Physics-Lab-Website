@@ -2,7 +2,7 @@ import React from "react";
 
 const Ex2video = () => {
 	return (
-		<div className="tab-pane fade tab-content m-10  flex min-h-screen flex-col  rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+		<div className="  tab-content m-10  flex mb-60 flex-col  rounded-3xl border-2 bg-gray-50/100 pt-10  shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 			<p align="center" >
 				<span className="text-2xl text-left ">	1. Bar Pendulum Sited </span>
 				<iframe

@@ -8,8 +8,8 @@ import NavLinks from "./NavLinks";
 const NavBar = () => {
 	const [open, setOpen] = useState(false);
 	return (
-		<nav className="z-50 grad">
-			<div className="flex items-center justify-around font-medium">
+		<nav className="grad z-50">
+			<div className="z-50 flex items-center justify-around font-medium">
 				<div className="z-50 flex w-full justify-between p-5 md:w-auto">
 					<Link to="/">
 						<svg
@@ -37,19 +37,29 @@ const NavBar = () => {
 							Home
 						</Link>
 					</li>
-					<NavLinks />
+					<NavLinks open={open} setOpen={setOpen} />
 					<li>
-						<Link to="/menu/videos" className="inline-block py-7 px-3 text-white">
+						<Link
+							to="/menu/videos"
+							className="inline-block py-7 px-3 text-white"
+						>
 							Videos
 						</Link>
 					</li>
 					<li>
-						<Link to="/menu/faculty" className="inline-block py-7 px-3 text-white">
+						<Link
+							to="/menu/faculty"
+							className="inline-block py-7 px-3 text-white"
+						>
 							Faculty
 						</Link>
 					</li>
 					<li>
-						<Link to="/menu/facilities" className="inline-block py-7 px-3 text-white">
+						<Link
+							to="/menu/facilities"
+							className="inline-block py-7 px-3 text-white"
+
+						>
 							Facilites
 						</Link>
 					</li>
@@ -65,22 +75,29 @@ const NavBar = () => {
 				</div>
 				{/* Mobile nav */}
 				<ul
-					className={`
-        fixed top-0 bottom-0 w-full overflow-y-auto grad py-24 pl-4 duration-500
+					className={`grad
+        fixed top-0 bottom-0 z-30 w-full overflow-y-auto py-24 pl-4 duration-500
         md:hidden ${open ? "left-0" : "left-[-100%]"}
         `}
 				>
 					<li>
-						<Link to="/" className="ml-3 inline-block  w-full py-7 text-left text-white">
+						<Link
+							to="/"
+							className="ml-3 inline-block  w-full py-7 text-left text-white"
+							onClick={() => setOpen(false)}
+
+						>
 							Home
 						</Link>
 					</li>
-					<NavLinks />
+					<NavLinks open={open} setOpen={setOpen} />
 
 					<li>
 						<Link
 							to="/menu/faculty"
 							className="ml-3 inline-block w-full py-7 text-left text-white"
+							onClick={() => setOpen(false)}
+
 						>
 							Faculty
 						</Link>
@@ -89,63 +106,25 @@ const NavBar = () => {
 						<Link
 							to="/menu/facilities"
 							className="ml-3 inline-block w-full py-7 text-left text-white"
+							onClick={() => setOpen(false)}
+
 						>
 							Facilites
+						</Link>
+					</li>
+					<li>
+						<Link
+							to="/menu/videos"
+							className="ml-3 inline-block w-full py-7 text-left text-white"
+							onClick={() => setOpen(false)}
+
+						>
+							Videos
 						</Link>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	);
-	// const  experiments = () => {
-	// 	<Experiments />;
-	// }
-	// const videos = () => {
-	// 	<Videos />;
-	// };
-	// const faculty = () => {
-	// 	<Faculty />;
-	// }
-	// const facilities = () => {
-	// 	<Facilities />;
-	// }
-	// return (
-	// 	<div className="grad absolute z-10 h-[7vh] w-[100vw] text-white">
-	// 		<div className="flex justify-around p-4 text-lg font-bold">
-	// 			<div>
-	// 				<button
-	// 					onClick={experiments}
-	// 					className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
-	// 				>
-	// 					<Link to="/menu/experiments/Ex2theory">Experiments</Link>
-	// 				</button>
-	// 			</div>
-	// 			<div>
-	// 				<button
-	// 					onClick={videos}
-	// 					className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150  md:mr-36"
-	// 				>
-	// 					<Link to="/menu/videos">Videos</Link>
-	// 				</button>
-	// 			</div>
-	// 			<div>
-	// 				<button
-	// 					onClick={faculty}
-	// 					className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
-	// 				>
-	// 					<Link to="/menu/faculty">Faculty</Link>
-	// 				</button>
-	// 			</div>
-	// 			<div>
-	// 				<button
-	// 					onClick={facilities}
-	// 					className="hover:scale-110 hover:animate-pulse hover:text-indigo-900 hover:duration-150"
-	// 				>
-	// 					<Link to="/menu/facilities">Facilities</Link>
-	// 				</button>
-	// 			</div>
-	// 		</div>
-	// 	</div>
-	// );
 };
 export default NavBar;
