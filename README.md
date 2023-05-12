@@ -12,13 +12,13 @@
 3. React js 
 4. TailwindCSS
 
-#Setup
+# Setup
 1. You need to download Node modules type this command in terminal where you have cloned this repository
    " npm i "
 2. To start the server run 
    " npm run dev "
 
-#Contribution
+# Contribution
 1. You should pull request only when you have tested you code properly.
 2. There should be no Spamming.
 3. Pull request will only be accepted when it is verified by one of us.
