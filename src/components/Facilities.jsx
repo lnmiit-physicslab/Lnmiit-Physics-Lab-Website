@@ -14,14 +14,14 @@ function Facilities() {
 				<p className=" text-sm">(PS: Hover and then click anywhere to see effects)</p>
 			</div>
 			<div className="textify rounded-2xl p-5 md:p-0 py-5 flex flex-col justify-evenly bg-gray-50/75 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
-				<h1 className="text-neutral-900 bg-lime-200 head text-4xl textify rounded-2xl bg-gray-50/100 p-[2rem] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">COMPUTATIONAL RESEARCH FACILITY</h1>
+				<h1 className="text-neutral-900 bg-lime-200 head text-4xl textify rounded-2xl bg-gray-50/100 p-[2rem] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">COMPUTATIONAL RESEARCH FACILITY</h1>
 				<p className="textify rounded-2xl bg-gray-50/100 p-[2rem] text-2xl shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
 					{ComputationalReaserchFacility}
 				</p>
 			</div>
 			<br></br>
 			<div className="textify rounded-2xl  py-5 flex flex-col justify-evenly bg-gray-50/75 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
-				<h1 className="text-neutral-900 bg-lime-200 head text-4xl textify rounded-2xl bg-gray-50/100 p-[2rem] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">Brief DESCRIPTION</h1>
+				<h1 className="text-neutral-900 bg-lime-200 head text-4xl textify rounded-2xl bg-gray-50/100 p-[2rem] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">Brief DESCRIPTION</h1>
 				<h2 className="text-2xl underline text-center">Hardware : </h2>
 				<p className="ml-5 textify  mr-5 mb-20 mt-5  rounded-2xl border-2 bg-gray-50/100 p-[2rem] text-xl shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
 					{ComputationalReaserchFacility_BriefDescreption.Hardware}
@@ -33,7 +33,7 @@ function Facilities() {
 			</div>
 			<br></br>
 			<div className="textify rounded-2xl  py-5 flex flex-col justify-evenly bg-gray-50/75 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
-				<h1 className="text-neutral-900 bg-lime-200 head text-4xl textify rounded-2xl bg-gray-50/100 p-[2rem] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">EXPERIMENTAL FACILITY</h1>
+				<h1 className="text-neutral-900 bg-lime-200 head text-4xl textify rounded-2xl bg-gray-50/100 p-[2rem] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)]">EXPERIMENTAL FACILITY</h1>
 				<p className=" ml-5 textify mr-5 mb-5 rounded-2xl  border-2 bg-gray-50/100 p-[2rem] text-2xl shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] md:ml-[22%] md:mr-[22%]">
 					{ExperimentalFacilityText}
 				</p>
