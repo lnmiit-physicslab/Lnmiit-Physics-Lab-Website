@@ -4,7 +4,7 @@ export const links = [
 		submenu: true,
 		sublinks: [
 			{
-				Head: "Experiment 2",
+				Head: "2.Bar Pendulum",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex2theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex2procedure" },
@@ -14,7 +14,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 3",
+				Head: "3.Helmholtz Coil",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex3theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex3procedure" },
@@ -24,7 +24,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 4",
+				Head: "4.semiconductor",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex4theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex4procedure" },
@@ -34,7 +34,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 5",
+				Head: "5.Prism",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex5theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex5procedure" },
@@ -44,7 +44,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 6",
+				Head: "6.Newton's Rings",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex6theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex6procedure" },
@@ -54,7 +54,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 7",
+				Head: "7.gyroscope",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex7theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex7procedure" },
@@ -64,7 +64,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 8",
+				Head: "8.EMI",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex8theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex8procedure" },
@@ -74,7 +74,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 9",
+				Head: "9.Mechanical Waves",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex9theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex9procedure" },
@@ -84,7 +84,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 10",
+				Head: "10.Fraunhoffer",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex10theory" },
 					{ name: "Procedure", link: "/menu/experiments/Ex10procedure" },
@@ -94,7 +94,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "Experiment 11",
+				Head: "11.Grating",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex11theory" },
 					{ name: "Procedure", link: "/menu/experiments/Exx11rocedure" },

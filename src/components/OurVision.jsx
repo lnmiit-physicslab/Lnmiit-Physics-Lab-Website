@@ -15,11 +15,8 @@ const OurVision = () => {
 	});
 	const str = Slider[index].quote;
 	return (
-		<div className="vision m-auto shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] bg-gray-50/75 md:w-[75%] w-[92%]">
-			<div className="pt-7 ">
-				<p className="text-2xl font-extrabold">OUR VISION</p>
-			</div><br/>
-			<div className="flex justify-center pb-1">
+		<div className="vision shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] bg-gray-50/75 md:w-[75%] w-[92%]">
+			<div className="flex justify-center">
 				<div className="font-black font-semibold text-lg">
 					<div class="slideshow-container">
 						<div class="slide">{str}</div>

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 500px){
   .vision{
     width: 70%;
-    height: 200px;
+    height: 90px;
     border-radius: 20px;
     margin: 0 auto;
     padding: 10px;
@@ -10,6 +10,7 @@
 @media (min-width: 500px) and (max-width: 2000px){
   .vision{
     border-radius: 100px;
-    
+    padding-top: 20px;
+    margin: auto;
   }
 }
