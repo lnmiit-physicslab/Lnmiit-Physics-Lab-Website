@@ -49,7 +49,6 @@ const NavLinks = ({ open, setOpen }) => {
 														<Link
 															to={slink.link}
 															className="hover:text-primary hover:underline"
-															onClick={() => console.log("fuckyou")}
 														>
 															{slink.name}
 														</Link>
@@ -81,7 +80,6 @@ const NavLinks = ({ open, setOpen }) => {
 										className="flex items-center justify-between py-4 pl-7 pr-5  font-semibold  md:pr-0"
 									>
 										{slinks.Head}
-
 										<span className="inline text-xl md:mt-1 md:ml-2">
 											<ion-icon
 												name={`${

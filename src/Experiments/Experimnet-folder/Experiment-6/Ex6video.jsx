@@ -6,8 +6,6 @@ export default function Ex6video() {
 			<h3>VIDEO</h3>
 				<p align="center">
 					<iframe
-						// width="500vw"
-					// height="280vh"
 					className='video'
 						src="https://www.youtube.com/embed/FUb52bdzAOM"
 						frameborder="0"

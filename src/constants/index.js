@@ -275,6 +275,7 @@ export const YtLinks = [
 
 	{
 		id: 10,
+		ex: 2,
 		name: "'g' By Bar Pendulum",
 		teacher: "by - Prof. Anupam Singh",
 		link: "34VvJvlhvq0",
@@ -283,6 +284,7 @@ export const YtLinks = [
 
 	{
 		id: 11,
+		ex: 3,
 		name: "Helmholtz Coil",
 		teacher: "by - Prof. Subhayan Biswas",
 		link: "w90jgVHoI8g",
@@ -291,6 +293,7 @@ export const YtLinks = [
 
 	{
 		id: 12,
+		ex: 4,
 		name: "Band Gap of Semiconductor",
 		teacher: "by - Prof. Subhayan Biswas",
 		link: "YM1Ohh-FM7Q",
@@ -299,6 +302,7 @@ export const YtLinks = [
 
 	{
 		id: 13,
+		ex: 4,
 		name: "Band Gap of Semiconductor",
 		teacher: "by - Prof. Subhayan Biswas",
 		link: "rJunKtwhYUI",
@@ -307,6 +311,7 @@ export const YtLinks = [
 
 	{
 		id: 14,
+		ex: 5,
 		name: "Refractive Index of Glass with Prism",
 		teacher: "by - Prof. Anjishnu Sarkar",
 		link: "tnWoL2XiWco",
@@ -315,6 +320,7 @@ export const YtLinks = [
 
 	{
 		id: 15,
+		ex: 5,
 		name: "Refractive Index of Glass with Prism",
 		teacher: "by - Prof. Anjishnu Sarkar",
 		link: "kQMNaP7X_Tg",
@@ -323,6 +329,7 @@ export const YtLinks = [
 
 	{
 		id: 16,
+		ex: 5,
 		name: "Refractive Index of Glass with Prism",
 		teacher: "by - Prof. Anjishnu Sarkar",
 		link: "6lSA7v1htfg",
@@ -330,7 +337,26 @@ export const YtLinks = [
 	},
 
 	{
+		id: 23,
+		ex: 6,
+		name: "Newton's Rings",
+		teacher: "by - Dr. Amit Neogi",
+		link: "FUb52bdzAOM",
+		heading: "Experiment",
+	},
+
+	{
+		id: 24,
+		ex: 7,
+		name: "Gyroscope",
+		teacher: "by - Dr. Amit Neogi",
+		link: "Hwyda3lleB8",
+		heading: "Experiment",
+	},
+
+	{
 		id: 17,
+		ex: 9,
 		name: "Mechanical Waves",
 		teacher: "by - Prof. Amit Neogi",
 		link: "v16gm2unMoo",
@@ -339,6 +365,7 @@ export const YtLinks = [
 
 	{
 		id: 18,
+		ex: 9,
 		name: "Mechanical Waves",
 		teacher: "by - Prof. Amit Neogi",
 		link: "Y4ZuKgz_ui8",
@@ -347,6 +374,7 @@ export const YtLinks = [
 
 	{
 		id: 19,
+		ex: 10,
 		name: "Diffraction-Single Slit",
 		teacher: "by- Prof. Boyd F. Edwards",
 		link: "uohd0TtqOaw",
@@ -355,6 +383,7 @@ export const YtLinks = [
 
 	{
 		id: 20,
+		ex: 10,
 		name: "Fraunhoffer Diffraction",
 		teacher: "by- Shaoul Ezekiel",
 		link: "PgW7qaOZD0U",
@@ -363,6 +392,7 @@ export const YtLinks = [
 
 	{
 		id: 21,
+		ex: 11,
 		name: "Spectrometer Grating",
 		teacher: "by- Dr. P. Balraju",
 		link: "N0lxwqANsd4",
@@ -371,6 +401,7 @@ export const YtLinks = [
 
 	{
 		id: 22,
+		ex: 11,
 		name: "Diffraction Grating",
 		teacher: "by- @vt.physics",
 		link: "desLn3tMLcc",

@@ -5,7 +5,7 @@ const ContentInfo = () => {
 	return (
 		<div className="flex flex-wrap">
 			<div className=" 	flex flex-wrap items-center justify-around">
-				<div className="aboutUS m-10 rounded-2xl bg-gray-50/75 p-3 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+				<div className="aboutUS md:m-10 m-3 rounded-2xl bg-gray-50/75 p-3 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
 					<p className=" text-2xl font-extrabold">ABOUT US</p>
 					<br />
 					<p className="para text-lg font-black font-semibold">

@@ -7,6 +7,7 @@ import Experiments from "./Experiments/Experiments";
 import Facilities from "./components/Facilities";
 import Videos from "./components/Videos";
 import Faculty from "./components/Faculty";
+import Contact from "./components/Contact";
 // import Ex1theory from "./Experiments/Experimnet-folder/Experiment-1/Ex1theory";
 // import Ex1video from "./Experiments/Experimnet-folder/Experiment-1/Ex1video";
 // import Ex1procedure from "./Experiments/Experimnet-folder/Experiment-1/Ex1procedure";
@@ -146,6 +147,7 @@ function App() {
 						<Route path="facilities" element={<Facilities />} />
 						<Route path="faculty" element={<Faculty />} />
 						<Route path="videos" element={<Videos />} />
+						<Route path="contact" element={<Contact />} />
 						<Route path="Aditya" element={<Card />}/>
 						<Route path="Aditya" element={<Card />}/>
 					</Route>

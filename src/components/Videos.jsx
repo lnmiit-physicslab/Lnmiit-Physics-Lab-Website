@@ -19,9 +19,10 @@ function Videos() {
 								<iframe
 									className=" flex h-[350px] w-[100%] items-center rounded-lg"
 									src={`https://youtube.com/embed/${vid.link}`}
+									allowFullScreen
 								></iframe>
 								<div className="">
-									<p className="text-2xl font-bold">{vid.name}</p>
+									<p className="text-2xl font-bold">{vid.ex}.{vid.name}</p>
 									<p className="mb-1 text-xl">{vid.teacher}</p>
 								</div>
 							</div>
@@ -46,6 +47,7 @@ function Videos() {
 								<iframe
 									className=" flex h-[350px] w-[100%] rounded-lg align-middle"
 									src={`https://youtube.com/embed/${vid.link}`}
+									allowFullScreen
 								></iframe>
 								<div className="">
 									<p className="text-2xl font-bold">{vid.name}</p>
@@ -70,8 +72,8 @@ function Videos() {
 							>
 								<iframe
 									className="flex h-[350px] w-[100%] rounded-lg align-middle"
-
 									src={`https://youtube.com/embed/${vid.link}`}
+									allowFullScreen
 								></iframe>
 								<div className="">
 									<p className="text-2xl font-bold">{vid.name}</p>
