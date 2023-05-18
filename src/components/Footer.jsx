@@ -78,21 +78,21 @@ const Footer = () => {
 				<div className="copyright h-24 w-48 py-1 text-xs">
 					<p className="text-base">
 						Handcrafted with ❤️ by-
-						<br />-
+						<br /><p className="text-xl">Y22</p>-
 						<Link
 							to="/menu/Aditya"
 							href=""
-							className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
+							className=" text-lg font-extrabold hover:cursor-pointer hover:font-extrabold hover:duration-150"
 						>
-							Aditya Chaudhary (Y22){" "}
+							Aditya Chaudhary{" "}
 						</Link>
 						<br />-
 						<Link
 							to="/menu/Aditya"
 							href=""
-							className="hover:cursor-pointer hover:font-extrabold hover:duration-150"
+							className="text-lg font-extrabold hover:cursor-pointer hover:font-extrabold hover:duration-150"
 						>
-							Tushar Sukhwal (Y22){" "}
+							Tushar Sukhwal{" "}
 						</Link>
 					</p>
 				</div>
