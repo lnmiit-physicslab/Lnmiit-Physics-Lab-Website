@@ -69,20 +69,20 @@ const Footer = () => {
 					<br />
 					{/* Website update time */}
 					<p className="text-center text-sm font-light">
-						Last updated on 13 May 2023
+						Last updated on 20 May 2023
 					</p>
 				</div>
 				{/* Social Handles Closed */}
 
 				{/* Copyright Section Started */}
-				<div className="copyright h-24 w-48 py-1 text-xs">
+				<div className="copyright h-24">
 					<p className="text-base">
 						Handcrafted with ❤️ by-
 						<br /><p className="text-xl">Y22</p>-
 						<Link
 							to="/menu/Aditya"
 							href=""
-							className=" text-lg font-extrabold hover:cursor-pointer hover:font-extrabold hover:duration-150"
+							className="font-extrabold hover:underline hover:cursor-pointer hover:font-extrabold hover:duration-150"
 						>
 							Aditya Chaudhary{" "}
 						</Link>
@@ -90,10 +90,11 @@ const Footer = () => {
 						<Link
 							to="/menu/Aditya"
 							href=""
-							className="text-lg font-extrabold hover:cursor-pointer hover:font-extrabold hover:duration-150"
+							className="font-extrabold hover:underline hover:cursor-pointer hover:font-extrabold hover:duration-150"
 						>
 							Tushar Sukhwal{" "}
-						</Link>
+						</Link><br></br>
+						<Link to="/menu/Aditya" className="text-xs hover:underline">Click here to know more about contributors</Link>
 					</p>
 				</div>
 				{/* Copyright Section CLosed */}
