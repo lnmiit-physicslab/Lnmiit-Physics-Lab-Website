@@ -65,7 +65,7 @@ body {
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url("/resources/images/newback.jpg");
+		background-image: url("/resources/images/test.png");
 	}
 }
 
@@ -77,7 +77,7 @@ body {
 		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url("/resources/images/newback.jpg");
+		background-image: url("/resources/images/test.png");
 	}
 
 }

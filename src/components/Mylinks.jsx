@@ -94,7 +94,7 @@ export const links = [
 				],
 			},
 			{
-				Head: "11.Grating",
+				Head: "11.Diffraction Grating",
 				sublink: [
 					{ name: "Theory", link: "/menu/experiments/Ex11theory" },
 					{ name: "Procedure", link: "/menu/experiments/Exx11rocedure" },
