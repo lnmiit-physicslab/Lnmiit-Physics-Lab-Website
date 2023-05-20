@@ -37,7 +37,7 @@ const NavBar = () => {
 							Home
 						</Link>
 					</li>
-					<NavLinks open={open} setOpen={setOpen} />
+					<NavLinks open={open} setOpen={setOpen}/>
 					<li>
 						<Link
 							to="/menu/videos"
@@ -58,9 +58,16 @@ const NavBar = () => {
 						<Link
 							to="/menu/facilities"
 							className="inline-block py-7 px-3 text-white"
-
 						>
 							Facilites
+						</Link>
+					</li>
+					<li>
+						<Link
+						to="/menu/contact"
+						className="inline-block py-7 px-3 text-white"
+						>
+							Contact Us
 						</Link>
 					</li>
 				</ul>
@@ -85,7 +92,6 @@ const NavBar = () => {
 							to="/"
 							className="ml-3 inline-block  w-full py-7 text-left text-white"
 							onClick={() => setOpen(false)}
-
 						>
 							Home
 						</Link>
@@ -97,7 +103,6 @@ const NavBar = () => {
 							to="/menu/faculty"
 							className="ml-3 inline-block w-full py-7 text-left text-white"
 							onClick={() => setOpen(false)}
-
 						>
 							Faculty
 						</Link>
@@ -107,7 +112,6 @@ const NavBar = () => {
 							to="/menu/facilities"
 							className="ml-3 inline-block w-full py-7 text-left text-white"
 							onClick={() => setOpen(false)}
-
 						>
 							Facilites
 						</Link>
@@ -117,7 +121,6 @@ const NavBar = () => {
 							to="/menu/videos"
 							className="ml-3 inline-block w-full py-7 text-left text-white"
 							onClick={() => setOpen(false)}
-
 						>
 							Videos
 						</Link>

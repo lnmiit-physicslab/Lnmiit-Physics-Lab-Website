@@ -8,12 +8,10 @@
 		_0px_8px_24px_rgba(17, 17, 26, 0.1), _0px_16px_56px_rgba(17, 17, 26, 0.1)];
 }
 
-/* footer css  */
 .site-footer {
 	background: linear-gradient(90deg, #00dbde, #fc00ff);
 	font-family: Poppins;
 }
-/* footer css close  */
 
 .nice-class {
 	@apply hidden md:inline md:invisible ; 
@@ -22,6 +20,7 @@
 .very-main-wrapper {
 	position: relative;
 }
+
 body {
 	z-index: -10;
 	color: black;
@@ -56,23 +55,37 @@ body {
 	width: 100%;
 	height: 100%;
 	opacity: 0.8;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("/resources/images/newback.jpg");
+}
+
+@media (min-width: 500px ) and (max-width: 2000px) {
+	body {
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("/resources/images/test.jpg");
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		background-position: center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-image: url("/resources/images/test.jpg");
+	}
+
 }
 
 * {
 	font-family: Roboto;
 }
+
 @media only screen and (max-width: 500px) {
 	.tab-content {
 		margin: 5px;
 		padding: 5px;
 		font-size: 16px;
 	}
-}
-
-.tab-content {
 }

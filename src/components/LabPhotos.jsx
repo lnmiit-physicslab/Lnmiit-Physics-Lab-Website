@@ -20,8 +20,8 @@ const LabPhotos = () => {
 				</div>
 				<div className="md:m-4 flex  items-center justify-center">
 					<div className="font-semibold">
-						<div className="slide md:h-[450px] md:w-[800px]">
-							<img src={img[index].link} className="md:h-[100%] md:w-[100%]" />
+						<div className="slide md:h-[100%] md:w-[100%]">
+							<img src={img[index].link} className="md:h-[100%] md:w-[100%] m-auto" />
 						</div>
 					</div>
 				</div>
