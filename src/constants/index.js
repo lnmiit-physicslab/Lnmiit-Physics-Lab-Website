@@ -1,9 +1,3 @@
-const about =
-	"Established in 2003 the undergraduate laboratory for 1st year B.Tech students is equipped with several experiments in different branches in Physics. The lab is divided into two sections, one is UG Physics Lab and the other is UG Physics Optics Lab. Laboratory work is a very important part of a course in General Physics. It reinforces the student's understanding of fundamental concepts and principles while, at the same time, helping the student to develop skill in carrying out scientific measurements. It is designed in such a way that the students can understand the basics of Physics through hands on experiments.";
-
-const site_title = "UG Physics Laboratory";
-const title_desc = "Department of Physics , LNMIIT Jaipur";
-
 export const experiments = [
 	// {
 	// 	id: 1,
@@ -119,14 +113,14 @@ export const facultyMembers = [
 	{
 		id: 1,
 		name: "Anupam Singh",
-		post: "Professor & Dean(Student Affairs)",
+		post: "Professor",
 		degree: "Ph.D.,Carnegie Mellon University,USA",
 		research: "High Energy Physics and Cosmology",
 	},
 	{
 		id: 2,
 		name: "Ganesh Datt Sharma",
-		post: "Professor & Dean(Research & Consultancy)",
+		post: "Professor",
 		degree: "Ph.D.,IIT Delhi",
 		research:
 			"Research Areas: Organic Electronics,Organic Solar Cells, Dye Sensitized Solar Cells,Nano-Science and Technology",
@@ -134,7 +128,7 @@ export const facultyMembers = [
 	{
 		id: 3,
 		name: "Somnath Biswas",
-		post: "Professor & HOD(Dept. of Physics)",
+		post: "Professor",
 		degree: "Ph.D.,IIT Kharagpur",
 		research:
 			"Research Areas: Magnetic Nano-materials and Nano-Structures,Spintronic Devices,FET-based Sensor Devices ,Materials for Fuel Cells and Hydrogen Storage",
@@ -149,9 +143,9 @@ export const facultyMembers = [
 	{
 		id: 5,
 		name: "Amit Neogi",
-		post: "Assistant Professor & Chief Warden",
+		post: "Assistant Professor",
 		degree: "Ph.D.,IIT Kanpur",
-		research: "Research Areas:Laser Plasma",
+		research: "Research Areas:Medical data Analysis in alternative therapy",
 	},
 
 	{
@@ -199,7 +193,11 @@ export const facultyMembers = [
 		degree: "Ph.D.,Tata Institue of Fundamental Research,Mumbai",
 		research: "Research Areas:General Relativity,Aspects of Quantum Gravity",
 	},
-
+	{
+		id: 12,
+		name: "Laxmi Narayan Sharma",
+		post: "Staff",
+	}
 ];
 export const YtLinks = [
 	{
