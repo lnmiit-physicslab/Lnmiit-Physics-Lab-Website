@@ -88,11 +88,6 @@ function App() {
 								/>
 							}
 						>
-							{/* <Route path="Ex1theory" element={<Ex1theory />} />
-							<Route path="Ex1video" element={<Ex1video />} />
-							<Route path="Ex1resources" element={<Ex1resources />} />
-							<Route path="Ex1procedure" element={<Ex1procedure />} />
-							<Route path="Ex1viva" element={<Ex1viva />} /> */}
 							<Route path="Ex2theory" element={<Ex2theory />} />
 							<Route path="Ex2video" element={<Ex2video />} />
 							<Route path="Ex2resources" element={<Ex2resources />} />
