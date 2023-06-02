@@ -5,20 +5,21 @@ const ContentInfo = () => {
 	return (
 		<div className="flex flex-wrap">
 			<div className=" 	flex flex-wrap items-center justify-around">
-				<div className="aboutUS md:m-10 m-3 rounded-2xl bg-gray-50/75 p-3 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
+				<div className="aboutUS m-3 rounded-2xl bg-gray-50/75 p-3 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] md:m-10">
 					<p className=" text-2xl font-extrabold">ABOUT US</p>
 					<br />
-					<p className="para text-lg font-black font-semibold">
-						Established in 2003 the undergraduate laboratory for 1st year B.Tech
-						students is equipped with several experiments in different branches
-						in Physics. The lab is divided into two sections, one is UG Physics
-						Lab and the other is UG Physics Optics Lab. Laboratory work is a
-						very important part of a course in General Physics. It reinforces
-						the student's understanding of fundamental concepts and principles
-						while, at the same time, helping the student to develop skill in
-						carrying out scientific measurements. It is designed in such a way
-						that the students can understand the basics of Physics through hands
-						on experiments.
+					<p className="para text-left text-lg font-black font-semibold">
+						The undergraduate laboratory for first-year B.Tech students,
+						established in 2003, is equipped with a variety of experiments
+						spanning different branches of Physics. The lab is divided into two
+						sections: the General physics experiment and the optics physics experiment. Engaging
+						in laboratory work is an integral component of the General Physics
+						course as it serves to strengthen students' comprehension of
+						fundamental concepts and principles. Additionally, it aids in the
+						development of practical skills required for conducting scientific
+						measurements. The lab is thoughtfully designed to provide students
+						with hands-on experimentation, enabling them to grasp the
+						fundamentals of Physics.
 					</p>
 				</div>
 				<div className=" absolute md:relative md:w-[45%]">

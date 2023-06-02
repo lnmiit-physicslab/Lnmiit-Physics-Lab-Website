@@ -22,7 +22,7 @@ function Faculty() {
 							<h1 className="pt-2">{fac.post}</h1>
 							<p className="pt-2">{fac.degree}</p>
 							<p className="pt-2 leading-5">
-								<span className=" font-semibold ">Research Areas: </span>{" "}
+								<span className=" font-semibold "></span>{" "}
 								{fac.research}
 							</p>
 						</div>

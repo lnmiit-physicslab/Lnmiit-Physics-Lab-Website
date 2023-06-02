@@ -69,7 +69,7 @@ const Footer = () => {
 					<br />
 					{/* Website update time */}
 					<p className="text-center text-sm font-light">
-						Last updated on 20 May 2023
+						Last updated on 1st June 2023
 					</p>
 				</div>
 				{/* Social Handles Closed */}
@@ -99,7 +99,7 @@ const Footer = () => {
 				</div>
 				{/* Copyright Section CLosed */}
 			</div>
-			<p className="bg-slate-900 text-white">
+			<p className="bg-slate-900 text-neutral-400">
 				Copyright © 2023-2028 Department of Physics, LNMIIT. All Rights
 				Reserved.
 			</p>
