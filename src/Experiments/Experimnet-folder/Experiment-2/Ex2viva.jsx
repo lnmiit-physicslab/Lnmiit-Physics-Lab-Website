@@ -24,7 +24,7 @@ const Quiz = () => {
 						...prev,
 						score: prev.score + 5,
 						correctAnswers: prev.correctAnswers + 1,
-				  }
+				}
 				: { ...prev, wrongAnswers: prev.wrongAnswers + 1 }
 		);
 		if (activeQuestion !== questions.length - 1) {
@@ -45,7 +45,6 @@ const Quiz = () => {
 	};
 
 	const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
-
 	return (
 		<div className="quiz-container ">
 			{!showResult ? (
@@ -82,20 +81,32 @@ const Quiz = () => {
 					</div>
 				</div>
 			) : (
-				<div className="result">
-					<h3>Result</h3>
-					<p>
-						Total Question: <span>{questions.length}</span>
-					</p>
-					<p>
-						Total Score:<span> {result.score}</span>
-					</p>
-					<p>
-						Correct Answers:<span> {result.correctAnswers}</span>
-					</p>
-					<p>
-						Wrong Answers:<span> {result.wrongAnswers}</span>
-					</p>
+				<div>
+					<div className="result">
+						<h3>Result</h3>
+						<p>
+							Total Question: <span>{questions.length}</span>
+						</p>
+						<p>
+							Total Score:<span> {result.score}</span>
+						</p>
+						<p>
+							Correct Answers:<span> {result.correctAnswers}</span>
+						</p>
+						<p>
+							Wrong Answers:<span> {result.wrongAnswers}</span>
+						</p>
+						<br/>
+						Correct Answers:
+						{
+							quiz2.questions.map((quiz, index)=>(
+								<div key={index}>
+									<p>{index+1}. {quiz.question} : {quiz.correctAnswer}</p>
+								</div>
+							))
+						}
+					</div>
+
 				</div>
 			)}
 			<div className="hidden md:inline md:invisible">
