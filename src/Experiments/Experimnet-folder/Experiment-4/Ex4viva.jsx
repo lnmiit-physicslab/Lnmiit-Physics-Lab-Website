@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { quiz5 } from "../../../constants/quiz5";
+import { quiz4 } from "../../../constants/quiz4";
 import "../../../css/quiz.css";
 
 const Quiz = () => {
@@ -13,7 +13,7 @@ const Quiz = () => {
 		wrongAnswers: 0,
 	});
 
-	const { questions } = quiz5;
+	const { questions } = quiz4;
 	const { question, choices, correctAnswer } = questions[activeQuestion];
 
 	const onClickNext = () => {
@@ -96,6 +96,15 @@ const Quiz = () => {
 					<p>
 						Wrong Answers:<span> {result.wrongAnswers}</span>
 					</p>
+					<br />
+					Correct Answers:
+						{
+							quiz4.questions.map((quiz, index)=>(
+								<div key={index}>
+									<p>{index+1}. {quiz.question} : {quiz.correctAnswer}</p>
+								</div>
+							))
+						}
 				</div>
 			)}
 			<div className="hidden md:invisible md:inline">

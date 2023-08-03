@@ -96,6 +96,15 @@ const Quiz = () => {
 					<p>
 						Wrong Answers:<span> {result.wrongAnswers}</span>
 					</p>
+					<br />
+					Correct Answers:
+						{
+							quiz6.questions.map((quiz, index)=>(
+								<div key={index}>
+									<p>{index+1}. {quiz.question} : {quiz.correctAnswer}</p>
+								</div>
+							))
+						}
 				</div>
 			)}
 			<div className="hidden md:invisible md:inline">
