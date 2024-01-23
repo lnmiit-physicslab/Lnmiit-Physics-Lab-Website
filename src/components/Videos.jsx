@@ -10,8 +10,8 @@ function Videos() {
 				<div className="flex flex-wrap items-center justify-center gap-10 pt-10">
 					{YtLinks.filter((vid) => {
 						return vid.heading === "Experiment";
-					}).map((vid) => (
-						<div className="mb-10 border-2 shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] ">
+					}).map((vid, index) => (
+						<div key={index} className="mb-10 border-2 shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] ">
 							<div
 								key={vid.id}
 								className="w-[100%] flex-col items-center justify-center md:w-[420px] "

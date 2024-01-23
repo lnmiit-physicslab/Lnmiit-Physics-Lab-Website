@@ -37,7 +37,7 @@ export const experiments = [
 	{
 		id: 8,
 		name: "Electromagnetic Induction",
-		link: [""],
+		link: ["qdCCNHFhUBw"],
 	},
 	{
 		id: 9,
@@ -349,6 +349,15 @@ export const YtLinks = [
 		name: "Gyroscope",
 		teacher: "by - Dr. Amit Neogi",
 		link: "Hwyda3lleB8",
+		heading: "Experiment",
+	},
+
+	{
+		id: 25,
+		ex:8,
+		name: "Electromagnetic Induction",
+		teacher: "by - Prof. Somnath",
+		link: ["qdCCNHFhUBw"],
 		heading: "Experiment",
 	},
 
